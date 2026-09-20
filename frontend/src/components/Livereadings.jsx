@@ -4,7 +4,24 @@ import { Thermometer, Gauge, Droplets } from "lucide-react";
 import { stations } from "../data/mockdata";
 
 function LiveReadings() {
-  const [selectedId, setSelectedId] = useState(stations[0]?.id || "");
+  
+  const [selectedId, setSelectedId] = useState(() => {
+    try {
+      const saved = JSON.parse(
+        localStorage.getItem("skyguard-settings") || "{}"
+      );
+
+      const exists = stations.some(
+        (station) => station.id === saved.defaultStation
+      );
+
+      return exists
+        ? saved.defaultStation
+        : stations[0]?.id || "";
+    } catch {
+      return stations[0]?.id || "";
+    }
+  });
 
   const selectedStation = stations.find(
     (station) => station.id === selectedId
