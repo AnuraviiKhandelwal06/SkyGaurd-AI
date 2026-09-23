@@ -1,9 +1,10 @@
 from datetime import datetime
-from pydantic import BaseModel
+
+from pydantic import BaseModel, ConfigDict
 
 
 class ReadingCreate(BaseModel):
-    station_id: str
+    station_code: str
     timestamp: datetime
     temperature: float
     pressure: float
@@ -15,5 +16,4 @@ class ReadingResponse(ReadingCreate):
     id: int
     quality_status: str
 
-    class Config:
-        from_attributes = True
+    model_config = ConfigDict(from_attributes=True)
