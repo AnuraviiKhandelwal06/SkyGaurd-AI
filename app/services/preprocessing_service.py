@@ -41,6 +41,7 @@ def preprocess_reading(data: ReadingCreate) -> dict:
         "timestamp": data.timestamp,
         "temperature": data.temperature,
         "pressure": data.pressure,
+        "pressure_msl": data.pressure_msl,
         "humidity": data.humidity,
         "rainfall": data.rainfall,
     }

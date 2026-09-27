@@ -20,6 +20,7 @@ class SensorReading(Base):
 
     temperature = Column(Float)
     pressure = Column(Float)
+    pressure_msl = Column(Float, nullable=True)
     humidity = Column(Float)
     rainfall = Column(Float, default=0)
 

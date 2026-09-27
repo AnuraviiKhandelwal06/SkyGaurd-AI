@@ -22,7 +22,8 @@ def store_anomaly(
     )
 
     db.add(anomaly)
-    db.commit()
-    db.refresh(anomaly)
+    db.flush()
+
+    return anomaly
 
     return anomaly

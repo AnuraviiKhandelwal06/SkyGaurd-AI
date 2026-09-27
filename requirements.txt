@@ -4,3 +4,12 @@ sqlalchemy
 psycopg2-binary
 pydantic-settings
 python-dotenv
+requests
+torch==2.14.0
+shap==0.52.0
+xgboost==3.4.1
+scikit-learn
+pandas
+numpy
+pyyaml==6.0.3
+slicer==0.0.8

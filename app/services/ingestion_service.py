@@ -36,9 +36,10 @@ def store_reading(
     processed_data = preprocess_reading(data)
 
     # Step 3: Run ML anomaly detection
-    ml_result = run_anomaly_detection(
-        processed_data
-    )
+    try:
+        ml_result = run_anomaly_detection(processed_data, db=db, station=station)
+    except Exception as e:
+        raise HTTPException(status_code=503, detail="ML Service Unavailable")
 
     # Step 4: Diagnose the ML result
     diagnosis_result = diagnose_reading(
@@ -51,25 +52,25 @@ def store_reading(
         **processed_data
     )
 
-    if ml_result["anomaly_detected"]:
+    if ml_result.get("is_anomaly", False):
         reading.quality_status = "anomaly"
     else:
         reading.quality_status = "ok"
 
     # Save reading first so we get reading.id
     db.add(reading)
-    db.commit()
-    db.refresh(reading)
+    db.flush()
 
     # Step 6: Update sensor health
     update_sensor_health(
         db=db,
         station_code=data.station_code,
-        anomaly_score=ml_result["anomaly_score"]
+        anomaly_score=ml_result.get("severity_score", 0.0),
+        ml_result=ml_result
     )
 
     # Step 7: Store anomaly/diagnosis only if an anomaly was detected
-    if ml_result["anomaly_detected"]:
+    if ml_result.get("is_anomaly", False):
         store_anomaly(
             db=db,
             station_code=data.station_code,
@@ -78,4 +79,6 @@ def store_reading(
             diagnosis_result=diagnosis_result
         )
 
+    db.commit()
+    db.refresh(reading)
     return reading

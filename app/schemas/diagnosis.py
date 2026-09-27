@@ -1,0 +1,1 @@
+# Diagnosis is intentionally internal and represented through anomaly/dashboard responses.
