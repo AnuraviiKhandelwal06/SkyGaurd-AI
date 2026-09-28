@@ -3,31 +3,30 @@ import { useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { Search, MapPin, X } from "lucide-react";
 
-import { stations } from "../data/mockdata";
+import { useStationsData } from "../hooks/useStationsData";
+import { normalizeStatus } from "../utils/statusHelper";
 
 function LiveStations() {
   const [searchParams, setSearchParams] = useSearchParams();
   const [search, setSearch] = useState("");
+  const { data: stations, loading, error, lastUpdated } = useStationsData();
 
   const selectedStatus = searchParams.get("status") || "All";
   const selectedId = searchParams.get("station");
 
-  const selectedStation = stations.find(
-    (station) => station.id === selectedId
+  const selectedStation = (stations || []).find(
+    (station) => station.station_id === selectedId
   );
 
-  const filteredStations = stations.filter((station) => {
+  const filteredStations = (stations || []).filter((station) => {
     const matchesStatus =
       selectedStatus === "All" ||
-      station.status === selectedStatus;
+      normalizeStatus(station.status, station.anomaly_type) === selectedStatus;
 
     const query = search.trim().toLowerCase();
 
     const matchesSearch =
-      station.name.toLowerCase().includes(query) ||
-      station.id.toLowerCase().includes(query) ||
-      station.location.toLowerCase().includes(query) ||
-      station.state.toLowerCase().includes(query);
+      (station.location || "").toLowerCase().includes(query) || (station.station_id || "").toLowerCase().includes(query);
 
     return matchesStatus && matchesSearch;
   });
@@ -40,7 +39,7 @@ function LiveStations() {
 
   function selectStation(station) {
     const params = new URLSearchParams(searchParams);
-    params.set("station", station.id);
+    params.set("station", station.station_id);
     setSearchParams(params);
   }
 
@@ -60,6 +59,8 @@ function LiveStations() {
     setSearchParams(params);
   }
 
+  if (loading) return <div className="p-8">Loading...</div>;
+  if (error) return <div className="p-8 text-red-500">Error</div>;
   return (
     <div className="p-8">
 
@@ -70,6 +71,7 @@ function LiveStations() {
       <p className="text-gray-500 mt-1">
         Indian Automatic Weather Stations
       </p>
+      {lastUpdated && <div className="text-sm text-gray-400 mt-2">Last updated: {lastUpdated.toLocaleTimeString()}</div>}
 
       <p className="text-xs text-gray-400 mt-1 mb-6">
         Demonstration data — not live IMD observations.
@@ -118,9 +120,9 @@ function LiveStations() {
           <thead className="bg-gray-100 text-gray-600 text-sm">
             <tr>
               <th className="p-4">Station ID</th>
-              <th className="p-4">Station Name</th>
               <th className="p-4">Location</th>
               <th className="p-4">Status</th>
+              <th className="p-4">Score</th>
               <th className="p-4">Temperature</th>
               <th className="p-4">Pressure</th>
               <th className="p-4">Humidity</th>
@@ -130,34 +132,34 @@ function LiveStations() {
           <tbody>
             {filteredStations.map((station) => (
               <tr
-                key={station.id}
+                key={station.station_id}
                 onClick={() => selectStation(station)}
                 className={`border-t border-gray-100 cursor-pointer hover:bg-teal-50 ${
-                  selectedId === station.id
+                  selectedId === station.station_id
                     ? "bg-teal-50"
                     : ""
                 }`}
               >
                 <td className="p-4 text-teal-700 font-medium">
-                  {station.id}
+                  {station.station_id}
                 </td>
 
-                <td className="p-4">{station.name}</td>
                 <td className="p-4">{station.location}</td>
 
                 <td className="p-4">
                   <span
                     className={`px-3 py-1 rounded-full text-xs font-medium ${
-                      statusColors[station.status]
+                      statusColors[normalizeStatus(station.status, station.anomaly_type)] || statusColors["Healthy"]
                     }`}
                   >
-                    {station.status}
+                    {normalizeStatus(station.status, station.anomaly_type)}
                   </span>
+                  {station.anomaly_type && station.anomaly_type !== "CLEAN" && <span className="ml-2 text-xs text-gray-500">{station.anomaly_type}</span>}
                 </td>
-
-                <td className="p-4">{station.temperature} °C</td>
-                <td className="p-4">{station.pressure} hPa</td>
-                <td className="p-4">{station.humidity}%</td>
+                <td className="p-4">{(station.severity_score ? station.severity_score * 100 : (station.explainability?.confidence_pct || 85.0)).toFixed(1)}</td>
+                <td className="p-4">{station.original_telemetry?.temperature_2m?.toFixed(1) || "--"} °C</td>
+                <td className="p-4">{station.original_telemetry?.surface_pressure?.toFixed(1) || "--"} hPa</td>
+                <td className="p-4">{station.original_telemetry?.relative_humidity_2m?.toFixed(1) || "--"}%</td>
               </tr>
             ))}
           </tbody>
@@ -171,7 +173,7 @@ function LiveStations() {
       </div>
 
       <p className="text-sm text-gray-500 mt-4">
-        Showing {filteredStations.length} of {stations.length} stations
+        Showing {filteredStations.length} of {(stations || []).length} stations
       </p>
 
       {/* Selected station details */}
@@ -181,11 +183,11 @@ function LiveStations() {
           <div className="flex items-start justify-between mb-5">
             <div>
               <h2 className="text-xl font-bold text-gray-800">
-                {selectedStation.name}
+                {selectedStation.location}
               </h2>
 
               <p className="text-sm text-gray-500">
-                {selectedStation.id}
+                {selectedStation.station_id}
               </p>
             </div>
 
@@ -202,7 +204,7 @@ function LiveStations() {
           <div className="flex items-center gap-2 text-gray-500 mb-5">
             <MapPin size={18} />
             <span>
-              {selectedStation.location}, {selectedStation.state}
+              {selectedStation.latitude?.toFixed(2) || "--"}, {selectedStation.longitude?.toFixed(2) || "--"}
             </span>
           </div>
 
@@ -213,7 +215,7 @@ function LiveStations() {
                 Temperature
               </p>
               <p className="text-2xl font-bold text-gray-800">
-                {selectedStation.temperature} °C
+                {selectedStation.original_telemetry?.temperature_2m?.toFixed(1) || "--"} °C
               </p>
             </div>
 
@@ -222,7 +224,7 @@ function LiveStations() {
                 Atmospheric Pressure
               </p>
               <p className="text-2xl font-bold text-gray-800">
-                {selectedStation.pressure} hPa
+                {selectedStation.original_telemetry?.surface_pressure?.toFixed(1) || "--"} hPa
               </p>
             </div>
 
@@ -231,7 +233,7 @@ function LiveStations() {
                 Relative Humidity
               </p>
               <p className="text-2xl font-bold text-gray-800">
-                {selectedStation.humidity}%
+                {selectedStation.original_telemetry?.relative_humidity_2m?.toFixed(1) || "--"}%
               </p>
             </div>
 
@@ -240,10 +242,10 @@ function LiveStations() {
           <div className="mt-5">
             <span
               className={`inline-block px-4 py-2 rounded-full text-sm font-medium ${
-                statusColors[selectedStation.status]
+                statusColors[normalizeStatus(selectedStation.status, selectedStation.anomaly_type)] || statusColors["Healthy"]
               }`}
             >
-              Status: {selectedStation.status}
+              Status: {normalizeStatus(selectedStation.status, selectedStation.anomaly_type)}
             </span>
           </div>
 

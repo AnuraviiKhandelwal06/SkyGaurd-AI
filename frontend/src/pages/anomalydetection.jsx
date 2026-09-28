@@ -10,30 +10,36 @@ import {
   ClipboardList
 } from "lucide-react";
 
-import { anomalies } from "../data/mockanomalies";
+import { useStationsData } from "../hooks/useStationsData";
+import { normalizeStatus } from "../utils/statusHelper";
+import { BASE_URL } from "../config/api";
 
 function AnomalyDetection() {
   const navigate = useNavigate();
-
-  const [records, setRecords] = useState(anomalies);
+  const { data: stations, loading, error, refetch } = useStationsData();
+  const anomalies = (stations || []).filter(s => { const st = normalizeStatus(s.status, s.anomaly_type); return st === "Warning" || st === "Faulty"; });
   const [selectedId, setSelectedId] = useState(
-    anomalies[0]?.id || ""
+    null
   );
 
-  const selected = records.find(
-    (record) => record.id === selectedId
-  );
+  const selected = anomalies.find((r) => r.station_id === selectedId);
 
-  function updateReviewStatus(status) {
+  async function updateReviewStatus(status) {
     if (!selected) return;
-
-    setRecords((previous) =>
-      previous.map((record) =>
-        record.id === selectedId
-          ? { ...record, reviewStatus: status }
-          : record
-      )
-    );
+    const corrId = selected.correction?.id;
+    if (status === 'Accepted' && corrId) {
+       try {
+         await fetch(`${BASE_URL}/api/corrections/${corrId}/decision`, {
+           method: 'PATCH',
+           headers: { 'Content-Type': 'application/json' },
+           body: JSON.stringify({ decision: 'accepted' })
+         });
+       } catch (e) {
+         console.error(e);
+       }
+    }
+    refetch();
+    setSelectedId(null);
   }
 
   const statusColors = {
@@ -43,6 +49,8 @@ function AnomalyDetection() {
     "Manual Review": "bg-blue-100 text-blue-700"
   };
 
+  if (loading) return <div className="p-8">Loading...</div>;
+  if (error) return <div className="p-8 text-red-500">Error</div>;
   return (
     <div className="p-8 space-y-6">
 
@@ -70,13 +78,13 @@ function AnomalyDetection() {
         </h2>
 
         <div className="space-y-3">
-          {records.map((record) => (
+          {anomalies.map((record) => (
             <button
-              key={record.id}
+              key={record.station_id}
               type="button"
-              onClick={() => setSelectedId(record.id)}
+              onClick={() => setSelectedId(record.station_id)}
               className={`w-full p-4 rounded-lg border text-left cursor-pointer transition ${
-                selectedId === record.id
+                selectedId === record.station_id
                   ? "border-teal-500 bg-teal-50"
                   : "border-gray-200 hover:bg-gray-50"
               }`}
@@ -84,22 +92,15 @@ function AnomalyDetection() {
               <div className="flex flex-wrap justify-between gap-2">
 
                 <div>
-                  <p className="font-semibold text-gray-800">
-                    {record.stationName}
-                  </p>
-
-                  <p className="text-sm text-gray-500 mt-1">
-                    {record.parameter}: {record.observedValue}
-                    {" "}{record.unit}
-                  </p>
+                  {(() => { const score = record.severity_score ? record.severity_score * 100 : (record.explainability?.confidence_pct || 85.0); const reviewStatus = normalizeStatus(record.status) === "Healthy" ? "Accepted" : "Pending"; return <><div className="flex flex-col gap-2 w-full"><p className="font-semibold text-gray-800">{record.location} ({record.station_id})</p><div className="flex items-center gap-2 mt-1 mb-1 text-sm text-gray-500"><span className="bg-gray-200 px-2 py-0.5 rounded text-xs font-semibold">{record.anomaly_type || "UNKNOWN"}</span><span>Score: {score.toFixed(1)}/100</span></div><div className="w-full bg-gray-200 rounded-full h-1.5 max-w-md mb-2"><div className="h-1.5 rounded-full bg-red-500" style={{ width: `${Math.min(score, 100)}%` }} /></div></div></> })()}
                 </div>
 
                 <span
                   className={`text-xs px-3 py-1 rounded-full h-fit ${
-                    statusColors[record.reviewStatus]
+                    statusColors[normalizeStatus(record.status) === "Healthy" ? "Accepted" : "Pending"] || statusColors.Pending
                   }`}
                 >
-                  {record.reviewStatus}
+                  {normalizeStatus(record.status) === "Healthy" ? "Accepted" : "Pending"}
                 </span>
 
               </div>
@@ -121,25 +122,25 @@ function AnomalyDetection() {
             <div className="space-y-3 text-gray-700">
 
               <p>
-                <strong>Station:</strong> {selected.stationName}
+                <strong>Station:</strong> {selected.location}
               </p>
 
               <p>
-                <strong>Station ID:</strong> {selected.stationId}
+                <strong>Station ID:</strong> {selected.station_id}
               </p>
 
               <p>
-                <strong>Parameter:</strong> {selected.parameter}
+                
               </p>
 
               <p>
                 <strong>Suspected fault:</strong>{" "}
-                {selected.suspectedFault}
+                {selected.anomaly_type}
               </p>
 
               <p>
                 <strong>Demo confidence:</strong>{" "}
-                {(selected.confidence * 100).toFixed(0)}%
+                {((selected.confidence_score || 0) * 100).toFixed(0)}%
               </p>
 
               <div className="bg-blue-50 p-4 rounded-lg">
@@ -148,9 +149,7 @@ function AnomalyDetection() {
                 </p>
 
                 <ul className="list-disc pl-5 space-y-1">
-                  {selected.evidence.map((item, index) => (
-                    <li key={index}>{item}</li>
-                  ))}
+                  {(selected.diagnosis?.diagnosis?.evidence_chain || ["Evidence auto-generated"]).map((item, index) => (<li key={index}>{item}</li>))}
                 </ul>
               </div>
 
@@ -158,7 +157,7 @@ function AnomalyDetection() {
                 type="button"
                 onClick={() =>
                   navigate(
-                    `/stations?station=${selected.stationId}`
+                    `/stations?station=${selected.station_id}`
                   )
                 }
                 className="text-teal-600 hover:underline cursor-pointer"
@@ -185,7 +184,7 @@ function AnomalyDetection() {
                 </p>
 
                 <p className="text-2xl font-bold text-red-600 mt-1">
-                  {selected.observedValue} {selected.unit}
+                  {selected.original_telemetry?.temperature_2m?.toFixed(1) || "--"}
                 </p>
               </div>
 
@@ -195,7 +194,7 @@ function AnomalyDetection() {
                 </p>
 
                 <p className="text-2xl font-bold text-green-600 mt-1">
-                  {selected.suggestedValue} {selected.unit}
+                  {selected.correction?.corrected_value?.toFixed(1) || "--"}
                 </p>
               </div>
 
@@ -241,7 +240,7 @@ function AnomalyDetection() {
 
             <p className="mt-4 text-sm text-gray-600">
               Current review status:{" "}
-              <strong>{selected.reviewStatus}</strong>
+              <strong>{normalizeStatus(selected.status) === "Healthy" ? "Accepted" : "Pending"}</strong>
             </p>
 
           </section>

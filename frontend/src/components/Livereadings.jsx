@@ -1,41 +1,38 @@
-
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Thermometer, Gauge, Droplets } from "lucide-react";
-import { stations } from "../data/mockdata";
 
-function LiveReadings() {
+function LiveReadings({ stationsData }) {
+  const safeStations = stationsData || [];
   
-  const [selectedId, setSelectedId] = useState(() => {
-    try {
-      const saved = JSON.parse(
-        localStorage.getItem("skyguard-settings") || "{}"
-      );
+  const [selectedId, setSelectedId] = useState("");
 
-      const exists = stations.some(
-        (station) => station.id === saved.defaultStation
-      );
-
-      return exists
-        ? saved.defaultStation
-        : stations[0]?.id || "";
-    } catch {
-      return stations[0]?.id || "";
+  useEffect(() => {
+    if (!selectedId && safeStations.length > 0) {
+      try {
+        const saved = JSON.parse(
+          localStorage.getItem("skyguard-settings") || "{}"
+        );
+        const exists = safeStations.some(
+          (s) => s.station_id === saved.defaultStation
+        );
+        setSelectedId(exists ? saved.defaultStation : safeStations[0].station_id);
+      } catch {
+        setSelectedId(safeStations[0].station_id);
+      }
     }
-  });
+  }, [safeStations, selectedId]);
 
-  const selectedStation = stations.find(
-    (station) => station.id === selectedId
+  const selectedStation = safeStations.find(
+    (s) => s.station_id === selectedId
   );
 
   return (
-    <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-5 h-full">
-
+    <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6 h-full flex flex-col">
       <div className="mb-5">
-        <h2 className="text-lg font-semibold text-gray-800">
+        <h2 className="text-lg font-bold text-gray-800">
           Live Readings
         </h2>
-
-        <p className="text-sm text-gray-500">
+        <p className="text-sm text-gray-500 mt-1">
           Select an Indian AWS station
         </p>
       </div>
@@ -43,57 +40,52 @@ function LiveReadings() {
       <select
         value={selectedId}
         onChange={(e) => setSelectedId(e.target.value)}
-        className="w-full border border-gray-200 rounded-lg p-3 mb-5 bg-white cursor-pointer"
+        className="w-full border border-gray-300 rounded-lg p-3 mb-6 bg-white cursor-pointer focus:outline-none focus:border-teal-500 focus:ring-1 focus:ring-teal-500"
       >
-        {stations.map((station) => (
-          <option key={station.id} value={station.id}>
-            {station.name}
+        {safeStations.map((station) => (
+          <option key={station.station_id} value={station.station_id}>
+            {station.location}
           </option>
         ))}
       </select>
 
       {selectedStation && (
-        <div className="space-y-4">
-
-          <div className="flex items-center justify-between bg-orange-50 p-4 rounded-lg">
+        <div className="space-y-4 flex-1">
+          <div className="flex items-center justify-between bg-orange-50 p-4 rounded-lg border border-orange-100">
             <div className="flex items-center gap-3">
               <Thermometer className="text-orange-500" />
-              <span className="text-gray-600">Temperature</span>
+              <span className="text-gray-700 font-medium">Temperature</span>
             </div>
-
-            <span className="font-bold text-gray-800">
-              {selectedStation.temperature} °C
+            <span className="font-bold text-gray-900 text-lg">
+              {selectedStation.original_telemetry?.temperature_2m?.toFixed(1)} &deg;C
             </span>
           </div>
 
-          <div className="flex items-center justify-between bg-blue-50 p-4 rounded-lg">
+          <div className="flex items-center justify-between bg-blue-50 p-4 rounded-lg border border-blue-100">
             <div className="flex items-center gap-3">
               <Gauge className="text-blue-500" />
-              <span className="text-gray-600">Pressure</span>
+              <span className="text-gray-700 font-medium">Pressure</span>
             </div>
-
-            <span className="font-bold text-gray-800">
-              {selectedStation.pressure} hPa
+            <span className="font-bold text-gray-900 text-lg">
+              {selectedStation.original_telemetry?.surface_pressure?.toFixed(1)} hPa
             </span>
           </div>
 
-          <div className="flex items-center justify-between bg-teal-50 p-4 rounded-lg">
+          <div className="flex items-center justify-between bg-teal-50 p-4 rounded-lg border border-teal-100">
             <div className="flex items-center gap-3">
               <Droplets className="text-teal-500" />
-              <span className="text-gray-600">Humidity</span>
+              <span className="text-gray-700 font-medium">Humidity</span>
             </div>
-
-            <span className="font-bold text-gray-800">
-              {selectedStation.humidity}%
+            <span className="font-bold text-gray-900 text-lg">
+              {selectedStation.original_telemetry?.relative_humidity_2m?.toFixed(0)}%
             </span>
           </div>
-
-          <p className="text-xs text-gray-400">
-            Demo readings — not live IMD observations.
-          </p>
-
         </div>
       )}
+      
+      <p className="text-xs text-gray-400 mt-6">
+        Demo readings - not live IMD observations.
+      </p>
     </div>
   );
 }

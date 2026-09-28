@@ -9,27 +9,26 @@ import {
 
 import { useNavigate } from "react-router-dom";
 import StatCard from "../components/Statcard";
-import { stations } from "../data/mockdata";
+import { useStationsData } from "../hooks/useStationsData";
+import { normalizeStatus } from "../utils/statusHelper";
 import IndiaMap from "../components/Indiamap";
 import LiveReadings from "../components/Livereadings";
 import RecentAlerts from "../components/RecentAlerts";
 
 function Dashboard() {
   const navigate = useNavigate();
+  const { data: stations, loading, error, lastUpdated } = useStationsData();
 
-  const totalStations = stations.length;
+  if (loading) return <div className="p-8">Loading dashboard data...</div>;
+  if (error) return <div className="p-8 text-red-500">Error: {error}</div>;
 
-  const healthyStations = stations.filter(
-    (station) => station.status === "Healthy"
-  ).length;
+  const totalStations = stations?.length || 0;
 
-  const warningStations = stations.filter(
-    (station) => station.status === "Warning"
-  ).length;
+  const healthyStations = stations.filter(station => normalizeStatus(station.status) === "Healthy").length;
 
-  const faultyStations = stations.filter(
-    (station) => station.status === "Faulty"
-  ).length;
+  const warningStations = stations.filter(station => normalizeStatus(station.status) === "Warning").length;
+
+  const faultyStations = stations.filter(station => normalizeStatus(station.status) === "Faulty").length;
 
   const activeAnomalies = warningStations + faultyStations;
 
@@ -93,8 +92,8 @@ function Dashboard() {
       </div>
             
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 mt-6">
-        <LiveReadings />
-        <RecentAlerts />
+        <LiveReadings stationsData={stations} />
+        <RecentAlerts stationsData={stations} />
         </div>
     </div>
   );
