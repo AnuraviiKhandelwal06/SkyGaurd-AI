@@ -70,7 +70,7 @@ class PhysicsSpatialEngine:
         target_reading: Dict[str, Any],
         neighbor_readings: Dict[str, Dict[str, Any]],
         neighbor_metadata: Dict[str, Dict[str, Any]],
-        max_radius_km: float = 150.0
+        max_radius_km: float = 5000.0
     ) -> Dict[str, Any]:
         """
         Calculates Inverse Distance Weighting (IDW) consensus across the real neighbor stations.
