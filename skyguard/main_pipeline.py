@@ -124,73 +124,63 @@ class SkyGuardPipeline:
             current_reading, edge_flags, temporal_res, physics_res, spatial_res, self.recent_history
         )
 
-        if not diag_res["is_anomalous"]:
-            fault_label = "CLEAN"
+        # --- ROUTING FIX (Phase 1) ---
+        # 1. Final Status comes strictly from Stage 4 (Counterfactual)
+        diag_type = diag_res["diagnosis_type"]
+        if not diag_res["is_anomalous"] or diag_type == "NORMAL":
+            status = "Healthy"
+            fault_type = "CLEAN"
             conf_prob = 0.98
-        elif diag_res["diagnosis_type"] == "GENUINE_EXTREME_EVENT":
-            fault_label = "GENUINE_EXTREME"
-            conf_prob = 0.92
-        elif edge_flags["missing_data"]:
-            fault_label = "COMM_FAILURE"
-            conf_prob = 0.98
+        elif diag_type == "GENUINE_EXTREME_EVENT":
+            status = "Warning"
+            fault_type = "GENUINE_EXTREME"
+            conf_prob = diag_res.get("confidence_score", 0.92)
+        elif diag_type == "UNCONFIRMED_ANOMALY":
+            status = "Warning"
+            fault_type = "UNCONFIRMED_ANOMALY"
+            conf_prob = diag_res.get("confidence_score", 0.50)
         else:
-            fault_label, conf_prob, class_probs = self.fault_classifier.classify(feat_vector)
+            status = "Faulty"
             
-            # ROUTING FIX: Preserve UNCONFIRMED_ANOMALY from Counterfactual.
-            # XGBoost classification is retained as an advisory string if needed, 
-            # but the verdict remains UNCONFIRMED_ANOMALY.
-            if diag_res.get("diagnosis_type") == "UNCONFIRMED_ANOMALY":
-                diag_res["root_cause"] += f" (XGBoost Advisory: {fault_label})"
-                fault_label = "UNCONFIRMED_ANOMALY"
+            # 2. Only if Faulty, we trust Stage 5 to classify the EXACT fault type.
+            if edge_flags["missing_data"]:
+                fault_type = "COMM_FAILURE"
+                conf_prob = 0.98
             else:
-                # SAFETY NET: If Counterfactual detected a fault but XGBoost failed to map it
-                if fault_label in ["CLEAN", "NORMAL", "GENUINE_EXTREME"]:
-                    fault_label = "UNKNOWN_FAULT"
+                fault_type, conf_prob, class_probs = self.fault_classifier.classify(feat_vector)
+                
+                if fault_type in ["CLEAN", "NORMAL", "GENUINE_EXTREME"]:
+                    fault_type = "UNKNOWN_FAULT" # Safety net
+                else:
+                    fault_type = fault_type
 
-        # Synchronize complete diagnosis dictionary with final fault_label verdict
-        if fault_label in ["CLEAN", "NORMAL"]:
-            diag_res["is_anomalous"] = False
-            diag_res["diagnosis_type"] = "NORMAL"
-            diag_res["root_cause"] = "Station telemetry operating normally within expected physical, temporal, and spatial bounds."
-            diag_res["evidence_chain"] = ["All edge, temporal, physics, and spatial checks passed within normal bounds."]
-            diag_res["severity_score"] = 0.0
-        elif fault_label == "GENUINE_EXTREME":
-            diag_res["diagnosis_type"] = "GENUINE_EXTREME_EVENT"
-            diag_res["root_cause"] = "Genuine Extreme Meteorological Event confirmed by spatial neighbor consensus."
-        elif fault_label == "COMM_FAILURE":
-            diag_res["diagnosis_type"] = "SENSOR_FAULT"
-            diag_res["root_cause"] = "Communication Failure / Sensor Dropout (Missing NaN Telemetry)."
-        elif fault_label == "UNCONFIRMED_ANOMALY":
-            diag_res["diagnosis_type"] = "UNCONFIRMED_ANOMALY"
-            # root_cause is already appended above
-        elif fault_label == "SPIKE":
-            diag_res["diagnosis_type"] = "SENSOR_FAULT"
-            diag_res["root_cause"] = "Isolated Sensor Spike Fault (Abrupt rate-of-change jump)."
-        elif fault_label == "FROZEN":
-            diag_res["diagnosis_type"] = "SENSOR_FAULT"
-            diag_res["root_cause"] = "Sensor Hardware Freeze / Flatline Fault."
-        elif fault_label == "DRIFT":
-            diag_res["diagnosis_type"] = "SENSOR_FAULT"
-            diag_res["root_cause"] = "Sensor Calibration Drift."
-        elif fault_label == "INCONSISTENT":
-            diag_res["diagnosis_type"] = "SENSOR_FAULT"
-            diag_res["root_cause"] = "Psychrometric Physical Inconsistency (Dew Point Deficit)."
-        elif fault_label == "UNKNOWN_FAULT":
-            diag_res["diagnosis_type"] = "SENSOR_FAULT"
-            diag_res["root_cause"] = "Unspecified Sensor Fault (Failed XGBoost Classification)."
+        # Synchronize diag_res root cause
+        if status == "Faulty":
+            if fault_type == "SPIKE":
+                diag_res["root_cause"] = "Isolated Sensor Spike Fault (Abrupt rate-of-change jump)."
+            elif fault_type == "FROZEN":
+                diag_res["root_cause"] = "Sensor Hardware Freeze / Flatline Fault."
+            elif fault_type == "DRIFT":
+                diag_res["root_cause"] = "Sensor Calibration Drift."
+            elif fault_type == "INCONSISTENT":
+                diag_res["root_cause"] = "Psychrometric Physical Inconsistency (Dew Point Deficit)."
+            elif fault_type == "COMM_FAILURE":
+                diag_res["root_cause"] = "Communication Failure / Sensor Dropout (Missing NaN Telemetry)."
+            elif fault_type == "UNKNOWN_FAULT":
+                diag_res["root_cause"] = "Unspecified Sensor Fault (Failed XGBoost Classification)."
 
         # 6. SHAP Explainability
-        explain_res = self.explainability.explain(feat_vector, fault_label, conf_prob, diag_res)
+        explain_res = self.explainability.explain(feat_vector, fault_type, conf_prob, diag_res)
 
         # 7. Self-Healing Data Correction
         healing_res = self.self_healing.reconstruct(
-            current_reading, self.recent_history, spatial_res, fault_label
+            current_reading, self.recent_history, spatial_res, fault_type
         )
 
         # 8. Sensor Health Intelligence
         health_res = self.health_engine.update_and_evaluate(
-            is_fault=(fault_label not in ["CLEAN", "NORMAL", "GENUINE_EXTREME"]),
-            fault_type=fault_label,
+            is_fault=(fault_type not in ["CLEAN", "NORMAL", "GENUINE_EXTREME"]),
+            fault_type=fault_type,
             recon_error=temporal_res["lstm_mse"]
         )
 
@@ -203,8 +193,10 @@ class SkyGuardPipeline:
         master_output = {
             "timestamp": str(current_reading.get("time")),
             "station_id": self.neighbor_metadata.get("target", {}).get("station_id", "AWS_TARGET_30_25N_74_25E"),
-            "is_anomaly": bool(fault_label not in ["CLEAN", "NORMAL"]),
-            "anomaly_type": str(fault_label),
+            "status": status,
+            "is_anomaly": (status != "Healthy"),
+            "anomaly_type": str(fault_type),
+            "fault_type": str(fault_type),
             "severity_score": float(diag_res["severity_score"]),
             "confidence_score": float(np.round(conf_prob, 4)),
             "diagnosis": {

@@ -180,6 +180,17 @@ class TemporalAIEngine:
         Evaluates a 24-hour sequence window.
         Returns MSE reconstruction error, Isolation Forest score, and Z-scores.
         """
+        # Cold Start Guard
+        if len(window_df) < 3:
+            return {
+                "lstm_mse": 0.0,
+                "threshold_mse": self.threshold_mse,
+                "iso_forest_score": 0.0,
+                "max_z_score": 0.0,
+                "z_scores": {f: 0.0 for f in self.features},
+                "is_temporal_anomaly": False
+            }
+
         if len(window_df) < self.seq_len:
             # Padding if shorter than seq_len
             pad_rows = self.seq_len - len(window_df)
@@ -191,7 +202,9 @@ class TemporalAIEngine:
 
         # 1. Rolling Z-Score of the last timestep relative to the 24-hour window
         means = np.mean(data_clean[:-1], axis=0) if len(data_clean) > 1 else np.mean(data_clean, axis=0)
-        stds = np.std(data_clean[:-1], axis=0) + 1e-6
+        stds = np.std(data_clean[:-1], axis=0)
+        # Guard against zero variance in padded cold starts
+        stds = np.maximum(stds, [0.5, 2.0, 1.0, 1.0])
         last_val = data_clean[-1]
         z_scores = (last_val - means) / stds
 
