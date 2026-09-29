@@ -87,6 +87,7 @@ class PhysicsSpatialEngine:
         }
 
         if not neighbor_readings:
+            spatial_res["insufficient_neighbors"] = True
             return spatial_res
 
         weights = []
@@ -126,9 +127,9 @@ class PhysicsSpatialEngine:
         spatial_res["expected_sp"] = exp_sp
 
         # Compute Standard Deviations among neighbors
-        std_temp = max(float(np.std(n_temps)), 0.5)
-        std_rh = max(float(np.std(n_rhs)), 2.0)
-        std_sp = max(float(np.std(n_sps)), 1.0)
+        std_temp = max(float(np.std(n_temps)), 3.5)
+        std_rh = max(float(np.std(n_rhs)), 10.0)
+        std_sp = max(float(np.std(n_sps)), 5.0)
 
         # Compute Spatial Z-Scores for target reading
         t_temp = target_reading.get("temperature_2m")

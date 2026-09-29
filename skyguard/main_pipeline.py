@@ -135,6 +135,17 @@ class SkyGuardPipeline:
             conf_prob = 0.98
         else:
             fault_label, conf_prob, class_probs = self.fault_classifier.classify(feat_vector)
+            
+            # ROUTING FIX: Preserve UNCONFIRMED_ANOMALY from Counterfactual.
+            # XGBoost classification is retained as an advisory string if needed, 
+            # but the verdict remains UNCONFIRMED_ANOMALY.
+            if diag_res.get("diagnosis_type") == "UNCONFIRMED_ANOMALY":
+                diag_res["root_cause"] += f" (XGBoost Advisory: {fault_label})"
+                fault_label = "UNCONFIRMED_ANOMALY"
+            else:
+                # SAFETY NET: If Counterfactual detected a fault but XGBoost failed to map it
+                if fault_label in ["CLEAN", "NORMAL", "GENUINE_EXTREME"]:
+                    fault_label = "UNKNOWN_FAULT"
 
         # Synchronize complete diagnosis dictionary with final fault_label verdict
         if fault_label in ["CLEAN", "NORMAL"]:
@@ -149,6 +160,9 @@ class SkyGuardPipeline:
         elif fault_label == "COMM_FAILURE":
             diag_res["diagnosis_type"] = "SENSOR_FAULT"
             diag_res["root_cause"] = "Communication Failure / Sensor Dropout (Missing NaN Telemetry)."
+        elif fault_label == "UNCONFIRMED_ANOMALY":
+            diag_res["diagnosis_type"] = "UNCONFIRMED_ANOMALY"
+            # root_cause is already appended above
         elif fault_label == "SPIKE":
             diag_res["diagnosis_type"] = "SENSOR_FAULT"
             diag_res["root_cause"] = "Isolated Sensor Spike Fault (Abrupt rate-of-change jump)."
@@ -161,6 +175,9 @@ class SkyGuardPipeline:
         elif fault_label == "INCONSISTENT":
             diag_res["diagnosis_type"] = "SENSOR_FAULT"
             diag_res["root_cause"] = "Psychrometric Physical Inconsistency (Dew Point Deficit)."
+        elif fault_label == "UNKNOWN_FAULT":
+            diag_res["diagnosis_type"] = "SENSOR_FAULT"
+            diag_res["root_cause"] = "Unspecified Sensor Fault (Failed XGBoost Classification)."
 
         # 6. SHAP Explainability
         explain_res = self.explainability.explain(feat_vector, fault_label, conf_prob, diag_res)

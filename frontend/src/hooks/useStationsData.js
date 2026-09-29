@@ -28,7 +28,14 @@ export function useStationsData() {
 
   useEffect(() => {
     fetchData();
-    const interval = setInterval(fetchData, 30000); // 30s polling
+    let pollMs = 30000;
+    try {
+      const saved = JSON.parse(localStorage.getItem("skyguard-settings") || "{}");
+      if (saved.refreshInterval) {
+        pollMs = parseInt(saved.refreshInterval, 10) * 1000;
+      }
+    } catch(e) {}
+    const interval = setInterval(fetchData, pollMs);
     return () => clearInterval(interval);
   }, [fetchData]);
 

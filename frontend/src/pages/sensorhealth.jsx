@@ -1,4 +1,4 @@
-
+﻿
 import { useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import {
@@ -44,7 +44,9 @@ function SensorHealth() {
   const { data: stationDetail } = useStationData(selectedId);
   const healthData = stationDetail?.sensor_health;
   
-  const chartData = [
+  const chartData = healthData?.degradation_trend && healthData.degradation_trend.length > 0 
+    ? healthData.degradation_trend 
+    : [
       { name: "Jan", health: 100 },
       { name: "Feb", health: 100 },
       { name: "Mar", health: 100 },
@@ -89,9 +91,7 @@ function SensorHealth() {
           Indian AWS Sensor Performance and Maintenance
         </p>
 
-        <p className="text-xs text-amber-700 mt-2">
-          Demonstration data — not live sensor diagnostics.
-        </p>
+        
       </div>
 
       {/* Station selection */}
@@ -124,12 +124,41 @@ function SensorHealth() {
       {/* Sensor details */}
       {selectedStation && healthData && (
         <>
-          <div className="bg-white rounded-xl border border-gray-200 p-5">
-
-            <div className="flex items-center gap-3">
-              <Activity className="text-teal-600" />
-
-              <div><h2 className="text-lg font-semibold">{selectedStation.location}</h2><p className="text-sm text-gray-500">{selectedStation.station_id}</p></div></div><div className="flex gap-8"><div className="text-right"><p className="text-sm text-gray-500 font-medium">Fleet/Station Health</p><p className="text-2xl font-bold">{(healthData?.health_score_pct || 100).toFixed(1)}%</p></div><div className="text-right"><p className="text-sm text-gray-500 font-medium">MTBF / Est RUL</p><p className="text-2xl font-bold">{healthData?.estimated_rul_days || 0} days</p></div></div></div><div className="mb-8"><p className="text-sm text-gray-500 font-medium mb-4 mt-6">Degradation Trend</p><div className="h-[200px] w-full"><ResponsiveContainer width="100%" height="100%"><LineChart data={chartData}><CartesianGrid strokeDasharray="3 3" vertical={false} /><XAxis dataKey="name" axisLine={false} tickLine={false} tick={{fontSize: 12, fill: "#9ca3af"}} /><YAxis domain={[0, 100]} axisLine={false} tickLine={false} tick={{fontSize: 12, fill: "#9ca3af"}} /><Tooltip /><Line type="monotone" dataKey="health" stroke="#0d9488" strokeWidth={2} dot={{r: 3, fill: "#0d9488"}} /></LineChart></ResponsiveContainer></div><div>
+          <div className="bg-white rounded-xl border border-gray-200 p-5 flex flex-col sm:flex-row justify-between items-start sm:items-center">
+            <div className="flex items-center gap-3 mb-4 sm:mb-0">
+              <div className="p-3 bg-teal-50 rounded-lg">
+                <Activity className="text-teal-600" size={24} />
+              </div>
+              <div>
+                <h2 className="text-lg font-semibold">{selectedStation.location}</h2>
+                <p className="text-sm text-gray-500">{selectedStation.station_id}</p>
+              </div>
+            </div>
+            <div className="flex gap-8">
+              <div className="text-right">
+                <p className="text-sm text-gray-500 font-medium">Fleet/Station Health</p>
+                <p className="text-2xl font-bold">{(healthData?.health_score_pct || 100).toFixed(1)}%</p>
+              </div>
+              <div className="text-right">
+                <p className="text-sm text-gray-500 font-medium">MTBF / Est RUL</p>
+                <p className="text-2xl font-bold">{healthData?.mtbf_days || healthData?.estimated_rul_days || 0} days</p>
+              </div>
+            </div>
+          </div>
+          <div className="mb-8">
+            <p className="text-sm text-gray-500 font-medium mb-4 mt-6">Degradation Trend</p>
+            <div className="h-[200px] w-full">
+              <ResponsiveContainer width="100%" height="100%">
+                <LineChart data={chartData}>
+                  <CartesianGrid strokeDasharray="3 3" vertical={false} />
+                  <XAxis dataKey="name" axisLine={false} tickLine={false} tick={{fontSize: 12, fill: "#9ca3af"}} />
+                  <YAxis domain={[0, 100]} axisLine={false} tickLine={false} tick={{fontSize: 12, fill: "#9ca3af"}} />
+                  <Tooltip />
+                  <Line type="monotone" dataKey="health" stroke="#0d9488" strokeWidth={2} dot={{r: 3, fill: "#0d9488"}} />
+                </LineChart>
+              </ResponsiveContainer>
+            </div>
+            <div>
             </div>
 
           </div>

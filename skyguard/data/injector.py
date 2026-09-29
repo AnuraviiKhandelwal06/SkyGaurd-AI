@@ -69,7 +69,7 @@ class SyntheticAnomalyInjector:
             else:
                 magnitude = sign * np.random.uniform(15.0, 40.0)
 
-            corrupted_df.loc[idx, var] += magnitude
+            corrupted_df.loc[idx, var] = float(corrupted_df.loc[idx, var]) + magnitude
             if var == "relative_humidity_2m":
                 corrupted_df.loc[idx, var] = np.clip(corrupted_df.loc[idx, var], 0.0, 100.0)
             corrupted_df.loc[idx, "is_anomaly"] = 1

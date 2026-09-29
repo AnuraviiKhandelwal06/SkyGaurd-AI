@@ -64,8 +64,7 @@ function AnomalyDetection() {
         </p>
 
         <p className="text-xs text-amber-700 mt-2">
-          Demonstration mode: anomaly results and corrections
-          are sample data, not live AI predictions.
+          
         </p>
       </div>
 
@@ -92,7 +91,7 @@ function AnomalyDetection() {
               <div className="flex flex-wrap justify-between gap-2">
 
                 <div>
-                  {(() => { const score = record.severity_score ? record.severity_score * 100 : (record.explainability?.confidence_pct || 85.0); const reviewStatus = normalizeStatus(record.status) === "Healthy" ? "Accepted" : "Pending"; return <><div className="flex flex-col gap-2 w-full"><p className="font-semibold text-gray-800">{record.location} ({record.station_id})</p><div className="flex items-center gap-2 mt-1 mb-1 text-sm text-gray-500"><span className="bg-gray-200 px-2 py-0.5 rounded text-xs font-semibold">{record.anomaly_type || "UNKNOWN"}</span><span>Score: {score.toFixed(1)}/100</span></div><div className="w-full bg-gray-200 rounded-full h-1.5 max-w-md mb-2"><div className="h-1.5 rounded-full bg-red-500" style={{ width: `${Math.min(score, 100)}%` }} /></div></div></> })()}
+                  {(() => { const score = record.severity_score ? record.severity_score * 100 : (record.explainability?.confidence_pct || 85.0); const reviewStatus = normalizeStatus(record.status) === "Healthy" ? "Accepted" : "Pending"; return <><div className="flex flex-col gap-2 w-full"><p className="font-semibold text-gray-800">{record.location} ({record.station_id})</p><div className="flex items-center gap-2 mt-1 mb-1 text-sm text-gray-500"><span>Score: {score.toFixed(1)}/100</span></div><div className="w-full bg-gray-200 rounded-full h-1.5 max-w-md mb-2"><div className="h-1.5 rounded-full bg-red-500" style={{ width: `${Math.min(score, 100)}%` }} /></div></div></> })()}
                 </div>
 
                 <span
@@ -133,10 +132,7 @@ function AnomalyDetection() {
                 
               </p>
 
-              <p>
-                <strong>Suspected fault:</strong>{" "}
-                {selected.anomaly_type}
-              </p>
+              
 
               <p>
                 <strong>Demo confidence:</strong>{" "}
@@ -169,6 +165,18 @@ function AnomalyDetection() {
           </section>
 
           {/* Data correction */}
+          {normalizeStatus(selected.status) === "Warning" ? (
+            <section className="bg-white rounded-xl border border-gray-200 p-6">
+              <h2 className="text-lg font-semibold mb-4 flex items-center gap-2">
+                <Wrench className="text-teal-600" />
+                Data Correction
+              </h2>
+              <div className="bg-yellow-50 text-yellow-800 p-4 rounded-lg">
+                <p className="font-semibold">Genuine event, no correction needed.</p>
+              </div>
+            </section>
+          ) : (
+
           <section className="bg-white rounded-xl border border-gray-200 p-6">
 
             <h2 className="text-lg font-semibold mb-4 flex items-center gap-2">
@@ -244,6 +252,8 @@ function AnomalyDetection() {
             </p>
 
           </section>
+
+          )}
         </>
       )}
 

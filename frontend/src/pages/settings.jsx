@@ -1,15 +1,17 @@
 
 import { useState } from "react";
 import { Bell, RefreshCw, MapPin, Save } from "lucide-react";
-import { stations } from "../data/mockdata";
+import { useStationsData } from "../hooks/useStationsData";
 
 const DEFAULT_SETTINGS = {
   notifications: true,
   refreshInterval: "60",
-  defaultStation: stations[0]?.id || ""
+  defaultStation: ""
 };
 
 function Settings() {
+  const { data: stationsData } = useStationsData();
+  const stations = stationsData || [];
   const [settings, setSettings] = useState(() => {
     try {
       const saved = localStorage.getItem("skyguard-settings");
@@ -46,9 +48,9 @@ function Settings() {
   }
 
   return (
-    <div className="p-8 max-w-4xl">
+    <div className="p-8 max-w-4xl mx-auto">
 
-      <div className="mb-8">
+      <div className="mb-8 text-center">
         <h1 className="text-2xl font-bold text-gray-800">
           Settings
         </h1>
@@ -155,8 +157,8 @@ function Settings() {
             className="w-full border border-gray-200 rounded-lg p-3 bg-white cursor-pointer"
           >
             {stations.map((station) => (
-              <option key={station.id} value={station.id}>
-                {station.name}
+              <option key={station.station_id} value={station.station_id}>
+                {station.location} ({station.station_id})
               </option>
             ))}
           </select>

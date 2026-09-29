@@ -105,6 +105,21 @@ class FaultClassifierEngine:
         self.model.fit(X, y_encoded)
         self.is_fitted = True
 
+    def save(self, filepath: str):
+        import joblib
+        joblib.dump({"model": self.model, "encoder": self.label_encoder}, filepath)
+        
+    def load(self, filepath: str):
+        import joblib
+        import os
+        if os.path.exists(filepath):
+            data = joblib.load(filepath)
+            self.model = data["model"]
+            self.label_encoder = data["encoder"]
+            self.is_fitted = True
+            return True
+        return False
+
     def classify(self, feature_vector: np.ndarray) -> Tuple[str, float, Dict[str, float]]:
         """
         Classifies feature vector into fault label, confidence probability, and class distribution.

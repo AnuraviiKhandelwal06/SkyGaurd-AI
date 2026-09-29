@@ -83,9 +83,7 @@ function LiveReadings({ stationsData }) {
         </div>
       )}
       
-      <p className="text-xs text-gray-400 mt-6">
-        Demo readings - not live IMD observations.
-      </p>
+
     </div>
   );
 }

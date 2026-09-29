@@ -73,9 +73,7 @@ function LiveStations() {
       </p>
       {lastUpdated && <div className="text-sm text-gray-400 mt-2">Last updated: {lastUpdated.toLocaleTimeString()}</div>}
 
-      <p className="text-xs text-gray-400 mt-1 mb-6">
-        Demonstration data — not live IMD observations.
-      </p>
+      
 
       {/* Search bar */}
       <div className="relative mb-5 max-w-md">
@@ -120,6 +118,7 @@ function LiveStations() {
           <thead className="bg-gray-100 text-gray-600 text-sm">
             <tr>
               <th className="p-4">Station ID</th>
+              <th className="p-4">Station Name</th>
               <th className="p-4">Location</th>
               <th className="p-4">Status</th>
               <th className="p-4">Score</th>
@@ -144,6 +143,7 @@ function LiveStations() {
                   {station.station_id}
                 </td>
 
+                <td className="p-4">{station.station_name || "-"}</td>
                 <td className="p-4">{station.location}</td>
 
                 <td className="p-4">
@@ -154,7 +154,7 @@ function LiveStations() {
                   >
                     {normalizeStatus(station.status, station.anomaly_type)}
                   </span>
-                  {station.anomaly_type && station.anomaly_type !== "CLEAN" && <span className="ml-2 text-xs text-gray-500">{station.anomaly_type}</span>}
+                  
                 </td>
                 <td className="p-4">{(station.severity_score ? station.severity_score * 100 : (station.explainability?.confidence_pct || 85.0)).toFixed(1)}</td>
                 <td className="p-4">{station.original_telemetry?.temperature_2m?.toFixed(1) || "--"} °C</td>

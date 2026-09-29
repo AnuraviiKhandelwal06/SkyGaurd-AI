@@ -41,6 +41,7 @@ class CounterfactualDiagnosisEngine:
         spatial_anomaly = spatial_res.get("spatial_anomaly", False)
         temp_spatial_z = spatial_res.get("temp_spatial_z", 0.0)
         sp_spatial_z = spatial_res.get("sp_spatial_z", 0.0)
+        insufficient_neighbors = spatial_res.get("insufficient_neighbors", False)
 
         # Baseline Status
         diagnosis_type = "NORMAL"
@@ -64,7 +65,7 @@ class CounterfactualDiagnosisEngine:
         # Disambiguation logic: Genuine Extreme Weather vs Sensor Fault
         # Condition for Genuine Extreme Weather:
         # High temporal delta / MSE BUT low spatial deviation (neighbors confirm storm/front) AND physics respected (Td <= T)
-        spatial_agreement = (temp_spatial_z < 2.0) and (sp_spatial_z < 2.0) and not spatial_anomaly
+        spatial_agreement = (temp_spatial_z < 2.0) and (sp_spatial_z < 2.0) and not spatial_anomaly and not insufficient_neighbors
         physics_respected = not dew_viol and not hydro_viol and not flatline_viol
 
         if (rate_viol or is_temporal_anomaly or range_viol) and spatial_agreement and physics_respected:
@@ -75,6 +76,13 @@ class CounterfactualDiagnosisEngine:
             evidence_chain.append("Edge/Temporal rate jump detected.")
             evidence_chain.append(f"Neighbor consensus confirmed event (Spatial Z={max_z:.1f} <= 2.0).")
             evidence_chain.append("Psychrometric and hydrostatic physical bounds respected.")
+        elif (rate_viol or is_temporal_anomaly or range_viol) and insufficient_neighbors and physics_respected:
+            diagnosis_type = "UNCONFIRMED_ANOMALY"
+            root_cause = "Temporal/Rate anomaly detected, but insufficient neighbors (<150km) to confirm if Genuine Event or Sensor Drift."
+            severity_score = min(5.0 + max_z * 0.3, 7.5)
+            confidence_score = 0.50
+            evidence_chain.append("Edge/Temporal jump detected.")
+            evidence_chain.append("Spatial validation SKIPPED (INSUFFICIENT_NEIGHBOURS).")
         else:
             diagnosis_type = "SENSOR_FAULT"
             confidence_score = 0.95
