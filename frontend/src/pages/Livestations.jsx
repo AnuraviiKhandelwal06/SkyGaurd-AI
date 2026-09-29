@@ -156,7 +156,7 @@ function LiveStations() {
                   </span>
                   
                 </td>
-                <td className="p-4">{(station.severity_score ? station.severity_score * 100 : (station.explainability?.confidence_pct || 85.0)).toFixed(1)}</td>
+                <td className="p-4">{(station.severity_score ? station.severity_score * 10 : (station.explainability?.confidence_pct || 85.0)).toFixed(1)}</td>
                 <td className="p-4">{station.original_telemetry?.temperature_2m?.toFixed(1) || "--"} °C</td>
                 <td className="p-4">{station.original_telemetry?.surface_pressure?.toFixed(1) || "--"} hPa</td>
                 <td className="p-4">{station.original_telemetry?.relative_humidity_2m?.toFixed(1) || "--"}%</td>

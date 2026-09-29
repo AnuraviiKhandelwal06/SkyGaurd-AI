@@ -91,7 +91,7 @@ function AnomalyDetection() {
               <div className="flex flex-wrap justify-between gap-2">
 
                 <div>
-                  {(() => { const score = record.severity_score ? record.severity_score * 100 : (record.explainability?.confidence_pct || 85.0); const reviewStatus = normalizeStatus(record.status) === "Healthy" ? "Accepted" : "Pending"; return <><div className="flex flex-col gap-2 w-full"><p className="font-semibold text-gray-800">{record.location} ({record.station_id})</p><div className="flex items-center gap-2 mt-1 mb-1 text-sm text-gray-500"><span>Score: {score.toFixed(1)}/100</span></div><div className="w-full bg-gray-200 rounded-full h-1.5 max-w-md mb-2"><div className="h-1.5 rounded-full bg-red-500" style={{ width: `${Math.min(score, 100)}%` }} /></div></div></> })()}
+                  {(() => { const score = record.severity_score ? record.severity_score * 10 : (record.explainability?.confidence_pct || 85.0); const reviewStatus = normalizeStatus(record.status) === "Healthy" ? "Accepted" : "Pending"; return <><div className="flex flex-col gap-2 w-full"><p className="font-semibold text-gray-800">{record.location} ({record.station_id})</p><div className="flex items-center gap-2 mt-1 mb-1 text-sm text-gray-500"><span>Score: {score.toFixed(1)}/100</span></div><div className="w-full bg-gray-200 rounded-full h-1.5 max-w-md mb-2"><div className="h-1.5 rounded-full bg-red-500" style={{ width: `${Math.min(score, 100)}%` }} /></div></div></> })()}
                 </div>
 
                 <span
