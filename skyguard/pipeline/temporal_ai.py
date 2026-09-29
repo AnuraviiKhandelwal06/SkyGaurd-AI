@@ -187,6 +187,9 @@ class TemporalAIEngine:
                 "threshold_mse": self.threshold_mse,
                 "iso_forest_score": 0.0,
                 "max_z_score": 0.0,
+                "is_temporal_anomaly": False,
+                "reason": "Cold start: insufficient history",
+                "max_z_score": 0.0,
                 "z_scores": {f: 0.0 for f in self.features},
                 "is_temporal_anomaly": False
             }

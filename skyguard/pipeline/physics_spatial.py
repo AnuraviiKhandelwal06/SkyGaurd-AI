@@ -69,7 +69,8 @@ class PhysicsSpatialEngine:
         self,
         target_reading: Dict[str, Any],
         neighbor_readings: Dict[str, Dict[str, Any]],
-        neighbor_metadata: Dict[str, Dict[str, Any]]
+        neighbor_metadata: Dict[str, Dict[str, Any]],
+        max_radius_km: float = 150.0
     ) -> Dict[str, Any]:
         """
         Calculates Inverse Distance Weighting (IDW) consensus across the real neighbor stations.
@@ -86,9 +87,19 @@ class PhysicsSpatialEngine:
             "details": []
         }
 
+
+        filtered_readings = {}
+        for st_id, n_read in neighbor_readings.items():
+            meta = neighbor_metadata.get(st_id, {})
+            dist_km = meta.get("distance_km", 100.0)
+            if dist_km <= max_radius_km:
+                filtered_readings[st_id] = n_read
+        neighbor_readings = filtered_readings
+
         if not neighbor_readings:
             spatial_res["insufficient_neighbors"] = True
             return spatial_res
+
 
         weights = []
         n_temps, n_rhs, n_sps = [], [], []
