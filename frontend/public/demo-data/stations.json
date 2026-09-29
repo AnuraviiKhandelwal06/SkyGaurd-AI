@@ -1,0 +1,37 @@
+[
+  {
+    "id": "AWS-001",
+    "name": "Jaipur",
+    "lat": 26.9124,
+    "lng": 75.7873,
+    "status": "Healthy"
+  },
+  {
+    "id": "AWS-002",
+    "name": "Jodhpur",
+    "lat": 26.2389,
+    "lng": 73.0243,
+    "status": "Healthy"
+  },
+  {
+    "id": "AWS-003",
+    "name": "Udaipur",
+    "lat": 24.5854,
+    "lng": 73.7125,
+    "status": "Healthy"
+  },
+  {
+    "id": "AWS-004",
+    "name": "Bikaner",
+    "lat": 28.0229,
+    "lng": 73.3119,
+    "status": "Healthy"
+  },
+  {
+    "id": "AWS-005",
+    "name": "Kota",
+    "lat": 25.2138,
+    "lng": 75.8648,
+    "status": "Healthy"
+  }
+]

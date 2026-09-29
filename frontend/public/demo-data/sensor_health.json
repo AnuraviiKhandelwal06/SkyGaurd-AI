@@ -1,0 +1,27 @@
+[
+  {
+    "station_id": "AWS-001",
+    "health_score": 96.8,
+    "rul_days": 180
+  },
+  {
+    "station_id": "AWS-002",
+    "health_score": 95.2,
+    "rul_days": 180
+  },
+  {
+    "station_id": "AWS-003",
+    "health_score": 71.5,
+    "rul_days": 14
+  },
+  {
+    "station_id": "AWS-004",
+    "health_score": 96.7,
+    "rul_days": 180
+  },
+  {
+    "station_id": "AWS-005",
+    "health_score": 96.9,
+    "rul_days": 180
+  }
+]

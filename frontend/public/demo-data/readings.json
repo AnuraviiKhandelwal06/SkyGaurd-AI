@@ -1,0 +1,6722 @@
+[
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T00:00:00",
+    "temperature": 25.248357076505616,
+    "humidity": 79.86173569882881,
+    "pressure": 980.3238442690504
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T00:00:00",
+    "temperature": 24.882923312638333,
+    "humidity": 79.76586304305081,
+    "pressure": 980.7896064077537
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T00:00:00",
+    "temperature": 24.765262807032524,
+    "humidity": 80.54256004358596,
+    "pressure": 979.7682911535937
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T00:00:00",
+    "temperature": 25.120981135783016,
+    "humidity": 78.0867197553422,
+    "pressure": 979.1375410837435
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T00:00:00",
+    "temperature": 24.493584439832787,
+    "humidity": 80.31424733259527,
+    "pressure": 979.5459879622395
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T00:15:00",
+    "temperature": 26.386855676762206,
+    "humidity": 79.73140216428554,
+    "pressure": 980.033764102344
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T00:15:00",
+    "temperature": 25.381839930038836,
+    "humidity": 80.06810105448194,
+    "pressure": 979.4245032112889
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T00:15:00",
+    "temperature": 25.353711947342028,
+    "humidity": 79.66548471497879,
+    "pressure": 979.6991466938853
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T00:15:00",
+    "temperature": 25.647282679932463,
+    "humidity": 78.89946753581617,
+    "pressure": 980.4112724560516
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T00:15:00",
+    "temperature": 25.758463089803808,
+    "humidity": 77.9975083408923,
+    "pressure": 979.3359069755508
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T00:30:00",
+    "temperature": 26.67449521219822,
+    "humidity": 80.00026550866617,
+    "pressure": 979.9421758588059
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T00:30:00",
+    "temperature": 25.566000927016802,
+    "humidity": 79.1090530190815,
+    "pressure": 979.7696806145201
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T00:30:00",
+    "temperature": 26.477071066984745,
+    "humidity": 78.06585707211347,
+    "pressure": 980.1620419846975
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T00:30:00",
+    "temperature": 25.966800922047536,
+    "humidity": 80.44057351631707,
+    "pressure": 980.515499761248
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T00:30:00",
+    "temperature": 25.885653160589197,
+    "humidity": 79.51968485162499,
+    "pressure": 980.1656317157018
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T00:45:00",
+    "temperature": 26.711316101238637,
+    "humidity": 79.4300466314008,
+    "pressure": 979.4468325129969
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T00:45:00",
+    "temperature": 27.357166131358383,
+    "humidity": 80.97194563663544,
+    "pressure": 979.9639949392098
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T00:45:00",
+    "temperature": 27.131721232685102,
+    "humidity": 78.9705858534595,
+    "pressure": 980.1806978027543
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T00:45:00",
+    "temperature": 26.93299020060631,
+    "humidity": 81.18034926387863,
+    "pressure": 978.6901274479551
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T00:45:00",
+    "temperature": 26.99442675428037,
+    "humidity": 79.31669825759874,
+    "pressure": 980.0458803882677
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T01:00:00",
+    "temperature": 27.47835450710645,
+    "humidity": 79.67562909729311,
+    "pressure": 980.7389470223708
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T01:00:00",
+    "temperature": 27.183943649578612,
+    "humidity": 78.81675948219683,
+    "pressure": 980.4577010588511
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T01:00:00",
+    "temperature": 27.323310349141686,
+    "humidity": 79.83178395889472,
+    "pressure": 980.0485387746741
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T01:00:00",
+    "temperature": 27.23716390408653,
+    "humidity": 78.99085437918359,
+    "pressure": 979.803945923434
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T01:00:00",
+    "temperature": 27.736250589557493,
+    "humidity": 79.57957179796125,
+    "pressure": 980.0025567283212
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T01:15:00",
+    "temperature": 27.50670928200641,
+    "humidity": 78.51795726713677,
+    "pressure": 979.8286427417366
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T01:15:00",
+    "temperature": 28.13375179719861,
+    "humidity": 79.34265344671665,
+    "pressure": 980.9430929506053
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T01:15:00",
+    "temperature": 28.343169848392996,
+    "humidity": 78.86415667413596,
+    "pressure": 979.0406143923504
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T01:15:00",
+    "temperature": 28.244509758002128,
+    "humidity": 81.40184470238741,
+    "pressure": 979.9038195176095
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T01:15:00",
+    "temperature": 28.19703876817899,
+    "humidity": 77.76992455228259,
+    "pressure": 980.5714114072575
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T01:30:00",
+    "temperature": 29.222350297172422,
+    "humidity": 77.568203195431,
+    "pressure": 980.701397155468
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T01:30:00",
+    "temperature": 29.120262870551034,
+    "humidity": 80.66804627603571,
+    "pressure": 979.5047318374346
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T01:30:00",
+    "temperature": 28.87666000619472,
+    "humidity": 77.97411499610953,
+    "pressure": 979.2246682844669
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T01:30:00",
+    "temperature": 28.29568246678785,
+    "humidity": 78.95118308086091,
+    "pressure": 979.5402878828831
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T01:30:00",
+    "temperature": 28.435207677482783,
+    "humidity": 78.15552913402006,
+    "pressure": 980.4067586086849
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T01:45:00",
+    "temperature": 29.53661686949208,
+    "humidity": 79.24459758493619,
+    "pressure": 979.1962583827194
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T01:45:00",
+    "temperature": 29.55282829931423,
+    "humidity": 78.71927770243107,
+    "pressure": 979.381524644561
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T01:45:00",
+    "temperature": 29.683857684998465,
+    "humidity": 78.23443950388695,
+    "pressure": 980.1252464251729
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T01:45:00",
+    "temperature": 29.08287454140077,
+    "humidity": 78.16970852781476,
+    "pressure": 980.1465362366494
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T01:45:00",
+    "temperature": 30.355774157762394,
+    "humidity": 78.41128775156555,
+    "pressure": 979.4043482513987
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T02:00:00",
+    "temperature": 29.51265916488634,
+    "humidity": 78.10759267943124,
+    "pressure": 980.5792977895037
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T02:00:00",
+    "temperature": 30.481688064622162,
+    "humidity": 77.73328900262527,
+    "pressure": 980.4110300799972
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T02:00:00",
+    "temperature": 29.877305941998564,
+    "humidity": 76.56677191133129,
+    "pressure": 979.5552427851873
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T02:00:00",
+    "temperature": 29.96144914529295,
+    "humidity": 77.66166005050542,
+    "pressure": 980.138345399665
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T02:00:00",
+    "temperature": 30.006500945938953,
+    "humidity": 78.77404215284609,
+    "pressure": 979.867671583381
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T02:15:00",
+    "temperature": 30.868536004078525,
+    "humidity": 75.77223468963463,
+    "pressure": 979.4645537509695
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T02:15:00",
+    "temperature": 30.443970937533095,
+    "humidity": 77.343392740143,
+    "pressure": 980.2366188122868
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T02:15:00",
+    "temperature": 30.132305471161818,
+    "humidity": 75.11454502136505,
+    "pressure": 979.7767425239665
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T02:15:00",
+    "temperature": 30.66274920226112,
+    "humidity": 75.38365346733893,
+    "pressure": 980.0865904629256
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T02:15:00",
+    "temperature": 30.113773612095454,
+    "humidity": 76.78311735199644,
+    "pressure": 980.029104359223
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T02:30:00",
+    "temperature": 31.266507970261348,
+    "humidity": 76.42785133219294,
+    "pressure": 980.5415256215877
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T02:30:00",
+    "temperature": 30.39877960610866,
+    "humidity": 74.92924176590958,
+    "pressure": 980.2575176336044
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T02:30:00",
+    "temperature": 31.34513813324023,
+    "humidity": 79.71979829647942,
+    "pressure": 980.2854452553465
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T02:30:00",
+    "temperature": 31.564615171833807,
+    "humidity": 76.5184580571305,
+    "pressure": 979.8423653776798
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T02:30:00",
+    "temperature": 30.70120168281842,
+    "humidity": 75.63024819908469,
+    "pressure": 979.7573182260854
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T02:45:00",
+    "temperature": 32.75078743433745,
+    "humidity": 73.1695309569878,
+    "pressure": 980.3431300951872
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T02:45:00",
+    "temperature": 31.35749221810597,
+    "humidity": 76.12574674654691,
+    "pressure": 980.0321400095477
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T02:45:00",
+    "temperature": 31.235806296370704,
+    "humidity": 75.71639389851423,
+    "pressure": 979.6348166841415
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T02:45:00",
+    "temperature": 31.616244070952597,
+    "humidity": 74.38519580197372,
+    "pressure": 981.0719720446626
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T02:45:00",
+    "temperature": 30.580886857671885,
+    "humidity": 75.22325046434896,
+    "pressure": 979.6691067676159
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T03:00:00",
+    "temperature": 31.674807442649126,
+    "humidity": 74.02739918226405,
+    "pressure": 980.2524936394902
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T03:00:00",
+    "temperature": 31.47091960833759,
+    "humidity": 73.80763438789,
+    "pressure": 979.7625273444195
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T03:00:00",
+    "temperature": 32.953794932006026,
+    "humidity": 74.5471173346919,
+    "pressure": 979.3695580228325
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T03:00:00",
+    "temperature": 33.13214591037179,
+    "humidity": 75.1746008842821,
+    "pressure": 979.240315017023
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T03:00:00",
+    "temperature": 32.70452338645879,
+    "humidity": 73.43446615811217,
+    "pressure": 980.2219097140731
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T03:15:00",
+    "temperature": 32.05493283900073,
+    "humidity": 73.12739094593958,
+    "pressure": 978.3793663299655
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T03:15:00",
+    "temperature": 32.39211399909319,
+    "humidity": 71.93913312003653,
+    "pressure": 980.8162056519658
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T03:15:00",
+    "temperature": 32.29837583144128,
+    "humidity": 73.31765687928747,
+    "pressure": 980.7206366445331
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T03:15:00",
+    "temperature": 33.09997995086725,
+    "humidity": 73.19714936302097,
+    "pressure": 979.509245674476
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T03:15:00",
+    "temperature": 32.617927922576506,
+    "humidity": 72.58669942484258,
+    "pressure": 980.034901042495
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T03:30:00",
+    "temperature": 32.99029207553798,
+    "humidity": 72.83735925469546,
+    "pressure": 980.7930084080726
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T03:30:00",
+    "temperature": 34.000050090240485,
+    "humidity": 70.2231407806519,
+    "pressure": 979.9241074524822
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T03:30:00",
+    "temperature": 33.07402933677987,
+    "humidity": 71.5525290603538,
+    "pressure": 979.8959388748214
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T03:30:00",
+    "temperature": 32.63885102444025,
+    "humidity": 73.02483067719542,
+    "pressure": 980.1785077429826
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T03:30:00",
+    "temperature": 33.38333334062898,
+    "humidity": 72.48252810105102,
+    "pressure": 980.4064310594194
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T03:45:00",
+    "temperature": 32.90019861756442,
+    "humidity": 70.55122362019507,
+    "pressure": 980.3736468025617
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T03:45:00",
+    "temperature": 33.30424532604338,
+    "humidity": 71.22873204370082,
+    "pressure": 980.6388324478942
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T03:45:00",
+    "temperature": 33.58824481361047,
+    "humidity": 70.90921200795815,
+    "pressure": 979.8911593983864
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T03:45:00",
+    "temperature": 33.72740429751947,
+    "humidity": 71.92491429639267,
+    "pressure": 980.6527394035771
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T03:45:00",
+    "temperature": 33.65567260867294,
+    "humidity": 70.80113790379859,
+    "pressure": 980.1620831762442
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T04:00:00",
+    "temperature": 33.70875202034074,
+    "humidity": 70.59515702543692,
+    "pressure": 979.5908896583833
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T04:00:00",
+    "temperature": 33.15724534709453,
+    "humidity": 68.78581138721226,
+    "pressure": 980.5790554367501
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T04:00:00",
+    "temperature": 33.97231394637046,
+    "humidity": 70.62834550926428,
+    "pressure": 979.9938766135765
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T04:00:00",
+    "temperature": 33.698156316941244,
+    "humidity": 69.32283828848789,
+    "pressure": 980.4875598667089
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T04:00:00",
+    "temperature": 33.247505439448126,
+    "humidity": 69.678614158347,
+    "pressure": 980.2064657271378
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T04:15:00",
+    "temperature": 33.557617217543665,
+    "humidity": 69.08946101587195,
+    "pressure": 980.1224832855544
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T04:15:00",
+    "temperature": 33.73320826251772,
+    "humidity": 69.07782374173766,
+    "pressure": 979.2759578292513
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T04:15:00",
+    "temperature": 33.60950530470066,
+    "humidity": 68.63232665266818,
+    "pressure": 980.155453782799
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T04:15:00",
+    "temperature": 34.397557226927894,
+    "humidity": 68.6858352744166,
+    "pressure": 979.9904918960486
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T04:15:00",
+    "temperature": 33.959470847330685,
+    "humidity": 68.55711516545989,
+    "pressure": 980.161359280169
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T04:30:00",
+    "temperature": 34.49846858223346,
+    "humidity": 69.18640756030437,
+    "pressure": 979.9456199257716
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T04:30:00",
+    "temperature": 34.58386732096842,
+    "humidity": 67.25244817541596,
+    "pressure": 980.1120462409052
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T04:30:00",
+    "temperature": 34.28763337438728,
+    "humidity": 66.88065886344633,
+    "pressure": 980.0122550871295
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T04:30:00",
+    "temperature": 34.96436712901039,
+    "humidity": 68.612939473387,
+    "pressure": 981.0765912287558
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T04:30:00",
+    "temperature": 34.674955643473204,
+    "humidity": 67.83701065304015,
+    "pressure": 981.0949014666088
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T04:45:00",
+    "temperature": 34.04944037386066,
+    "humidity": 65.82939666061921,
+    "pressure": 978.9380521378451
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T04:45:00",
+    "temperature": 34.089734964174205,
+    "humidity": 66.57918309253944,
+    "pressure": 980.1708779878886
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T04:45:00",
+    "temperature": 34.94451321404408,
+    "humidity": 65.85188565040083,
+    "pressure": 979.5507926643259
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T04:45:00",
+    "temperature": 33.809184691440734,
+    "humidity": 68.26024807191759,
+    "pressure": 980.5897200603606
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T04:45:00",
+    "temperature": 33.61273403040561,
+    "humidity": 67.78266168022866,
+    "pressure": 979.9427300773737
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T05:00:00",
+    "temperature": 33.862044433493494,
+    "humidity": 64.57700587909663,
+    "pressure": 980.0026218498591
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T05:00:00",
+    "temperature": 34.43422552715106,
+    "humidity": 65.7992308343979,
+    "pressure": 979.4661897853088
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T05:00:00",
+    "temperature": 34.71940607874663,
+    "humidity": 65.69081973610916,
+    "pressure": 980.3558074390445
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T05:00:00",
+    "temperature": 33.89220117752287,
+    "humidity": 66.45405772394892,
+    "pressure": 980.1661570059898
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T05:00:00",
+    "temperature": 35.434834250651946,
+    "humidity": 65.29205553634327,
+    "pressure": 980.589648592032
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T05:15:00",
+    "temperature": 35.8382267664733,
+    "humidity": 65.65714728276578,
+    "pressure": 979.8755179257605
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T05:15:00",
+    "temperature": 35.13054077882488,
+    "humidity": 65.27043799785491,
+    "pressure": 979.5175382697099
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T05:15:00",
+    "temperature": 35.3370650474571,
+    "humidity": 62.14306695389945,
+    "pressure": 979.4083707436671
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T05:15:00",
+    "temperature": 34.67314938681003,
+    "humidity": 64.61934869611854,
+    "pressure": 980.751178526048
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T05:15:00",
+    "temperature": 35.622160576817954,
+    "humidity": 62.52170498210768,
+    "pressure": 979.1483087803224
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T05:30:00",
+    "temperature": 35.10648133820776,
+    "humidity": 62.57782909630694,
+    "pressure": 978.96627894998
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T05:30:00",
+    "temperature": 34.26221386348568,
+    "humidity": 63.28019639323107,
+    "pressure": 980.1832991230484
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T05:30:00",
+    "temperature": 34.65751515506975,
+    "humidity": 61.55131032251209,
+    "pressure": 979.9686604513635
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T05:30:00",
+    "temperature": 34.42158559057033,
+    "humidity": 63.11457035991888,
+    "pressure": 979.7348711908138
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T05:30:00",
+    "temperature": 34.86093343376082,
+    "humidity": 61.575281521981665,
+    "pressure": 979.7231753473264
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T05:45:00",
+    "temperature": 35.96095179884423,
+    "humidity": 61.34332613657459,
+    "pressure": 979.6501372460037
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T05:45:00",
+    "temperature": 34.92242520754062,
+    "humidity": 61.08709298506964,
+    "pressure": 980.3070833500217
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T05:45:00",
+    "temperature": 34.713338658580774,
+    "humidity": 60.73224434395818,
+    "pressure": 979.8624741514242
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T05:45:00",
+    "temperature": 34.22099370128676,
+    "humidity": 62.67493685204738,
+    "pressure": 980.8224838567506
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T05:45:00",
+    "temperature": 35.26686771391392,
+    "humidity": 61.619312739146395,
+    "pressure": 981.5394404042277
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T06:00:00",
+    "temperature": 34.93604120425962,
+    "humidity": 59.04445955939958,
+    "pressure": 979.1967768398712
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T06:00:00",
+    "temperature": 34.621824627357846,
+    "humidity": 58.577746290402324,
+    "pressure": 979.6767135578788
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T06:00:00",
+    "temperature": 35.84357081753628,
+    "humidity": 60.881639756949454,
+    "pressure": 979.9960136793417
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T06:00:00",
+    "temperature": 35.03868415382381,
+    "humidity": 59.13871579867174,
+    "pressure": 980.7615620386348
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T06:00:00",
+    "temperature": 34.48137692283677,
+    "humidity": 59.809661321916394,
+    "pressure": 979.5621908733076
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T06:15:00",
+    "temperature": 35.441678006151854,
+    "humidity": 60.60135405586726,
+    "pressure": 979.3007162130905
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T06:15:00",
+    "temperature": 34.65326794782512,
+    "humidity": 58.204812031632436,
+    "pressure": 979.7038030378806
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T06:15:00",
+    "temperature": 35.002850046358446,
+    "humidity": 57.860987298986096,
+    "pressure": 980.1352284128899
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T06:15:00",
+    "temperature": 34.85911520895283,
+    "humidity": 57.78437375335554,
+    "pressure": 979.7116143347158
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T06:15:00",
+    "temperature": 35.229047826198226,
+    "humidity": 57.71438217059858,
+    "pressure": 980.0496661527146
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T06:30:00",
+    "temperature": 34.07974597317742,
+    "humidity": 57.932836347978906,
+    "pressure": 979.6686881205271
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T06:30:00",
+    "temperature": 34.532819035466844,
+    "humidity": 55.58459405493445,
+    "pressure": 979.1862287810584
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T06:30:00",
+    "temperature": 35.044309864598844,
+    "humidity": 56.48515953049456,
+    "pressure": 980.3192962293887
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T06:30:00",
+    "temperature": 34.88140871441444,
+    "humidity": 56.178459955836516,
+    "pressure": 979.6740819460989
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T06:30:00",
+    "temperature": 34.48424193109613,
+    "humidity": 57.004920611369144,
+    "pressure": 980.5031464046073
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T06:45:00",
+    "temperature": 35.22569886006488,
+    "humidity": 54.968486705019814,
+    "pressure": 980.2649020889577
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T06:45:00",
+    "temperature": 33.572030553968666,
+    "humidity": 55.30129830420696,
+    "pressure": 980.2885360635903
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T06:45:00",
+    "temperature": 34.99342574071796,
+    "humidity": 55.494208372961616,
+    "pressure": 980.0432948937364
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T06:45:00",
+    "temperature": 35.39174383486221,
+    "humidity": 56.352614402978645,
+    "pressure": 980.1688013310376
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T06:45:00",
+    "temperature": 34.56404969199606,
+    "humidity": 55.66563537185781,
+    "pressure": 980.1972260711891
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T07:00:00",
+    "temperature": 34.80414569133889,
+    "humidity": 56.89901989659502,
+    "pressure": 980.4355623517158
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T07:00:00",
+    "temperature": 35.25986522397265,
+    "humidity": 54.41554372492803,
+    "pressure": 978.9809377324111
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T07:00:00",
+    "temperature": 33.72386230237775,
+    "humidity": 54.472105613908276,
+    "pressure": 980.0092091895948
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T07:00:00",
+    "temperature": 34.82272194977276,
+    "humidity": 54.604518569140716,
+    "pressure": 980.4147027905917
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T07:00:00",
+    "temperature": 34.777065541944964,
+    "humidity": 55.59448429183655,
+    "pressure": 979.2607068771101
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T07:15:00",
+    "temperature": 34.63854949869827,
+    "humidity": 53.15592278003597,
+    "pressure": 980.3163909330532
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T07:15:00",
+    "temperature": 34.560234422480306,
+    "humidity": 53.819431280237104,
+    "pressure": 979.7703195502298
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T07:15:00",
+    "temperature": 34.88446920322318,
+    "humidity": 52.7151268680279,
+    "pressure": 980.0357831186097
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T07:15:00",
+    "temperature": 34.708791207824255,
+    "humidity": 53.90487279922372,
+    "pressure": 980.5187699721289
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T07:15:00",
+    "temperature": 34.33436382730437,
+    "humidity": 52.59244697815446,
+    "pressure": 979.7778533699619
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T07:30:00",
+    "temperature": 34.61728963343555,
+    "humidity": 51.42416602852058,
+    "pressure": 980.4348029600528
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T07:30:00",
+    "temperature": 34.44551277672472,
+    "humidity": 54.22312716525627,
+    "pressure": 979.6131054004483
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T07:30:00",
+    "temperature": 33.34943520066073,
+    "humidity": 53.842375664187394,
+    "pressure": 980.327182828177
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T07:30:00",
+    "temperature": 34.378779638272775,
+    "humidity": 51.220842305399835,
+    "pressure": 981.2228759898084
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T07:30:00",
+    "temperature": 34.293492722415316,
+    "humidity": 53.0720979765969,
+    "pressure": 980.2405046158683
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T07:45:00",
+    "temperature": 33.57349018760423,
+    "humidity": 51.625694552755974,
+    "pressure": 980.9410122482375
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T07:45:00",
+    "temperature": 34.76532072864658,
+    "humidity": 50.64301051918879,
+    "pressure": 979.5051975898707
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T07:45:00",
+    "temperature": 33.99658987147123,
+    "humidity": 52.24841771409093,
+    "pressure": 979.1537676851426
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T07:45:00",
+    "temperature": 33.88972346603739,
+    "humidity": 50.72734512567256,
+    "pressure": 979.4939478123699
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T07:45:00",
+    "temperature": 34.38031270730784,
+    "humidity": 51.22754416280838,
+    "pressure": 979.3550195501294
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T08:00:00",
+    "temperature": 33.492361688199324,
+    "humidity": 51.669021525289395,
+    "pressure": 979.8702043243183
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T08:00:00",
+    "temperature": 33.53738250580142,
+    "humidity": 49.72727643025233,
+    "pressure": 978.6515566785292
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T08:00:00",
+    "temperature": 33.54478677274005,
+    "humidity": 50.69620636481342,
+    "pressure": 980.9244780474727
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T08:00:00",
+    "temperature": 33.52580969256697,
+    "humidity": 48.89347409125833,
+    "pressure": 981.2866799016249
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T08:00:00",
+    "temperature": 33.66721868380086,
+    "humidity": 49.97587491289,
+    "pressure": 980.0990423803839
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T08:15:00",
+    "temperature": 33.027865119585336,
+    "humidity": 48.341736398367566,
+    "pressure": 979.983623364892
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T08:15:00",
+    "temperature": 32.958273231686874,
+    "humidity": 48.995025567299855,
+    "pressure": 979.8725113912895
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T08:15:00",
+    "temperature": 31.98921121882895,
+    "humidity": 49.98010219153042,
+    "pressure": 980.6230425962489
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T08:15:00",
+    "temperature": 33.14335232598528,
+    "humidity": 48.517154473612166,
+    "pressure": 979.2962441526411
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T08:15:00",
+    "temperature": 32.75940820029254,
+    "humidity": 50.640865783031586,
+    "pressure": 980.4678391965738
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T08:30:00",
+    "temperature": 33.29436943493397,
+    "humidity": 46.69571964860836,
+    "pressure": 979.7377398668601
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T08:30:00",
+    "temperature": 32.32246949846638,
+    "humidity": 48.53776984999798,
+    "pressure": 979.8798373009209
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T08:30:00",
+    "temperature": 33.2890133870141,
+    "humidity": 48.26903473131163,
+    "pressure": 979.8195169170905
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T08:30:00",
+    "temperature": 32.39300173911241,
+    "humidity": 48.44070702676985,
+    "pressure": 980.2965506289842
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T08:30:00",
+    "temperature": 33.09659991403341,
+    "humidity": 46.57365784344029,
+    "pressure": 980.4620135096035
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T08:45:00",
+    "temperature": 32.25703656453025,
+    "humidity": 47.86209292383551,
+    "pressure": 979.6478281547286
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T08:45:00",
+    "temperature": 31.74008348802782,
+    "humidity": 47.41909364934426,
+    "pressure": 979.3597853237519
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T08:45:00",
+    "temperature": 31.477433370847912,
+    "humidity": 48.50954006628866,
+    "pressure": 980.1055087336013
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T08:45:00",
+    "temperature": 32.2459385313853,
+    "humidity": 47.21221981235069,
+    "pressure": 979.9811826487876
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T08:45:00",
+    "temperature": 32.57551189912079,
+    "humidity": 46.9633854594605,
+    "pressure": 979.8181938938931
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T09:00:00",
+    "temperature": 32.22496869631151,
+    "humidity": 44.14769598361242,
+    "pressure": 979.3259072889472
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T09:00:00",
+    "temperature": 32.15650053092945,
+    "humidity": 45.67388103991637,
+    "pressure": 980.0092169665327
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T09:00:00",
+    "temperature": 31.801187971710796,
+    "humidity": 45.079559650866734,
+    "pressure": 980.0979226275489
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T09:00:00",
+    "temperature": 32.27519418972271,
+    "humidity": 44.15528077203121,
+    "pressure": 980.5145778186628
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T09:00:00",
+    "temperature": 32.19908267902241,
+    "humidity": 46.840555360214566,
+    "pressure": 980.8327372222313
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T09:15:00",
+    "temperature": 30.673021035334866,
+    "humidity": 43.68362688368475,
+    "pressure": 979.6875907111522
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T09:15:00",
+    "temperature": 31.852287661235252,
+    "humidity": 44.23746003726699,
+    "pressure": 980.0933833822386
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T09:15:00",
+    "temperature": 31.287699249504715,
+    "humidity": 43.55654275357223,
+    "pressure": 979.5383833769446
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T09:15:00",
+    "temperature": 31.105521524512024,
+    "humidity": 46.0168456470283,
+    "pressure": 979.5253005555841
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T09:15:00",
+    "temperature": 31.840117101441134,
+    "humidity": 45.14803997411533,
+    "pressure": 979.5708211099094
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T09:30:00",
+    "temperature": 30.799795376968323,
+    "humidity": 44.25494300882066,
+    "pressure": 981.2800422691344
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T09:30:00",
+    "temperature": 31.662250953230046,
+    "humidity": 43.42975676904941,
+    "pressure": 979.9825057547515
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T09:30:00",
+    "temperature": 30.774130761193327,
+    "humidity": 45.94538175217223,
+    "pressure": 980.3538759677277
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T09:30:00",
+    "temperature": 31.40381815961497,
+    "humidity": 45.10548764380203,
+    "pressure": 980.3109049811086
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T09:30:00",
+    "temperature": 30.724045702174774,
+    "humidity": 43.88541455862379,
+    "pressure": 979.96278328545
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T09:45:00",
+    "temperature": 30.644552830662647,
+    "humidity": 42.03526339523899,
+    "pressure": 980.190098925503
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T09:45:00",
+    "temperature": 30.83559755416154,
+    "humidity": 44.45138847950372,
+    "pressure": 980.4169610772744
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T09:45:00",
+    "temperature": 30.520619474466695,
+    "humidity": 41.7096468204331,
+    "pressure": 980.2148091095663
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T09:45:00",
+    "temperature": 30.691491748793705,
+    "humidity": 42.09385917812879,
+    "pressure": 979.4594717297958
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T09:45:00",
+    "temperature": 30.535924753267693,
+    "humidity": 44.05210845132172,
+    "pressure": 980.0141591880653
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T10:00:00",
+    "temperature": 30.469141902988,
+    "humidity": 42.16344719609385,
+    "pressure": 980.0480603884705
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T10:00:00",
+    "temperature": 29.782751886283844,
+    "humidity": 42.37031980084258,
+    "pressure": 980.1110668858169
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T10:00:00",
+    "temperature": 30.62787806278676,
+    "humidity": 41.78488462209172,
+    "pressure": 979.9065641779193
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T10:00:00",
+    "temperature": 30.723488942176868,
+    "humidity": 42.8760467008228,
+    "pressure": 980.5159222697343
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T10:00:00",
+    "temperature": 30.13352513293463,
+    "humidity": 43.56912271993466,
+    "pressure": 980.0411419946377
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T10:15:00",
+    "temperature": 29.16424267713983,
+    "humidity": 43.471892609531814,
+    "pressure": 981.1494490618096
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T10:15:00",
+    "temperature": 29.20013564148963,
+    "humidity": 43.51592964646394,
+    "pressure": 980.7897860728654
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T10:15:00",
+    "temperature": 29.212793493642085,
+    "humidity": 41.78076056048573,
+    "pressure": 979.3277747444829
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T10:15:00",
+    "temperature": 28.920816518813982,
+    "humidity": 41.29474760424211,
+    "pressure": 979.9826575563067
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T10:15:00",
+    "temperature": 30.198137148597052,
+    "humidity": 41.06419112860745,
+    "pressure": 980.4921611992382
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T10:30:00",
+    "temperature": 28.802102468824682,
+    "humidity": 42.19722884194087,
+    "pressure": 979.4386389892188
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T10:30:00",
+    "temperature": 28.91006042775743,
+    "humidity": 42.01486061378241,
+    "pressure": 980.1445843219539
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T10:30:00",
+    "temperature": 28.50796433152524,
+    "humidity": 40.991412394772446,
+    "pressure": 979.6884297367876
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T10:30:00",
+    "temperature": 28.50814075999764,
+    "humidity": 42.71142588088182,
+    "pressure": 980.7102521239949
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T10:30:00",
+    "temperature": 28.410656537098784,
+    "humidity": 41.99382490616067,
+    "pressure": 979.7238884778595
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T10:45:00",
+    "temperature": 28.31585616345727,
+    "humidity": 39.54565329510066,
+    "pressure": 980.773752600665
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T10:45:00",
+    "temperature": 27.908000307789425,
+    "humidity": 40.673695850161906,
+    "pressure": 980.1429326953624
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T10:45:00",
+    "temperature": 28.543666789368032,
+    "humidity": 43.07160194886424,
+    "pressure": 979.911526386253
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T10:45:00",
+    "temperature": 27.524735039024353,
+    "humidity": 40.33046737015597,
+    "pressure": 979.9834365135631
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T10:45:00",
+    "temperature": 27.955589003513534,
+    "humidity": 41.28518536173679,
+    "pressure": 979.9917885519636
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T11:00:00",
+    "temperature": 28.85165666396202,
+    "humidity": 40.150614701298316,
+    "pressure": 979.7552802787409
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T11:00:00",
+    "temperature": 27.929136195838364,
+    "humidity": 42.52819079995467,
+    "pressure": 980.291964092663
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T11:00:00",
+    "temperature": 27.883517866371363,
+    "humidity": 41.79018705480154,
+    "pressure": 980.4102410905987
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T11:00:00",
+    "temperature": 28.121527795819787,
+    "humidity": 41.85077906466431,
+    "pressure": 980.6910794955188
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T11:00:00",
+    "temperature": 27.504631410866782,
+    "humidity": 40.82819716065196,
+    "pressure": 980.6032544832542
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T11:15:00",
+    "temperature": 27.135239874597737,
+    "humidity": 39.990955579608034,
+    "pressure": 980.0143724114674
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T11:15:00",
+    "temperature": 27.046452754171238,
+    "humidity": 40.43073094009154,
+    "pressure": 979.32007192951
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T11:15:00",
+    "temperature": 27.273645310731826,
+    "humidity": 42.547549115240855,
+    "pressure": 979.8461108825235
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T11:15:00",
+    "temperature": 27.075595062016664,
+    "humidity": 41.961747671698866,
+    "pressure": 979.9523522338066
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T11:15:00",
+    "temperature": 27.254851475019557,
+    "humidity": 40.57090351509175,
+    "pressure": 979.7767831927248
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T11:30:00",
+    "temperature": 26.8420777971304,
+    "humidity": 39.144587473112736,
+    "pressure": 980.0664848370734
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T11:30:00",
+    "temperature": 26.902785236662936,
+    "humidity": 38.64791586774002,
+    "pressure": 979.7205390763642
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T11:30:00",
+    "temperature": 27.088023936817685,
+    "humidity": 40.10535251145081,
+    "pressure": 979.7224002366534
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T11:30:00",
+    "temperature": 25.581254971992394,
+    "humidity": 37.97229681590371,
+    "pressure": 980.2200072250266
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T11:30:00",
+    "temperature": 25.794645513635157,
+    "humidity": 40.87945921982315,
+    "pressure": 980.1219003568856
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T11:45:00",
+    "temperature": 25.013879092965986,
+    "humidity": 40.91527886350807,
+    "pressure": 980.3251005889794
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T11:45:00",
+    "temperature": 26.577349790325265,
+    "humidity": 38.972736768901775,
+    "pressure": 979.2372374145376
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T11:45:00",
+    "temperature": 25.631238284123683,
+    "humidity": 40.28616098455062,
+    "pressure": 979.8793819710718
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T11:45:00",
+    "temperature": 25.02826158020621,
+    "humidity": 41.48658613930119,
+    "pressure": 979.9589244108037
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T11:45:00",
+    "temperature": 25.825393965490285,
+    "humidity": 40.49957475438171,
+    "pressure": 980.284883640116
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T12:00:00",
+    "temperature": 25.321361379933773,
+    "humidity": 41.32915253013243,
+    "pressure": 980.0982605848508
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T12:00:00",
+    "temperature": 24.955132152856386,
+    "humidity": 41.440117215449476,
+    "pressure": 979.6618038489704
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T12:00:00",
+    "temperature": 24.97992102467783,
+    "humidity": 38.56922489788195,
+    "pressure": 980.0640522074553
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T12:00:00",
+    "temperature": 25.42032177449436,
+    "humidity": 39.34737602069761,
+    "pressure": 979.7769082833926
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T12:00:00",
+    "temperature": 24.773846840375462,
+    "humidity": 37.576120673371044,
+    "pressure": 979.2080485882572
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T12:15:00",
+    "temperature": 24.738868787023986,
+    "humidity": 40.468279097012896,
+    "pressure": 979.5165119284354
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T12:15:00",
+    "temperature": 24.34416743815329,
+    "humidity": 38.884456846035384,
+    "pressure": 980.7516991508836
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T12:15:00",
+    "temperature": 24.23548662078374,
+    "humidity": 40.06970737422246,
+    "pressure": 980.1041914039738
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T12:15:00",
+    "temperature": 24.222380016438272,
+    "humidity": 39.36083728723013,
+    "pressure": 979.4991899950526
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T12:15:00",
+    "temperature": 25.244811971123333,
+    "humidity": 40.68366439649494,
+    "pressure": 979.7144105051086
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T12:30:00",
+    "temperature": 24.39441579609248,
+    "humidity": 41.095736455436565,
+    "pressure": 980.0298151849601
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T12:30:00",
+    "temperature": 24.043849734606276,
+    "humidity": 40.56458815794554,
+    "pressure": 980.4475966100139
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T12:30:00",
+    "temperature": 24.21951443545915,
+    "humidity": 39.63586756096323,
+    "pressure": 980.6586970328171
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T12:30:00",
+    "temperature": 24.732368514112114,
+    "humidity": 39.48191495443423,
+    "pressure": 980.8679819015827
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T12:30:00",
+    "temperature": 23.36902907599226,
+    "humidity": 39.687216938469476,
+    "pressure": 979.8398263459028
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T12:45:00",
+    "temperature": 23.310514523856465,
+    "humidity": 39.810594387996815,
+    "pressure": 979.9878227038695
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T12:45:00",
+    "temperature": 23.91286836488907,
+    "humidity": 40.82061806160942,
+    "pressure": 980.019001739084
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T12:45:00",
+    "temperature": 23.355855766203923,
+    "humidity": 39.36150182673698,
+    "pressure": 979.8713117312883
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T12:45:00",
+    "temperature": 23.248708341141356,
+    "humidity": 41.03149033163813,
+    "pressure": 979.7584067688504
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T12:45:00",
+    "temperature": 22.436213948337546,
+    "humidity": 38.919919511725574,
+    "pressure": 980.11222590928
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T13:00:00",
+    "temperature": 23.25377339470373,
+    "humidity": 40.22259921134969,
+    "pressure": 980.5393404167156
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T13:00:00",
+    "temperature": 22.325495899004387,
+    "humidity": 41.5651434117053,
+    "pressure": 980.3261614392067
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T13:00:00",
+    "temperature": 23.150079723837745,
+    "humidity": 42.06157482836608,
+    "pressure": 979.6872186492452
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T13:00:00",
+    "temperature": 22.658824642116166,
+    "humidity": 40.94215724004254,
+    "pressure": 979.7248474230773
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T13:00:00",
+    "temperature": 22.399032513479074,
+    "humidity": 41.854212493477995,
+    "pressure": 980.2718000772973
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T13:15:00",
+    "temperature": 22.171454702292557,
+    "humidity": 38.212854789467805,
+    "pressure": 980.574382850186
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T13:15:00",
+    "temperature": 21.60438487626682,
+    "humidity": 39.94172751547174,
+    "pressure": 979.3526592621396
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T13:15:00",
+    "temperature": 21.55175474631244,
+    "humidity": 41.4079012918286,
+    "pressure": 979.9765397105604
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T13:15:00",
+    "temperature": 21.824016292498513,
+    "humidity": 39.778405185909314,
+    "pressure": 980.4981334097236
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T13:15:00",
+    "temperature": 21.00731439763851,
+    "humidity": 40.63328224913197,
+    "pressure": 980.7503798953171
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T13:30:00",
+    "temperature": 20.998839609145175,
+    "humidity": 41.17315164545584,
+    "pressure": 979.8391824743914
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T13:30:00",
+    "temperature": 21.36413340246488,
+    "humidity": 41.95245099696533,
+    "pressure": 980.5151417270159
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T13:30:00",
+    "temperature": 21.043644603438754,
+    "humidity": 41.32605950068928,
+    "pressure": 979.9641993702929
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T13:30:00",
+    "temperature": 21.536980448167593,
+    "humidity": 41.574355235581564,
+    "pressure": 980.3663200386078
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T13:30:00",
+    "temperature": 21.21248327150715,
+    "humidity": 39.524208665242156,
+    "pressure": 980.4581638373512
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T13:45:00",
+    "temperature": 21.076118152739813,
+    "humidity": 39.16628979115255,
+    "pressure": 981.0441873523904
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T13:45:00",
+    "temperature": 21.131204506178747,
+    "humidity": 41.022639242220706,
+    "pressure": 980.3063869525313
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T13:45:00",
+    "temperature": 20.265228617462085,
+    "humidity": 43.976576523213026,
+    "pressure": 979.9046587996183
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T13:45:00",
+    "temperature": 21.012146963154365,
+    "humidity": 42.55822705731884,
+    "pressure": 980.0752094525718
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T13:45:00",
+    "temperature": 21.778820890429127,
+    "humidity": 42.00492637231265,
+    "pressure": 980.1005495233575
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T14:00:00",
+    "temperature": 20.55276296647899,
+    "humidity": 43.866522229871606,
+    "pressure": 980.3193651110146
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T14:00:00",
+    "temperature": 20.816715766150548,
+    "humidity": 41.533146531292545,
+    "pressure": 980.1513177326195
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T14:00:00",
+    "temperature": 19.967930826703505,
+    "humidity": 43.00825433461471,
+    "pressure": 980.1606786077251
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T14:00:00",
+    "temperature": 20.806855634529324,
+    "humidity": 43.13302622582521,
+    "pressure": 979.8779216823547
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T14:00:00",
+    "temperature": 20.59473524446232,
+    "humidity": 41.45188410917424,
+    "pressure": 980.2987000349249
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T14:15:00",
+    "temperature": 19.295515918123986,
+    "humidity": 44.746314567260704,
+    "pressure": 979.9249722064837
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T14:15:00",
+    "temperature": 19.357761757662047,
+    "humidity": 43.386186801530556,
+    "pressure": 979.4518624565524
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T14:15:00",
+    "temperature": 20.241550201416466,
+    "humidity": 42.52364640563076,
+    "pressure": 979.5043038252718
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T14:15:00",
+    "temperature": 19.12481679595923,
+    "humidity": 42.04751796054159,
+    "pressure": 980.8210075800682
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T14:15:00",
+    "temperature": 19.100222497215118,
+    "humidity": 45.62304355929339,
+    "pressure": 980.4908827434958
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T14:30:00",
+    "temperature": 17.66268285247601,
+    "humidity": 46.42387576676604,
+    "pressure": 979.3052137666182
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T14:30:00",
+    "temperature": 19.423670925917616,
+    "humidity": 46.57268560051457,
+    "pressure": 980.6921364092552
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T14:30:00",
+    "temperature": 19.20976288074544,
+    "humidity": 44.9863487529556,
+    "pressure": 980.3794642948934
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T14:30:00",
+    "temperature": 18.964486261888734,
+    "humidity": 44.07034006627577,
+    "pressure": 979.6230177055667
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T14:30:00",
+    "temperature": 18.065907302815106,
+    "humidity": 44.03459356738055,
+    "pressure": 979.5057044464245
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T14:45:00",
+    "temperature": 18.49648892457605,
+    "humidity": 46.355206136765055,
+    "pressure": 980.4591583030011
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T14:45:00",
+    "temperature": 17.91172778071414,
+    "humidity": 45.903975038408674,
+    "pressure": 979.5087563032308
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T14:45:00",
+    "temperature": 18.681567898511588,
+    "humidity": 43.99485939555682,
+    "pressure": 980.052687753073
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T14:45:00",
+    "temperature": 18.105858027023704,
+    "humidity": 45.282985784562996,
+    "pressure": 979.2035031332342
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T14:45:00",
+    "temperature": 18.39672294953597,
+    "humidity": 45.5156938048376,
+    "pressure": 980.1119570670323
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T15:00:00",
+    "temperature": 17.99154443945848,
+    "humidity": 45.42845883514379,
+    "pressure": 980.0611487515162
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T15:00:00",
+    "temperature": 17.953362223297376,
+    "humidity": 45.89845606747293,
+    "pressure": 979.6490041560966
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T15:00:00",
+    "temperature": 17.227629552234678,
+    "humidity": 47.60744111945599,
+    "pressure": 979.3780683823044
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T15:00:00",
+    "temperature": 17.569728555349926,
+    "humidity": 46.75278875321349,
+    "pressure": 979.8525251608539
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T15:00:00",
+    "temperature": 17.59218687601259,
+    "humidity": 46.13685853849285,
+    "pressure": 979.5823264733701
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T15:15:00",
+    "temperature": 16.88780271569547,
+    "humidity": 47.12290440822565,
+    "pressure": 980.3168884404661
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T15:15:00",
+    "temperature": 17.388958095771375,
+    "humidity": 46.68326299826519,
+    "pressure": 980.0219057359895
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T15:15:00",
+    "temperature": 17.96354148360768,
+    "humidity": 49.023606699589976,
+    "pressure": 979.7212541074961
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T15:15:00",
+    "temperature": 17.4374609010346,
+    "humidity": 49.39279303565294,
+    "pressure": 979.5981627160152
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T15:15:00",
+    "temperature": 18.320452332248447,
+    "humidity": 46.25949545629063,
+    "pressure": 980.2844915395926
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T15:30:00",
+    "temperature": 16.876902726593908,
+    "humidity": 47.621191059723216,
+    "pressure": 979.7091595430256
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T15:30:00",
+    "temperature": 16.741827824554647,
+    "humidity": 46.600831153063325,
+    "pressure": 980.0170417341296
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T15:30:00",
+    "temperature": 17.183359552983024,
+    "humidity": 46.26887577362195,
+    "pressure": 980.1654401161072
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T15:30:00",
+    "temperature": 16.06959877580192,
+    "humidity": 48.198827989673156,
+    "pressure": 980.6138344962367
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T15:30:00",
+    "temperature": 17.9027527905065,
+    "humidity": 48.24379042919163,
+    "pressure": 979.6474940721208
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T15:45:00",
+    "temperature": 16.964467333235408,
+    "humidity": 48.96460073102037,
+    "pressure": 980.2693779962232
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T15:45:00",
+    "temperature": 16.769984288992585,
+    "humidity": 47.47488084270298,
+    "pressure": 979.9443869693257
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T15:45:00",
+    "temperature": 16.317538905679665,
+    "humidity": 50.124688514818395,
+    "pressure": 980.5456550602971
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T15:45:00",
+    "temperature": 16.13914749463826,
+    "humidity": 48.572186889913155,
+    "pressure": 980.6065488499896
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T15:45:00",
+    "temperature": 17.844968646965395,
+    "humidity": 49.28191317900233,
+    "pressure": 980.0960245582451
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T16:00:00",
+    "temperature": 16.406516414546754,
+    "humidity": 49.847530163619446,
+    "pressure": 980.3540543383443
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T16:00:00",
+    "temperature": 15.94675123190164,
+    "humidity": 48.66876704644221,
+    "pressure": 979.0818973134484
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T16:00:00",
+    "temperature": 15.788062659068677,
+    "humidity": 47.84710940704751,
+    "pressure": 980.1942893022655
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T16:00:00",
+    "temperature": 16.336710506385668,
+    "humidity": 50.838490774451635,
+    "pressure": 980.0409146792738
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T16:00:00",
+    "temperature": 16.7992842036495,
+    "humidity": 49.709725455811345,
+    "pressure": 980.133696157036
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T16:15:00",
+    "temperature": 15.697227357851594,
+    "humidity": 52.146268545156495,
+    "pressure": 979.9125201216523
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T16:15:00",
+    "temperature": 16.299527506458322,
+    "humidity": 50.25575821382893,
+    "pressure": 980.0140905786845
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T16:15:00",
+    "temperature": 16.574220367588907,
+    "humidity": 51.62892442849992,
+    "pressure": 979.9874865206274
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T16:15:00",
+    "temperature": 16.726376359181774,
+    "humidity": 51.71203650197183,
+    "pressure": 980.0051763099217
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T16:15:00",
+    "temperature": 15.498715753135432,
+    "humidity": 50.849001491265305,
+    "pressure": 979.6952438989204
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T16:30:00",
+    "temperature": 15.78952963733569,
+    "humidity": 52.876024107054924,
+    "pressure": 979.9647506109704
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T16:30:00",
+    "temperature": 15.793441882292196,
+    "humidity": 50.37086478634432,
+    "pressure": 979.5303323030906
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T16:30:00",
+    "temperature": 15.156357303466581,
+    "humidity": 52.9462600826944,
+    "pressure": 980.7653754161719
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T16:30:00",
+    "temperature": 15.654483239422031,
+    "humidity": 53.837057489548144,
+    "pressure": 980.074333728601
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T16:30:00",
+    "temperature": 15.454503343116667,
+    "humidity": 52.04386166621006,
+    "pressure": 979.8059115907294
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T16:45:00",
+    "temperature": 15.610985695573877,
+    "humidity": 53.574256714090176,
+    "pressure": 980.2184690848732
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T16:45:00",
+    "temperature": 16.005475772769607,
+    "humidity": 52.08631272548686,
+    "pressure": 978.7230394325491
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T16:45:00",
+    "temperature": 14.847259355841235,
+    "humidity": 53.34644529204408,
+    "pressure": 979.4149434869703
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T16:45:00",
+    "temperature": 15.801430069151339,
+    "humidity": 54.33036585423941,
+    "pressure": 979.7117447996367
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T16:45:00",
+    "temperature": 15.257576480922703,
+    "humidity": 53.96301469933931,
+    "pressure": 979.260544215613
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T17:00:00",
+    "temperature": 15.333086812522819,
+    "humidity": 55.40291059755068,
+    "pressure": 980.059790184207
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T17:00:00",
+    "temperature": 15.939027487941562,
+    "humidity": 54.66508952492262,
+    "pressure": 979.986347730245
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T17:00:00",
+    "temperature": 15.119100611513561,
+    "humidity": 53.938816383922685,
+    "pressure": 979.9135269700383
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T17:00:00",
+    "temperature": 14.654791165643639,
+    "humidity": 53.210057700072845,
+    "pressure": 980.7355851637468
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T17:00:00",
+    "temperature": 15.006205367779359,
+    "humidity": 55.86352378534566,
+    "pressure": 979.6971922301316
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T17:15:00",
+    "temperature": 15.531110131637332,
+    "humidity": 55.61028215153172,
+    "pressure": 981.0786541066327
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T17:15:00",
+    "temperature": 15.56319488197235,
+    "humidity": 56.39748614008392,
+    "pressure": 980.6508706446994
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T17:15:00",
+    "temperature": 15.20814927050058,
+    "humidity": 55.34477568933124,
+    "pressure": 980.2299860714695
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T17:15:00",
+    "temperature": 16.19884081973101,
+    "humidity": 56.23472889076017,
+    "pressure": 979.817339224344
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T17:15:00",
+    "temperature": 14.518584051202849,
+    "humidity": 55.126579521166775,
+    "pressure": 980.6002069539722
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T17:30:00",
+    "temperature": 14.562095894920926,
+    "humidity": 57.92612890812626,
+    "pressure": 980.5928520773315
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T17:30:00",
+    "temperature": 15.583575229164804,
+    "humidity": 56.63268106702951,
+    "pressure": 979.2890946666291
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T17:30:00",
+    "temperature": 14.924211466840829,
+    "humidity": 57.13864313914392,
+    "pressure": 980.6640970709245
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T17:30:00",
+    "temperature": 15.3134952723027,
+    "humidity": 59.55447850050005,
+    "pressure": 979.67824088481
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T17:30:00",
+    "temperature": 15.114057948710439,
+    "humidity": 57.65806843446223,
+    "pressure": 980.7642342132062
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T17:45:00",
+    "temperature": 15.290558807138781,
+    "humidity": 59.76444475270695,
+    "pressure": 979.8175236352286
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T17:45:00",
+    "temperature": 14.499006170603447,
+    "humidity": 56.725580826021144,
+    "pressure": 981.0281035649701
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T17:45:00",
+    "temperature": 14.91078395582108,
+    "humidity": 58.41512411550823,
+    "pressure": 980.1537033489045
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T17:45:00",
+    "temperature": 15.451647511793837,
+    "humidity": 58.108859976828214,
+    "pressure": 979.9164391431068
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T17:45:00",
+    "temperature": 14.89706520452219,
+    "humidity": 60.299282991417144,
+    "pressure": 980.2454874758191
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T18:00:00",
+    "temperature": 15.331440634333706,
+    "humidity": 61.17347385748532,
+    "pressure": 980.0905107793518
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T18:00:00",
+    "temperature": 15.199843975876322,
+    "humidity": 59.348643106208165,
+    "pressure": 979.7356916591251
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T18:00:00",
+    "temperature": 15.619141535716818,
+    "humidity": 60.021271576736055,
+    "pressure": 980.1544165062995
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T18:00:00",
+    "temperature": 15.120376589744284,
+    "humidity": 62.60168311418039,
+    "pressure": 980.2827548228157
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T18:00:00",
+    "temperature": 15.376670810552266,
+    "humidity": 60.381158384882774,
+    "pressure": 980.6448763770413
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T18:15:00",
+    "temperature": 14.952182775622077,
+    "humidity": 60.08376434831348,
+    "pressure": 979.895488371357
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T18:15:00",
+    "temperature": 14.731149042711603,
+    "humidity": 61.89664098902345,
+    "pressure": 980.8349522521758
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T18:15:00",
+    "temperature": 14.423469236596372,
+    "humidity": 61.752665252822986,
+    "pressure": 980.5983157433228
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T18:15:00",
+    "temperature": 14.954402184277505,
+    "humidity": 61.32275077933204,
+    "pressure": 979.6075508434589
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T18:15:00",
+    "temperature": 14.960936693310074,
+    "humidity": 61.727595028509874,
+    "pressure": 979.5562539110989
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T18:30:00",
+    "temperature": 15.44674206517578,
+    "humidity": 62.23769069230926,
+    "pressure": 980.8634819256167
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T18:30:00",
+    "temperature": 15.197893749137837,
+    "humidity": 63.543114676274115,
+    "pressure": 979.2908171335334
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T18:30:00",
+    "temperature": 14.322723228976846,
+    "humidity": 63.8731079478282,
+    "pressure": 979.7240709270537
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T18:30:00",
+    "temperature": 14.8034275869332,
+    "humidity": 62.79507514759806,
+    "pressure": 980.771054976284
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T18:30:00",
+    "temperature": 16.116303174580093,
+    "humidity": 63.818890074994165,
+    "pressure": 980.5120312629057
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T18:45:00",
+    "temperature": 15.581327734051015,
+    "humidity": 63.350620723994034,
+    "pressure": 979.5909005582888
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T18:45:00",
+    "temperature": 15.107054884705232,
+    "humidity": 63.448578390995294,
+    "pressure": 980.3481937237284
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T18:45:00",
+    "temperature": 15.236350639113619,
+    "humidity": 65.37933652137782,
+    "pressure": 979.4291554429333
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T18:45:00",
+    "temperature": 14.833736035666293,
+    "humidity": 62.03526982324951,
+    "pressure": 979.9586596570787
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T18:45:00",
+    "temperature": 15.948872067588761,
+    "humidity": 64.53261812487735,
+    "pressure": 979.4879065878354
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T19:00:00",
+    "temperature": 15.951258584871992,
+    "humidity": 65.75847860551903,
+    "pressure": 979.8867579505751
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T19:00:00",
+    "temperature": 15.154638349073789,
+    "humidity": 66.2651295217546,
+    "pressure": 980.9422931529673
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T19:00:00",
+    "temperature": 15.096317026216179,
+    "humidity": 64.0567634687614,
+    "pressure": 980.0704431234556
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T19:00:00",
+    "temperature": 15.502325594201706,
+    "humidity": 65.02877831575174,
+    "pressure": 979.7669817490658
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T19:00:00",
+    "temperature": 15.597541790394173,
+    "humidity": 64.6436800623885,
+    "pressure": 979.4150415821449
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T19:15:00",
+    "temperature": 15.516941252523624,
+    "humidity": 68.20104090273298,
+    "pressure": 980.830629607274
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T19:15:00",
+    "temperature": 15.229592674868053,
+    "humidity": 66.89756356213826,
+    "pressure": 979.5008072804059
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T19:15:00",
+    "temperature": 15.913738844241289,
+    "humidity": 67.65572252994754,
+    "pressure": 979.9499229617601
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T19:15:00",
+    "temperature": 15.091707411670662,
+    "humidity": 65.60190895202338,
+    "pressure": 979.8867605540493
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T19:15:00",
+    "temperature": 15.987491018165567,
+    "humidity": 65.62561035538289,
+    "pressure": 980.7463442844797
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T19:30:00",
+    "temperature": 15.750521027712916,
+    "humidity": 66.90645696815398,
+    "pressure": 978.7878798698636
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T19:30:00",
+    "temperature": 16.12962662343335,
+    "humidity": 67.37234109018358,
+    "pressure": 980.0334953586124
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T19:30:00",
+    "temperature": 14.979931746443862,
+    "humidity": 67.1246159699555,
+    "pressure": 980.3971323398109
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T19:30:00",
+    "temperature": 15.907983640970448,
+    "humidity": 66.2970868426784,
+    "pressure": 980.2332149912168
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T19:30:00",
+    "temperature": 14.953638766934379,
+    "humidity": 68.81840800175897,
+    "pressure": 979.632704211601
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T19:45:00",
+    "temperature": 16.13155718328859,
+    "humidity": 69.99441115380873,
+    "pressure": 979.4920890905108
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T19:45:00",
+    "temperature": 16.245680834838407,
+    "humidity": 69.53887941164317,
+    "pressure": 980.0882207776386
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T19:45:00",
+    "temperature": 15.617477474348759,
+    "humidity": 68.93191768742639,
+    "pressure": 979.4639304940072
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T19:45:00",
+    "temperature": 16.249552486751952,
+    "humidity": 69.74970864546621,
+    "pressure": 978.8185337822291
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T19:45:00",
+    "temperature": 16.340849715175718,
+    "humidity": 70.90326927409171,
+    "pressure": 980.0103968538377
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T20:00:00",
+    "temperature": 16.248297741603196,
+    "humidity": 71.37487641914818,
+    "pressure": 979.6770179104377
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T20:00:00",
+    "temperature": 16.098374201064598,
+    "humidity": 69.04667139174128,
+    "pressure": 980.0613351579974
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T20:00:00",
+    "temperature": 16.50128559871363,
+    "humidity": 69.74764649787372,
+    "pressure": 979.8540943655422
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T20:00:00",
+    "temperature": 16.781300850729195,
+    "humidity": 69.9221628029872,
+    "pressure": 979.9097600432046
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T20:00:00",
+    "temperature": 16.489122416338457,
+    "humidity": 69.24820894990482,
+    "pressure": 979.7868212018973
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T20:15:00",
+    "temperature": 16.741939082243427,
+    "humidity": 69.67312668207467,
+    "pressure": 980.4596144672876
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T20:15:00",
+    "temperature": 17.621952765083318,
+    "humidity": 72.19145272610669,
+    "pressure": 979.7763390521707
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T20:15:00",
+    "temperature": 16.719231632238245,
+    "humidity": 71.96417833551426,
+    "pressure": 980.2423664086473
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T20:15:00",
+    "temperature": 16.363528960815813,
+    "humidity": 72.1413654779732,
+    "pressure": 979.8326123339467
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T20:15:00",
+    "temperature": 16.20774258729987,
+    "humidity": 71.5350037259855,
+    "pressure": 981.0312624596215
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T20:30:00",
+    "temperature": 17.078576325424027,
+    "humidity": 73.58744913558984,
+    "pressure": 979.9601793043771
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T20:30:00",
+    "temperature": 16.53526983301421,
+    "humidity": 72.60353567738206,
+    "pressure": 979.9064278674978
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T20:30:00",
+    "temperature": 17.660159622870022,
+    "humidity": 74.76479222219302,
+    "pressure": 980.2898165866068
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T20:30:00",
+    "temperature": 17.163658747876315,
+    "humidity": 71.82206228736372,
+    "pressure": 980.1692419217309
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T20:30:00",
+    "temperature": 17.150697085222454,
+    "humidity": 73.49282611578236,
+    "pressure": 979.4967287173602
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T20:45:00",
+    "temperature": 18.14015945888016,
+    "humidity": 73.0688477750103,
+    "pressure": 978.9390725504957
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T20:45:00",
+    "temperature": 18.130099198490782,
+    "humidity": 73.1640482397025,
+    "pressure": 979.5003488838526
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T20:45:00",
+    "temperature": 17.901911938462504,
+    "humidity": 73.73364987020275,
+    "pressure": 979.8805339504152
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T20:45:00",
+    "temperature": 17.285722850688316,
+    "humidity": 72.26450611750288,
+    "pressure": 980.8076878447347
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T20:45:00",
+    "temperature": 18.090181185622978,
+    "humidity": 74.70823235392383,
+    "pressure": 980.499155449074
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T21:00:00",
+    "temperature": 18.13079723330283,
+    "humidity": 74.11794001734003,
+    "pressure": 979.548149069635
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T21:00:00",
+    "temperature": 17.339412292554623,
+    "humidity": 75.32981501219251,
+    "pressure": 979.7676913513508
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T21:00:00",
+    "temperature": 18.070576123907596,
+    "humidity": 73.88323065002687,
+    "pressure": 980.2933469007377
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T21:00:00",
+    "temperature": 18.364580836863148,
+    "humidity": 72.79615594348421,
+    "pressure": 980.0631897897732
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T21:00:00",
+    "temperature": 17.428766525831737,
+    "humidity": 73.4643906532061,
+    "pressure": 980.2569539248294
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T21:15:00",
+    "temperature": 18.581856898636087,
+    "humidity": 75.52598327972721,
+    "pressure": 980.3173607342809
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T21:15:00",
+    "temperature": 18.611451177463564,
+    "humidity": 74.79553849496101,
+    "pressure": 980.3362868506014
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T21:15:00",
+    "temperature": 18.34022497580802,
+    "humidity": 74.0622668449089,
+    "pressure": 980.5535403346435
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T21:15:00",
+    "temperature": 17.32020707599229,
+    "humidity": 75.88421782672997,
+    "pressure": 979.7323359070231
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T21:15:00",
+    "temperature": 18.572532014283816,
+    "humidity": 75.22729582935861,
+    "pressure": 980.3547259085695
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T21:30:00",
+    "temperature": 19.168938609000833,
+    "humidity": 75.60752012824078,
+    "pressure": 980.3694052404437
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T21:30:00",
+    "temperature": 18.444666358890494,
+    "humidity": 76.95304892199972,
+    "pressure": 979.732018277443
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T21:30:00",
+    "temperature": 19.09602936661346,
+    "humidity": 77.70525048261982,
+    "pressure": 979.8882670088141
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T21:30:00",
+    "temperature": 18.902675906968923,
+    "humidity": 75.56388702299041,
+    "pressure": 980.399970950971
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T21:30:00",
+    "temperature": 18.385544500339613,
+    "humidity": 74.7992638842455,
+    "pressure": 980.4751537959868
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T21:45:00",
+    "temperature": 19.392073060535242,
+    "humidity": 76.4605705228609,
+    "pressure": 980.0350260815566
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T21:45:00",
+    "temperature": 18.980621102708692,
+    "humidity": 76.8677612287857,
+    "pressure": 980.4875988148913
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T21:45:00",
+    "temperature": 19.539088478103352,
+    "humidity": 77.63043833861805,
+    "pressure": 978.6483838535004
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T21:45:00",
+    "temperature": 19.117259828240268,
+    "humidity": 74.79875934919446,
+    "pressure": 980.2556012997625
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T21:45:00",
+    "temperature": 19.375573412490134,
+    "humidity": 77.58226679325385,
+    "pressure": 980.8061391289943
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T22:00:00",
+    "temperature": 20.81998226468569,
+    "humidity": 78.06263556676066,
+    "pressure": 980.0377168194508
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T22:00:00",
+    "temperature": 19.87696875593502,
+    "humidity": 76.47726148037258,
+    "pressure": 981.0854713587489
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T22:00:00",
+    "temperature": 20.06160240339224,
+    "humidity": 77.87199345172922,
+    "pressure": 980.0218012231862
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T22:00:00",
+    "temperature": 19.68867531913277,
+    "humidity": 77.51511553092601,
+    "pressure": 979.6287647071509
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T22:00:00",
+    "temperature": 19.694115454547354,
+    "humidity": 77.28347127864035,
+    "pressure": 979.7853488877414
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T22:15:00",
+    "temperature": 19.87395436597407,
+    "humidity": 77.85434925802507,
+    "pressure": 979.2476398129845
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T22:15:00",
+    "temperature": 20.618332974277237,
+    "humidity": 76.47990333118884,
+    "pressure": 979.845395461475
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T22:15:00",
+    "temperature": 20.736700353019575,
+    "humidity": 79.2779052766769,
+    "pressure": 979.0624137651771
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T22:15:00",
+    "temperature": 20.497046700026665,
+    "humidity": 78.60879490710423,
+    "pressure": 980.1065983141189
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T22:15:00",
+    "temperature": 20.417586129976677,
+    "humidity": 77.14142897385027,
+    "pressure": 980.5380035692993
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T22:30:00",
+    "temperature": 22.1237610192256,
+    "humidity": 78.4169298364111,
+    "pressure": 979.6457966165448
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T22:30:00",
+    "temperature": 20.271595838221124,
+    "humidity": 76.89345470722023,
+    "pressure": 980.1335633255057
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T22:30:00",
+    "temperature": 20.38257032533303,
+    "humidity": 79.37262896430184,
+    "pressure": 979.7584694741582
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T22:30:00",
+    "temperature": 21.979275990476808,
+    "humidity": 79.37442996609126,
+    "pressure": 979.865734676047
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T22:30:00",
+    "temperature": 20.097257975684442,
+    "humidity": 77.7584373309833,
+    "pressure": 979.8944348805861
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T22:45:00",
+    "temperature": 21.71997686342223,
+    "humidity": 79.01545447286087,
+    "pressure": 979.887572009096
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T22:45:00",
+    "temperature": 21.869932682951745,
+    "humidity": 79.3805432394715,
+    "pressure": 979.4548004612785
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T22:45:00",
+    "temperature": 21.73631128082625,
+    "humidity": 78.95745221284695,
+    "pressure": 980.3541072116283
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T22:45:00",
+    "temperature": 22.262173663925005,
+    "humidity": 79.22572675510393,
+    "pressure": 979.6937813126798
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T22:45:00",
+    "temperature": 21.21374224330805,
+    "humidity": 79.04716229567863,
+    "pressure": 979.9833850046778
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T23:00:00",
+    "temperature": 22.34754079325533,
+    "humidity": 77.43666748028372,
+    "pressure": 979.7256375461295
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T23:00:00",
+    "temperature": 22.491737744973495,
+    "humidity": 78.2908413848554,
+    "pressure": 980.6328539204324
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T23:00:00",
+    "temperature": 22.89653814923816,
+    "humidity": 79.74571088765305,
+    "pressure": 979.6768863450781
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T23:00:00",
+    "temperature": 21.814991133096555,
+    "humidity": 80.23767069939136,
+    "pressure": 980.5002911590215
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T23:00:00",
+    "temperature": 23.10804219900696,
+    "humidity": 79.06847001118241,
+    "pressure": 980.1443468146399
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T23:15:00",
+    "temperature": 22.98194240910344,
+    "humidity": 80.42651388122438,
+    "pressure": 980.3967443602761
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T23:15:00",
+    "temperature": 23.70126690127779,
+    "humidity": 77.95321362002893,
+    "pressure": 980.5162731021709
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T23:15:00",
+    "temperature": 22.503613564731115,
+    "humidity": 79.20489132011002,
+    "pressure": 979.447147665757
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T23:15:00",
+    "temperature": 22.89507963774584,
+    "humidity": 80.39536614033395,
+    "pressure": 980.6551543730598
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T23:15:00",
+    "temperature": 22.76801276654956,
+    "humidity": 79.40648373432008,
+    "pressure": 979.1582809038895
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T23:30:00",
+    "temperature": 24.17716389434821,
+    "humidity": 81.44448005102444,
+    "pressure": 979.38282556406
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T23:30:00",
+    "temperature": 23.681535199320017,
+    "humidity": 80.10905838629581,
+    "pressure": 979.5951982400392
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T23:30:00",
+    "temperature": 23.457818404264025,
+    "humidity": 79.81444495659792,
+    "pressure": 980.2731421240019
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T23:30:00",
+    "temperature": 23.4765451325362,
+    "humidity": 79.71928742355037,
+    "pressure": 979.9558185203973
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T23:30:00",
+    "temperature": 23.56534004646593,
+    "humidity": 81.42754439798092,
+    "pressure": 980.2804597239706
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-28T23:45:00",
+    "temperature": 24.694445909953938,
+    "humidity": 79.62335897501606,
+    "pressure": 980.5865623187933
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-28T23:45:00",
+    "temperature": 24.292317635696456,
+    "humidity": 80.40489539058235,
+    "pressure": 979.2145619239658
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-28T23:45:00",
+    "temperature": 23.749006204499043,
+    "humidity": 80.10012155953578,
+    "pressure": 980.8662574997426
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-28T23:45:00",
+    "temperature": 24.66499425841895,
+    "humidity": 80.45802293971653,
+    "pressure": 979.0994711329237
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-28T23:45:00",
+    "temperature": 23.952076831744453,
+    "humidity": 79.33633086652095,
+    "pressure": 979.9159280907076
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T00:00:00",
+    "temperature": 24.010350094812104,
+    "humidity": 80.74791025611754,
+    "pressure": 979.4636284871301
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T00:00:00",
+    "temperature": 26.037041334874985,
+    "humidity": 79.08061540841358,
+    "pressure": 978.7348562386269
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T00:00:00",
+    "temperature": 25.550479817499284,
+    "humidity": 81.9583474542206,
+    "pressure": 979.3852252027738
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T00:00:00",
+    "temperature": 24.76734477160997,
+    "humidity": 79.89405164569587,
+    "pressure": 981.3221716735085
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T00:00:00",
+    "temperature": 25.12686983074728,
+    "humidity": 80.46769317176543,
+    "pressure": 980.5428931624697
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T00:15:00",
+    "temperature": 25.808056562053483,
+    "humidity": 79.56552989735027,
+    "pressure": 980.1345634706225
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T00:15:00",
+    "temperature": 25.964817237229457,
+    "humidity": 79.58756812872844,
+    "pressure": 980.188550196951
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T00:15:00",
+    "temperature": 26.217056417687516,
+    "humidity": 79.90578474118358,
+    "pressure": 979.1134837658966
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T00:15:00",
+    "temperature": 25.201165141870124,
+    "humidity": 79.30341212612325,
+    "pressure": 979.7021693529782
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T00:15:00",
+    "temperature": 24.586194185312085,
+    "humidity": 83.09492699843206,
+    "pressure": 980.5280284045331
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T00:30:00",
+    "temperature": 26.277814921892368,
+    "humidity": 80.11445130233386,
+    "pressure": 980.2605612141897
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T00:30:00",
+    "temperature": 26.583064155202237,
+    "humidity": 79.91847790873145,
+    "pressure": 979.9013307898464
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T00:30:00",
+    "temperature": 26.207807782024172,
+    "humidity": 80.96266732434327,
+    "pressure": 980.2967783611405
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T00:30:00",
+    "temperature": 26.633212310465392,
+    "humidity": 80.02363342219498,
+    "pressure": 979.990645621777
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T00:30:00",
+    "temperature": 26.86731828219352,
+    "humidity": 80.77642368959906,
+    "pressure": 979.6135611660882
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T00:45:00",
+    "temperature": 26.46507485289064,
+    "humidity": 78.23608744327568,
+    "pressure": 979.686641387705
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T00:45:00",
+    "temperature": 27.427465742849325,
+    "humidity": 80.12879102816191,
+    "pressure": 980.362547893424
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T00:45:00",
+    "temperature": 26.63016242254981,
+    "humidity": 80.04762815273855,
+    "pressure": 980.4002047626138
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T00:45:00",
+    "temperature": 27.545359905898604,
+    "humidity": 80.32400945526568,
+    "pressure": 980.1757241037708
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T00:45:00",
+    "temperature": 26.937642590536754,
+    "humidity": 78.7338309568369,
+    "pressure": 979.9184665180281
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T01:00:00",
+    "temperature": 27.250601313538024,
+    "humidity": 79.17399785506585,
+    "pressure": 979.6037900395
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T01:00:00",
+    "temperature": 26.64138311754832,
+    "humidity": 79.5318102331543,
+    "pressure": 980.0006027376811
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T01:00:00",
+    "temperature": 27.917813285241415,
+    "humidity": 80.25608666340793,
+    "pressure": 979.1962200678155
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T01:00:00",
+    "temperature": 27.203619276131562,
+    "humidity": 78.3786134246725,
+    "pressure": 980.4147374209658
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T01:00:00",
+    "temperature": 27.455933030369906,
+    "humidity": 77.3146541613746,
+    "pressure": 980.3177090151046
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T01:15:00",
+    "temperature": 28.24436096816477,
+    "humidity": 79.21597952786031,
+    "pressure": 980.6803292979193
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T01:15:00",
+    "temperature": 26.70463857512119,
+    "humidity": 79.12245213465582,
+    "pressure": 980.9002555907555
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T01:15:00",
+    "temperature": 27.917813285241415,
+    "humidity": 78.44696640427007,
+    "pressure": 979.1962200678155
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T01:15:00",
+    "temperature": 28.452573537709714,
+    "humidity": 79.44407274906874,
+    "pressure": 980.5301049537494
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T01:15:00",
+    "temperature": 28.410602636620986,
+    "humidity": 78.42963896419462,
+    "pressure": 979.987212843904
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T01:30:00",
+    "temperature": 28.47947775810637,
+    "humidity": 78.06830821211263,
+    "pressure": 979.7379558010327
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T01:30:00",
+    "temperature": 28.415624357459798,
+    "humidity": 79.59862131755021,
+    "pressure": 980.0001035324591
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T01:30:00",
+    "temperature": 27.917813285241415,
+    "humidity": 78.63278133408471,
+    "pressure": 979.1962200678155
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T01:30:00",
+    "temperature": 28.497776079113272,
+    "humidity": 78.17386462144907,
+    "pressure": 979.3270645382634
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T01:30:00",
+    "temperature": 28.58872388687857,
+    "humidity": 79.35197983093846,
+    "pressure": 980.131280664501
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T01:45:00",
+    "temperature": 29.848335883274004,
+    "humidity": 77.80008304225437,
+    "pressure": 980.1952324249644
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T01:45:00",
+    "temperature": 29.555568076889834,
+    "humidity": 77.35469617304219,
+    "pressure": 978.7805914208618
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T01:45:00",
+    "temperature": 27.917813285241415,
+    "humidity": 78.86367023289536,
+    "pressure": 979.1962200678155
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T01:45:00",
+    "temperature": 29.46721569767074,
+    "humidity": 78.13477053805936,
+    "pressure": 979.6911740522828
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T01:45:00",
+    "temperature": 29.73077247707559,
+    "humidity": 79.14133926782257,
+    "pressure": 979.9302768621595
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T02:00:00",
+    "temperature": 30.00026397942829,
+    "humidity": 77.9217148246179,
+    "pressure": 979.2780725919332
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T02:00:00",
+    "temperature": 29.7247315752542,
+    "humidity": 76.09979564977462,
+    "pressure": 979.7459299011764
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T02:00:00",
+    "temperature": 27.917813285241415,
+    "humidity": 78.77297561015952,
+    "pressure": 979.1962200678155
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T02:00:00",
+    "temperature": 30.311103572021693,
+    "humidity": 76.18167495790802,
+    "pressure": 980.5195558937102
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T02:00:00",
+    "temperature": 30.335240308620598,
+    "humidity": 76.24865084264863,
+    "pressure": 979.223120616992
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T02:15:00",
+    "temperature": 30.74390709324478,
+    "humidity": 75.7273406916934,
+    "pressure": 979.5651684593627
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T02:15:00",
+    "temperature": 29.960996383762357,
+    "humidity": 78.27206519930688,
+    "pressure": 979.5496896326761
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T02:15:00",
+    "temperature": 27.917813285241415,
+    "humidity": 77.23257967713326,
+    "pressure": 979.1962200678155
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T02:15:00",
+    "temperature": 30.57616191789388,
+    "humidity": 75.62720479026945,
+    "pressure": 980.3704121727101
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T02:15:00",
+    "temperature": 30.44140237252601,
+    "humidity": 75.6350428714424,
+    "pressure": 978.7188331706024
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T02:30:00",
+    "temperature": 32.293922000893666,
+    "humidity": 76.65167109372273,
+    "pressure": 979.9903698101328
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T02:30:00",
+    "temperature": 31.098847236493228,
+    "humidity": 76.41418592099991,
+    "pressure": 979.4095935923456
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T02:30:00",
+    "temperature": 27.917813285241415,
+    "humidity": 76.58525253153265,
+    "pressure": 979.1962200678155
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T02:30:00",
+    "temperature": 31.424044908070616,
+    "humidity": 76.45888093956609,
+    "pressure": 979.8229796445295
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T02:30:00",
+    "temperature": 31.1385424377182,
+    "humidity": 77.41608695731989,
+    "pressure": 979.380446462173
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T02:45:00",
+    "temperature": 31.67583857161894,
+    "humidity": 75.08768385143557,
+    "pressure": 980.0866708321852
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T02:45:00",
+    "temperature": 31.48185702368328,
+    "humidity": 76.52665958818164,
+    "pressure": 979.1995480107618
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T02:45:00",
+    "temperature": 27.917813285241415,
+    "humidity": 73.3936073384254,
+    "pressure": 979.1962200678155
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T02:45:00",
+    "temperature": 31.603901395148664,
+    "humidity": 75.26749705529824,
+    "pressure": 979.3699176174138
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T02:45:00",
+    "temperature": 31.405859960838715,
+    "humidity": 74.71908105282333,
+    "pressure": 980.6408218975018
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T03:00:00",
+    "temperature": 31.51533883339696,
+    "humidity": 74.38864040216295,
+    "pressure": 980.2491108742483
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T03:00:00",
+    "temperature": 32.86133815514966,
+    "humidity": 73.12704143190308,
+    "pressure": 979.5945712443948
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T03:00:00",
+    "temperature": 27.917813285241415,
+    "humidity": 74.60849399817728,
+    "pressure": 979.1962200678155
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T03:00:00",
+    "temperature": 31.911144050238054,
+    "humidity": 74.2938936159797,
+    "pressure": 979.582428549185
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T03:00:00",
+    "temperature": 31.267237298306448,
+    "humidity": 74.32687620262668,
+    "pressure": 981.0118031096148
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T03:15:00",
+    "temperature": 32.42337855728903,
+    "humidity": 72.82947087919095,
+    "pressure": 979.9098041591188
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T03:15:00",
+    "temperature": 31.41246711912502,
+    "humidity": 74.72035000329771,
+    "pressure": 979.2880214237749
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T03:15:00",
+    "temperature": 27.917813285241415,
+    "humidity": 73.77546957177209,
+    "pressure": 979.1962200678155
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T03:15:00",
+    "temperature": 33.5305528864332,
+    "humidity": 71.82374229740857,
+    "pressure": 980.0948530838052
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T03:15:00",
+    "temperature": 32.73134167788629,
+    "humidity": 73.20606407941713,
+    "pressure": 979.6792565454779
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T03:30:00",
+    "temperature": 33.83570745780572,
+    "humidity": 71.98432478844713,
+    "pressure": 980.3598789710741
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T03:30:00",
+    "temperature": 32.455315214503344,
+    "humidity": 72.6476348580548,
+    "pressure": 980.742058014268
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T03:30:00",
+    "temperature": 27.917813285241415,
+    "humidity": 72.17451998559777,
+    "pressure": 979.1962200678155
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T03:30:00",
+    "temperature": 33.37469993407405,
+    "humidity": 71.72313824734134,
+    "pressure": 979.7649789261202
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T03:30:00",
+    "temperature": 32.715173534892045,
+    "humidity": 72.10909596554859,
+    "pressure": 981.0498608945833
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T03:45:00",
+    "temperature": 33.13552604701484,
+    "humidity": 70.46386285475688,
+    "pressure": 980.37209598575
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T03:45:00",
+    "temperature": 32.99000960386474,
+    "humidity": 72.43270869266505,
+    "pressure": 980.7098015022568
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T03:45:00",
+    "temperature": 27.917813285241415,
+    "humidity": 72.11891835022897,
+    "pressure": 979.1962200678155
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T03:45:00",
+    "temperature": 32.32964421416954,
+    "humidity": 72.00400199869135,
+    "pressure": 979.3944140353597
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T03:45:00",
+    "temperature": 33.32183265694367,
+    "humidity": 70.15746524099539,
+    "pressure": 979.7964818435366
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T04:00:00",
+    "temperature": 33.71320126440201,
+    "humidity": 70.58441298047248,
+    "pressure": 980.9882202922578
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T04:00:00",
+    "temperature": 34.4688603253287,
+    "humidity": 70.10435593752321,
+    "pressure": 979.5506079758385
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T04:00:00",
+    "temperature": 27.917813285241415,
+    "humidity": 70.92165011192446,
+    "pressure": 979.1962200678155
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T04:00:00",
+    "temperature": 32.93466619281861,
+    "humidity": 69.98791105215395,
+    "pressure": 979.3738032777934
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T04:00:00",
+    "temperature": 34.10369773289304,
+    "humidity": 69.57923820631895,
+    "pressure": 978.6978930716864
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T04:15:00",
+    "temperature": 34.18709669119364,
+    "humidity": 69.25006855934174,
+    "pressure": 980.6178910959111
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T04:15:00",
+    "temperature": 34.30883546805211,
+    "humidity": 70.03828131685802,
+    "pressure": 979.1107062079967
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T04:15:00",
+    "temperature": 27.917813285241415,
+    "humidity": 68.7642511312784,
+    "pressure": 979.1962200678155
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T04:15:00",
+    "temperature": 33.63087337574608,
+    "humidity": 68.87992622186808,
+    "pressure": 979.4563770305685
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T04:15:00",
+    "temperature": 34.308414056805134,
+    "humidity": 67.69697976922139,
+    "pressure": 980.3331562504546
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T04:30:00",
+    "temperature": 33.37589196071756,
+    "humidity": 66.97610399496615,
+    "pressure": 980.5970547015237
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T04:30:00",
+    "temperature": 34.00659319395817,
+    "humidity": 68.11572954055372,
+    "pressure": 980.3916952546413
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T04:30:00",
+    "temperature": 27.917813285241415,
+    "humidity": 69.07603850900033,
+    "pressure": 979.1962200678155
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T04:30:00",
+    "temperature": 34.281454396395375,
+    "humidity": 66.84540292566089,
+    "pressure": 979.5847777967217
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T04:30:00",
+    "temperature": 34.447994435557206,
+    "humidity": 69.05526724024824,
+    "pressure": 980.3252250462681
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T04:45:00",
+    "temperature": 34.99527510381252,
+    "humidity": 65.4307286787488,
+    "pressure": 979.8080143640238
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T04:45:00",
+    "temperature": 35.46713503984304,
+    "humidity": 69.53870786206858,
+    "pressure": 980.3033615295681
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T04:45:00",
+    "temperature": 27.917813285241415,
+    "humidity": 67.31644473193705,
+    "pressure": 979.1962200678155
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T04:45:00",
+    "temperature": 34.58433667454676,
+    "humidity": 66.92653239515462,
+    "pressure": 980.3329621260273
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T04:45:00",
+    "temperature": 34.88877154518587,
+    "humidity": 65.8115361195163,
+    "pressure": 979.7208491230269
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T05:00:00",
+    "temperature": 34.87900887820079,
+    "humidity": 65.95531740556254,
+    "pressure": 980.2288864330759
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T05:00:00",
+    "temperature": 34.656460253476155,
+    "humidity": 65.84512255764294,
+    "pressure": 979.4541495619303
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T05:00:00",
+    "temperature": 27.917813285241415,
+    "humidity": 66.02548301279357,
+    "pressure": 979.1962200678155
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T05:00:00",
+    "temperature": 33.90032138955028,
+    "humidity": 64.81935170124382,
+    "pressure": 980.4451915817599
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T05:00:00",
+    "temperature": 34.909591123581286,
+    "humidity": 65.22615458923138,
+    "pressure": 980.0035315793141
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T05:15:00",
+    "temperature": 35.157267014133566,
+    "humidity": 64.32277938471196,
+    "pressure": 980.2460094239964
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T05:15:00",
+    "temperature": 33.731181344096676,
+    "humidity": 64.99895915207627,
+    "pressure": 979.7605812719958
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T05:15:00",
+    "temperature": 27.917813285241415,
+    "humidity": 63.50979380040344,
+    "pressure": 979.1962200678155
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T05:15:00",
+    "temperature": 35.14963746563254,
+    "humidity": 62.53585072912204,
+    "pressure": 980.6059719926932
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T05:15:00",
+    "temperature": 34.6232142344092,
+    "humidity": 64.04519490766482,
+    "pressure": 979.1118823835509
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T05:30:00",
+    "temperature": 34.39976285964707,
+    "humidity": 61.2578535585575,
+    "pressure": 979.238820406891
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T05:30:00",
+    "temperature": 34.599816916891704,
+    "humidity": 64.14425155431753,
+    "pressure": 979.7320992684738
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T05:30:00",
+    "temperature": 27.917813285241415,
+    "humidity": 63.84633546440798,
+    "pressure": 979.1962200678155
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T05:30:00",
+    "temperature": 34.99445772666449,
+    "humidity": 63.11230658056858,
+    "pressure": 980.5586994079513
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T05:30:00",
+    "temperature": 34.73456429084356,
+    "humidity": 61.284476158318995,
+    "pressure": 979.7932674194384
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T05:45:00",
+    "temperature": 34.49670976928073,
+    "humidity": 60.35091166970783,
+    "pressure": 980.1718939407749
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T05:45:00",
+    "temperature": 34.99498773009183,
+    "humidity": 60.5495672499028,
+    "pressure": 979.8847996428971
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T05:45:00",
+    "temperature": 27.917813285241415,
+    "humidity": 62.343311919326624,
+    "pressure": 979.1962200678155
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T05:45:00",
+    "temperature": 34.230324604840995,
+    "humidity": 60.65803865019598,
+    "pressure": 979.9582810151048
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T05:45:00",
+    "temperature": 34.51765932582338,
+    "humidity": 60.30410521252137,
+    "pressure": 980.1036336646995
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T06:00:00",
+    "temperature": 34.639131223331376,
+    "humidity": 60.1768208721394,
+    "pressure": 979.7266599577064
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T06:00:00",
+    "temperature": 35.83672604514927,
+    "humidity": 61.340461051790356,
+    "pressure": 979.3502093815362
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T06:00:00",
+    "temperature": 35.4056982772458,
+    "humidity": 58.85173671124739,
+    "pressure": 980.4093888218774
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T06:00:00",
+    "temperature": 34.43872759687779,
+    "humidity": 59.08249717898574,
+    "pressure": 980.5088307334217
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T06:00:00",
+    "temperature": 35.27573813761976,
+    "humidity": 60.3405892164005,
+    "pressure": 980.1953479604641
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T06:15:00",
+    "temperature": 35.502248085696756,
+    "humidity": 59.86152740782491,
+    "pressure": 979.885304627966
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T06:15:00",
+    "temperature": 34.21303548110817,
+    "humidity": 59.20619217141497,
+    "pressure": 980.2860287208571
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T06:15:00",
+    "temperature": 35.540765912321284,
+    "humidity": 58.35786018441719,
+    "pressure": 980.2823029629468
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T06:15:00",
+    "temperature": 34.966813156948916,
+    "humidity": 58.5175831574943,
+    "pressure": 980.1126539610204
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T06:15:00",
+    "temperature": 34.9128529345502,
+    "humidity": 59.517984586838644,
+    "pressure": 979.7816178813808
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T06:30:00",
+    "temperature": 35.789240565840814,
+    "humidity": 58.770930234289466,
+    "pressure": 979.3538686524472
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T06:30:00",
+    "temperature": 34.66296122846243,
+    "humidity": 57.65296337093004,
+    "pressure": 980.1471120645067
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T06:30:00",
+    "temperature": 34.5225657809449,
+    "humidity": 56.69893510328272,
+    "pressure": 979.5419040422594
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T06:30:00",
+    "temperature": 34.880859468713425,
+    "humidity": 56.67371616648823,
+    "pressure": 980.3410260328563
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T06:30:00",
+    "temperature": 34.62442199305308,
+    "humidity": 57.628880656134356,
+    "pressure": 980.2498425551514
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T06:45:00",
+    "temperature": 34.84583043799035,
+    "humidity": 56.840875978037175,
+    "pressure": 980.2411244763404
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T06:45:00",
+    "temperature": 35.242430836226944,
+    "humidity": 56.985484396944194,
+    "pressure": 979.6183569479107
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T06:45:00",
+    "temperature": 35.14951730043784,
+    "humidity": 55.88887974009809,
+    "pressure": 980.536489023883
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T06:45:00",
+    "temperature": 34.41485978771482,
+    "humidity": 54.71714895652368,
+    "pressure": 980.1519092978025
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T06:45:00",
+    "temperature": 34.69241961710993,
+    "humidity": 57.55145422299849,
+    "pressure": 979.3306971001384
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T07:00:00",
+    "temperature": 34.35632785251124,
+    "humidity": 56.542997004156895,
+    "pressure": 980.996257676584
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T07:00:00",
+    "temperature": 34.384479694936395,
+    "humidity": 55.6832069849294,
+    "pressure": 979.8064346751053
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T07:00:00",
+    "temperature": 34.671952473161895,
+    "humidity": 52.90394594175194,
+    "pressure": 979.9930811269529
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T07:00:00",
+    "temperature": 34.412696851690804,
+    "humidity": 56.26725110141841,
+    "pressure": 979.3717465528604
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T07:00:00",
+    "temperature": 34.51977679772478,
+    "humidity": 54.54385892945376,
+    "pressure": 980.3951859480259
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T07:15:00",
+    "temperature": 34.75460779356082,
+    "humidity": 54.53939535446963,
+    "pressure": 979.8343458084083
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T07:15:00",
+    "temperature": 33.92672603167216,
+    "humidity": 52.74580016395782,
+    "pressure": 981.4745472126543
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T07:15:00",
+    "temperature": 33.79376411184705,
+    "humidity": 52.2487527371932,
+    "pressure": 980.2409330308592
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T07:15:00",
+    "temperature": 34.74374321260974,
+    "humidity": 53.31625490038307,
+    "pressure": 979.9372728699985
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T07:15:00",
+    "temperature": 34.512247798097725,
+    "humidity": 51.35191032118924,
+    "pressure": 979.8851001847124
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T07:30:00",
+    "temperature": 34.32640103456713,
+    "humidity": 55.331590355301614,
+    "pressure": 980.1837408327372
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T07:30:00",
+    "temperature": 34.699696076101496,
+    "humidity": 52.82901923990741,
+    "pressure": 980.210047245226
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T07:30:00",
+    "temperature": 35.26706710752764,
+    "humidity": 51.215442917372286,
+    "pressure": 980.2368160384058
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T07:30:00",
+    "temperature": 34.51655164828399,
+    "humidity": 51.42764484121211,
+    "pressure": 979.7913165931975
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T07:30:00",
+    "temperature": 34.72670368478522,
+    "humidity": 53.264785796640616,
+    "pressure": 979.3771413117768
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T07:45:00",
+    "temperature": 33.61393748795229,
+    "humidity": 49.895721284944635,
+    "pressure": 979.8914914747878
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T07:45:00",
+    "temperature": 35.182085658499645,
+    "humidity": 51.58718602098067,
+    "pressure": 979.3111912496229
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T07:45:00",
+    "temperature": 34.47941906304158,
+    "humidity": 53.242668968489895,
+    "pressure": 979.2070083438811
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T07:45:00",
+    "temperature": 34.90421000301277,
+    "humidity": 51.54384037299087,
+    "pressure": 979.5658536340618
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T07:45:00",
+    "temperature": 32.65085354581844,
+    "humidity": 51.15760170221713,
+    "pressure": 980.1639105864216
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T08:00:00",
+    "temperature": 33.15330606169812,
+    "humidity": 50.08568716140337,
+    "pressure": 979.5372876869702
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T08:00:00",
+    "temperature": 33.21258087666288,
+    "humidity": 49.591899160839795,
+    "pressure": 979.5020923026049
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T08:00:00",
+    "temperature": 34.08947959617272,
+    "humidity": 49.7653794300426,
+    "pressure": 980.0191189974801
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T08:00:00",
+    "temperature": 33.510415713841,
+    "humidity": 49.94979538295827,
+    "pressure": 981.310396545515
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T08:00:00",
+    "temperature": 34.39234265722061,
+    "humidity": 50.996858773465824,
+    "pressure": 980.1403182022451
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T08:15:00",
+    "temperature": 33.50074885932889,
+    "humidity": 49.277754535275896,
+    "pressure": 979.9734396734913
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T08:15:00",
+    "temperature": 33.862930739930896,
+    "humidity": 48.26291805211176,
+    "pressure": 979.3403764027006
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T08:15:00",
+    "temperature": 32.91467684082663,
+    "humidity": 48.82507076499261,
+    "pressure": 980.6187190673421
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T08:15:00",
+    "temperature": 33.29328443236967,
+    "humidity": 48.946618074416364,
+    "pressure": 980.4242154411027
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T08:15:00",
+    "temperature": 33.011345975642804,
+    "humidity": 49.09987903188744,
+    "pressure": 980.6000394782134
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T08:30:00",
+    "temperature": 31.995257049891414,
+    "humidity": 48.444482865791734,
+    "pressure": 979.6823188055872
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T08:30:00",
+    "temperature": 32.62136070805574,
+    "humidity": 47.640246062169744,
+    "pressure": 979.6976276677309
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T08:30:00",
+    "temperature": 33.38206650135592,
+    "humidity": 49.099646461104314,
+    "pressure": 980.3257609956697
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T08:30:00",
+    "temperature": 32.832787635938594,
+    "humidity": 47.81825010459614,
+    "pressure": 980.2993971947809
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T08:30:00",
+    "temperature": 32.5664465035231,
+    "humidity": 47.906766976239155,
+    "pressure": 980.2286402023076
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T08:45:00",
+    "temperature": 32.870651344702146,
+    "humidity": 47.60214038537417,
+    "pressure": 980.0419133139646
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T08:45:00",
+    "temperature": 32.72327947276953,
+    "humidity": 45.951995787825076,
+    "pressure": 980.7016849850626
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T08:45:00",
+    "temperature": 32.29687606422554,
+    "humidity": 46.333590730599404,
+    "pressure": 980.1482877725704
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T08:45:00",
+    "temperature": 32.61704420760539,
+    "humidity": 47.12439237144154,
+    "pressure": 980.8499786872882
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T08:45:00",
+    "temperature": 32.6137158704223,
+    "humidity": 47.754394278766135,
+    "pressure": 979.4837380482362
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T09:00:00",
+    "temperature": 32.975720986732036,
+    "humidity": 45.63981848087669,
+    "pressure": 979.5761830356904
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T09:00:00",
+    "temperature": 31.52625129319429,
+    "humidity": 45.07310246814136,
+    "pressure": 979.814745950705
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T09:00:00",
+    "temperature": 32.078876978840285,
+    "humidity": 46.760141550055714,
+    "pressure": 979.5461219099266
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T09:00:00",
+    "temperature": 32.32646385612928,
+    "humidity": 46.88844496189312,
+    "pressure": 979.6710827230739
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T09:00:00",
+    "temperature": 31.525100861667827,
+    "humidity": 46.74811187710557,
+    "pressure": 980.0859196698967
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T09:15:00",
+    "temperature": 31.005660848188256,
+    "humidity": 44.068134008143836,
+    "pressure": 980.2986141091267
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T09:15:00",
+    "temperature": 31.825061297050244,
+    "humidity": 43.59606604396019,
+    "pressure": 980.4240871063333
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T09:15:00",
+    "temperature": 31.869608119840443,
+    "humidity": 45.58883478406644,
+    "pressure": 979.6516140907852
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T09:15:00",
+    "temperature": 31.72367928266746,
+    "humidity": 44.4243619942277,
+    "pressure": 979.4957226579619
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T09:15:00",
+    "temperature": 31.76828317465053,
+    "humidity": 43.39840107905839,
+    "pressure": 980.0476720997207
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T09:30:00",
+    "temperature": 31.427185677806307,
+    "humidity": 43.83088769468544,
+    "pressure": 979.8352761068264
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T09:30:00",
+    "temperature": 31.255143304629268,
+    "humidity": 44.44908915135808,
+    "pressure": 980.2346337949043
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T09:30:00",
+    "temperature": 31.4660086300807,
+    "humidity": 44.7454019881889,
+    "pressure": 979.4916584357118
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T09:30:00",
+    "temperature": 31.067960646273395,
+    "humidity": 43.99843640977357,
+    "pressure": 980.1669299832843
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T09:30:00",
+    "temperature": 31.628497653923624,
+    "humidity": 42.8207140007439,
+    "pressure": 980.311034995153
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T09:45:00",
+    "temperature": 30.749106590540624,
+    "humidity": 44.46158817913507,
+    "pressure": 981.0061352228504
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T09:45:00",
+    "temperature": 30.680356628016888,
+    "humidity": 44.41569622803385,
+    "pressure": 980.0724439165484
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T09:45:00",
+    "temperature": 30.379995212339157,
+    "humidity": 44.93402111278121,
+    "pressure": 979.590785667029
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T09:45:00",
+    "temperature": 30.80563439206621,
+    "humidity": 41.97130157914716,
+    "pressure": 980.1838246464957
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T09:45:00",
+    "temperature": 30.86845633861154,
+    "humidity": 44.255839236938094,
+    "pressure": 979.703822022174
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T10:00:00",
+    "temperature": 30.977078716875145,
+    "humidity": 42.173745220049284,
+    "pressure": 979.4705462064717
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T10:00:00",
+    "temperature": 30.9812935952654,
+    "humidity": 42.68318759615907,
+    "pressure": 980.5057315177041
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T10:00:00",
+    "temperature": 29.62875788373081,
+    "humidity": 42.194186088943354,
+    "pressure": 980.6154372565774
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T10:00:00",
+    "temperature": 30.281440430087176,
+    "humidity": 41.799677570809166,
+    "pressure": 980.9935305558497
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T10:00:00",
+    "temperature": 29.832431109414273,
+    "humidity": 43.02182975880084,
+    "pressure": 980.7770802103574
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T10:15:00",
+    "temperature": 29.63031965237098,
+    "humidity": 42.52583369946435,
+    "pressure": 980.0217573343217
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T10:15:00",
+    "temperature": 28.15810686334287,
+    "humidity": 41.76593771027645,
+    "pressure": 980.1206609674584
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T10:15:00",
+    "temperature": 29.616048561095802,
+    "humidity": 41.85807394836012,
+    "pressure": 980.8777378491577
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T10:15:00",
+    "temperature": 29.189984117630942,
+    "humidity": 41.91170745777955,
+    "pressure": 979.9630262171958
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T10:15:00",
+    "temperature": 29.520399394204087,
+    "humidity": 41.304263100458655,
+    "pressure": 979.4346923325312
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T10:30:00",
+    "temperature": 29.141599115761814,
+    "humidity": 40.71809359011428,
+    "pressure": 980.4476777153812
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T10:30:00",
+    "temperature": 28.953416942669897,
+    "humidity": 42.34275336238673,
+    "pressure": 979.9831937176482
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T10:30:00",
+    "temperature": 28.568619501707122,
+    "humidity": 41.325942766346174,
+    "pressure": 979.8970702845598
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T10:30:00",
+    "temperature": 28.738447242093017,
+    "humidity": 39.97379105091053,
+    "pressure": 979.754423126429
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T10:30:00",
+    "temperature": 28.698744447403218,
+    "humidity": 41.280911903903494,
+    "pressure": 979.9691179000699
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T10:45:00",
+    "temperature": 28.65165319009788,
+    "humidity": 40.41163218324962,
+    "pressure": 979.3983995723054
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T10:45:00",
+    "temperature": 27.970793192434154,
+    "humidity": 40.70947609228138,
+    "pressure": 979.6150019669012
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T10:45:00",
+    "temperature": 27.986334239294525,
+    "humidity": 41.242824030211864,
+    "pressure": 980.2975147329178
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T10:45:00",
+    "temperature": 28.007895741959903,
+    "humidity": 40.134699101250575,
+    "pressure": 979.9842804148126
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T10:45:00",
+    "temperature": 28.50095855965222,
+    "humidity": 39.27553091816378,
+    "pressure": 979.8201851637738
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T11:00:00",
+    "temperature": 27.680107709186462,
+    "humidity": 43.37451713819913,
+    "pressure": 980.174900012284
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T11:00:00",
+    "temperature": 27.54045832748067,
+    "humidity": 38.905237140752185,
+    "pressure": 979.9597001253517
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T11:00:00",
+    "temperature": 28.04588558880529,
+    "humidity": 40.1319431996231,
+    "pressure": 979.9416170421024
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T11:00:00",
+    "temperature": 28.457616126951876,
+    "humidity": 40.360240708100726,
+    "pressure": 980.9162785217396
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T11:00:00",
+    "temperature": 27.829223814692902,
+    "humidity": 41.05021662153616,
+    "pressure": 980.1968986491081
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T11:15:00",
+    "temperature": 26.811461523085903,
+    "humidity": 41.229452363119705,
+    "pressure": 979.975551408263
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T11:15:00",
+    "temperature": 26.924700994872545,
+    "humidity": 42.08839990819087,
+    "pressure": 980.6234458577674
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T11:15:00",
+    "temperature": 27.426627858690324,
+    "humidity": 40.01778737156733,
+    "pressure": 979.1480642065867
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T11:15:00",
+    "temperature": 27.732347604415377,
+    "humidity": 40.11030131010608,
+    "pressure": 979.8783080103125
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T11:15:00",
+    "temperature": 27.902971514947783,
+    "humidity": 42.01025330729745,
+    "pressure": 981.1093901167241
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T11:30:00",
+    "temperature": 26.453074166574055,
+    "humidity": 38.654460223102994,
+    "pressure": 980.7384672130592
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T11:30:00",
+    "temperature": 26.413649704081823,
+    "humidity": 39.07380024489095,
+    "pressure": 979.7055665866307
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T11:30:00",
+    "temperature": 26.0013242918626,
+    "humidity": 39.63198006937481,
+    "pressure": 979.7258656025375
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T11:30:00",
+    "temperature": 25.752830525669246,
+    "humidity": 40.39164419953766,
+    "pressure": 980.6089795761528
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T11:30:00",
+    "temperature": 25.946302476826705,
+    "humidity": 39.94057814734354,
+    "pressure": 980.5898626041803
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T11:45:00",
+    "temperature": 25.38842414499764,
+    "humidity": 40.52669818641597,
+    "pressure": 979.4488539250818
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T11:45:00",
+    "temperature": 25.858334946152322,
+    "humidity": 39.735013064089046,
+    "pressure": 979.5807071007764
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T11:45:00",
+    "temperature": 25.921439960474395,
+    "humidity": 41.271802037716995,
+    "pressure": 979.6813461264856
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T11:45:00",
+    "temperature": 24.610517783000404,
+    "humidity": 39.45820380457073,
+    "pressure": 979.9844705335646
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T11:45:00",
+    "temperature": 25.185778104906642,
+    "humidity": 39.37504197875904,
+    "pressure": 980.1460963641632
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T12:00:00",
+    "temperature": 23.880884383337516,
+    "humidity": 37.87929984736493,
+    "pressure": 979.6965674110714
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T12:00:00",
+    "temperature": 23.626247578637386,
+    "humidity": 39.50026982384837,
+    "pressure": 979.7368760717413
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T12:00:00",
+    "temperature": 24.807489094143573,
+    "humidity": 40.382988984740926,
+    "pressure": 980.0706285700437
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T12:00:00",
+    "temperature": 25.384103608315872,
+    "humidity": 40.21539650545629,
+    "pressure": 980.2541343198372
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T12:00:00",
+    "temperature": 23.95794353025071,
+    "humidity": 41.72469664976111,
+    "pressure": 979.8562762402998
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T12:15:00",
+    "temperature": 24.32321258504795,
+    "humidity": 39.61858520182989,
+    "pressure": 979.7150835358806
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T12:15:00",
+    "temperature": 23.587381859362733,
+    "humidity": 40.79340070274969,
+    "pressure": 979.7919027975573
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T12:15:00",
+    "temperature": 24.120962278700663,
+    "humidity": 41.2999707520905,
+    "pressure": 979.7323324564919
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T12:15:00",
+    "temperature": 23.980490569840835,
+    "humidity": 40.80074338515155,
+    "pressure": 980.3427538693951
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T12:15:00",
+    "temperature": 24.258186734948964,
+    "humidity": 40.711476339985836,
+    "pressure": 980.0490337697695
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T12:30:00",
+    "temperature": 23.335321883995135,
+    "humidity": 40.91610808540107,
+    "pressure": 979.9026513519417
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T12:30:00",
+    "temperature": 23.740614320023685,
+    "humidity": 40.42334316895047,
+    "pressure": 979.9418854784391
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T12:30:00",
+    "temperature": 24.483797106580592,
+    "humidity": 41.156552458139004,
+    "pressure": 980.4345772962484
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T12:30:00",
+    "temperature": 23.250117663685337,
+    "humidity": 41.12640333076154,
+    "pressure": 980.438023396265
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T12:30:00",
+    "temperature": 23.392747764814885,
+    "humidity": 39.94155411716344,
+    "pressure": 979.1802579187373
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T12:45:00",
+    "temperature": 23.54738203512845,
+    "humidity": 39.917799012707185,
+    "pressure": 980.3202398976005
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T12:45:00",
+    "temperature": 23.211125293949507,
+    "humidity": 39.236603002119715,
+    "pressure": 980.0426047248169
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T12:45:00",
+    "temperature": 22.955648700757735,
+    "humidity": 38.75382114822025,
+    "pressure": 980.6029972582734
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T12:45:00",
+    "temperature": 23.28243227082177,
+    "humidity": 41.90530061909477,
+    "pressure": 979.5255417395875
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T12:45:00",
+    "temperature": 23.51519256196892,
+    "humidity": 40.147739104716436,
+    "pressure": 980.5678100735914
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T13:00:00",
+    "temperature": 21.99955246821096,
+    "humidity": 40.07289375097893,
+    "pressure": 979.735511145968
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T13:00:00",
+    "temperature": 23.02335108252246,
+    "humidity": 40.422629073848796,
+    "pressure": 980.1762524841785
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T13:00:00",
+    "temperature": 21.501507898700538,
+    "humidity": 40.95154083261005,
+    "pressure": 979.0438725122901
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T13:00:00",
+    "temperature": 21.727652029558392,
+    "humidity": 42.66875947344944,
+    "pressure": 980.4556813610874
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T13:00:00",
+    "temperature": 23.04366288780213,
+    "humidity": 39.835167496752895,
+    "pressure": 980.271739689335
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T13:15:00",
+    "temperature": 21.917615387635223,
+    "humidity": 42.33375091020465,
+    "pressure": 980.3662460513899
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T13:15:00",
+    "temperature": 20.958161628854242,
+    "humidity": 40.10135111481842,
+    "pressure": 979.9386455332021
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T13:15:00",
+    "temperature": 21.220503484631426,
+    "humidity": 43.4730740856763,
+    "pressure": 980.7581970276268
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T13:15:00",
+    "temperature": 21.82162377761026,
+    "humidity": 40.849188440196734,
+    "pressure": 979.5240407699889
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T13:15:00",
+    "temperature": 21.914481617039765,
+    "humidity": 39.81963683461626,
+    "pressure": 980.1670882086224
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T13:30:00",
+    "temperature": 24.719261897410405,
+    "humidity": 30.66202433899476,
+    "pressure": 979.7931972332892
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T13:30:00",
+    "temperature": 21.45144223861598,
+    "humidity": 40.186927780674374,
+    "pressure": 980.2430181447088
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T13:30:00",
+    "temperature": 21.714511203292638,
+    "humidity": 41.05128469795638,
+    "pressure": 979.9531819056305
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T13:30:00",
+    "temperature": 20.529583892056976,
+    "humidity": 40.12529116466127,
+    "pressure": 979.708200336827
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T13:30:00",
+    "temperature": 20.41349263861068,
+    "humidity": 38.6902537516637,
+    "pressure": 979.7744205707955
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T13:45:00",
+    "temperature": 21.1772439726794,
+    "humidity": 41.599383807260836,
+    "pressure": 979.794286696442
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T13:45:00",
+    "temperature": 19.642242247962276,
+    "humidity": 41.674024394163226,
+    "pressure": 980.0952119449626
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T13:45:00",
+    "temperature": 20.322209751214544,
+    "humidity": 42.09698618105208,
+    "pressure": 978.7558363232935
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T13:45:00",
+    "temperature": 20.803867454087218,
+    "humidity": 41.08025113509156,
+    "pressure": 980.0294921107948
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T13:45:00",
+    "temperature": 20.4058384973811,
+    "humidity": 42.233008940342806,
+    "pressure": 979.5186337173577
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T14:00:00",
+    "temperature": 20.305108084794618,
+    "humidity": 42.83646488527965,
+    "pressure": 979.706734365218
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T14:00:00",
+    "temperature": 20.357304895318315,
+    "humidity": 40.629550645733744,
+    "pressure": 980.5795370324779
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T14:00:00",
+    "temperature": 20.21274496662012,
+    "humidity": 43.87673884795645,
+    "pressure": 979.3141631513847
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T14:00:00",
+    "temperature": 19.855725652062155,
+    "humidity": 41.89573840318679,
+    "pressure": 980.8674682879184
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T14:00:00",
+    "temperature": 19.722226610256573,
+    "humidity": 42.8838809559142,
+    "pressure": 979.398925236962
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T14:15:00",
+    "temperature": 19.60302430042907,
+    "humidity": 43.03774734956658,
+    "pressure": 979.95330657055
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T14:15:00",
+    "temperature": 18.6870625152136,
+    "humidity": 43.69220096528833,
+    "pressure": 980.8774665358236
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T14:15:00",
+    "temperature": 19.556929728427757,
+    "humidity": 44.06333050906595,
+    "pressure": 979.3653347517267
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T14:15:00",
+    "temperature": 19.545462068015386,
+    "humidity": 45.002464653038196,
+    "pressure": 979.633483502238
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T14:15:00",
+    "temperature": 19.831875416821376,
+    "humidity": 43.92364783980145,
+    "pressure": 980.1170122271766
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T14:30:00",
+    "temperature": 19.512651539149733,
+    "humidity": 44.27329306402334,
+    "pressure": 979.0164651482064
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T14:30:00",
+    "temperature": 18.819462833816424,
+    "humidity": 44.44293217734085,
+    "pressure": 979.97170575555
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T14:30:00",
+    "temperature": 17.936834777893484,
+    "humidity": 44.27652113068046,
+    "pressure": 979.0910103873064
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T14:30:00",
+    "temperature": 18.865156352691795,
+    "humidity": 44.55254316619941,
+    "pressure": 979.5680585197051
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T14:30:00",
+    "temperature": 19.433248041942225,
+    "humidity": 44.716477497187185,
+    "pressure": 979.9352413765682
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T14:45:00",
+    "temperature": 18.053095565005652,
+    "humidity": 45.818759509441136,
+    "pressure": 980.824740447162
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T14:45:00",
+    "temperature": 18.04174061409562,
+    "humidity": 45.32462116769353,
+    "pressure": 979.3534292281207
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T14:45:00",
+    "temperature": 18.631843555430596,
+    "humidity": 43.09338751088826,
+    "pressure": 979.4191080780438
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T14:45:00",
+    "temperature": 18.25611197542891,
+    "humidity": 43.75372691500162,
+    "pressure": 980.1944893646761
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T14:45:00",
+    "temperature": 18.309407283010064,
+    "humidity": 44.20741235026207,
+    "pressure": 980.5243535632083
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T15:00:00",
+    "temperature": 17.687151446211253,
+    "humidity": 45.24569745911423,
+    "pressure": 980.245603832706
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T15:00:00",
+    "temperature": 17.859233587802905,
+    "humidity": 46.59751752799373,
+    "pressure": 979.0453219562463
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T15:00:00",
+    "temperature": 17.965272450299192,
+    "humidity": 45.44637123170688,
+    "pressure": 979.9553829228893
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T15:00:00",
+    "temperature": 17.063331536412058,
+    "humidity": 47.35280260372229,
+    "pressure": 980.0206628161353
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T15:00:00",
+    "temperature": 18.40470707342154,
+    "humidity": 44.836701918708755,
+    "pressure": 980.2367359495177
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T15:15:00",
+    "temperature": 17.904987312818466,
+    "humidity": 44.68585627764714,
+    "pressure": 979.9504528498794
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T15:15:00",
+    "temperature": 17.697733400527298,
+    "humidity": 47.28312788536684,
+    "pressure": 979.646187052589
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T15:15:00",
+    "temperature": 17.426269240931557,
+    "humidity": 45.91644147068343,
+    "pressure": 980.4209918477261
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T15:15:00",
+    "temperature": 16.0281078155494,
+    "humidity": 46.438261641376826,
+    "pressure": 979.4807280895781
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T15:15:00",
+    "temperature": 16.862888606098934,
+    "humidity": 46.92249216983161,
+    "pressure": 980.6643204141241
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T15:30:00",
+    "temperature": 16.76321490297978,
+    "humidity": 48.280675614996284,
+    "pressure": 979.7704548448905
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T15:30:00",
+    "temperature": 16.48928526297116,
+    "humidity": 46.07294261307386,
+    "pressure": 979.8050381467202
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T15:30:00",
+    "temperature": 17.018154762080204,
+    "humidity": 47.40880449187822,
+    "pressure": 979.5271269696516
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T15:30:00",
+    "temperature": 16.40790063711436,
+    "humidity": 48.60079933366906,
+    "pressure": 979.4988914905366
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T15:30:00",
+    "temperature": 16.333074001779813,
+    "humidity": 47.32336927293994,
+    "pressure": 980.487656229239
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T15:45:00",
+    "temperature": 17.17451493298857,
+    "humidity": 49.41073788554189,
+    "pressure": 979.4481650857348
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T15:45:00",
+    "temperature": 16.29520431241582,
+    "humidity": 50.21917024364699,
+    "pressure": 979.4016056767869
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T15:45:00",
+    "temperature": 17.131780812028936,
+    "humidity": 50.71821554132404,
+    "pressure": 979.7951567036853
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T15:45:00",
+    "temperature": 17.826129795243972,
+    "humidity": 48.27095366267426,
+    "pressure": 979.2324798762338
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T15:45:00",
+    "temperature": 17.041659891405217,
+    "humidity": 47.00544513154937,
+    "pressure": 979.8138404735311
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T16:00:00",
+    "temperature": 16.43233373057057,
+    "humidity": 50.42544486418417,
+    "pressure": 980.1111449279005
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T16:00:00",
+    "temperature": 50.863587771786214,
+    "humidity": 49.32300486154147,
+    "pressure": 979.6136702773646
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T16:00:00",
+    "temperature": 16.789945256353143,
+    "humidity": 50.45122531931851,
+    "pressure": 980.591746833445
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T16:00:00",
+    "temperature": 17.17335801793118,
+    "humidity": 51.52323862171226,
+    "pressure": 980.3678109986229
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T16:00:00",
+    "temperature": 15.511434358316723,
+    "humidity": 49.47555186373735,
+    "pressure": 979.632348269659
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T16:15:00",
+    "temperature": 15.506202214872049,
+    "humidity": 51.91172134495744,
+    "pressure": 980.6852680719984
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T16:15:00",
+    "temperature": 16.173148096503873,
+    "humidity": 50.16635285471921,
+    "pressure": 979.5765745169373
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T16:15:00",
+    "temperature": 16.420947086625787,
+    "humidity": 51.11520667624241,
+    "pressure": 979.791045227117
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T16:15:00",
+    "temperature": 15.495846375330903,
+    "humidity": 53.065645282759675,
+    "pressure": 979.3597722144988
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T16:15:00",
+    "temperature": 16.534994571270722,
+    "humidity": 49.89930352761766,
+    "pressure": 980.0923552373905
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T16:30:00",
+    "temperature": 15.76745433584076,
+    "humidity": 55.214734408364954,
+    "pressure": 979.1657003705609
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T16:30:00",
+    "temperature": 15.674803806188903,
+    "humidity": 53.118251507534865,
+    "pressure": 980.2206535758496
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T16:30:00",
+    "temperature": 15.875702871116806,
+    "humidity": 50.4884299012999,
+    "pressure": 980.3016237502857
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T16:30:00",
+    "temperature": 16.080534759208685,
+    "humidity": 53.40444967778534,
+    "pressure": 980.1838099201049
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T16:30:00",
+    "temperature": 15.320670506556489,
+    "humidity": 51.634110589049136,
+    "pressure": 980.5933673100886
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T16:45:00",
+    "temperature": 15.411643486892917,
+    "humidity": 53.61721344119004,
+    "pressure": 979.5476928125031
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T16:45:00",
+    "temperature": 15.863407116894834,
+    "humidity": 55.512428130400515,
+    "pressure": 979.5608384614102
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T16:45:00",
+    "temperature": 15.646421666311731,
+    "humidity": 54.21770023166253,
+    "pressure": 979.8921661812262
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T16:45:00",
+    "temperature": 15.97140246951073,
+    "humidity": 54.292346056482344,
+    "pressure": 979.5418629497182
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T16:45:00",
+    "temperature": 16.115798059647247,
+    "humidity": 53.70550719118456,
+    "pressure": 980.039798931188
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T17:00:00",
+    "temperature": 14.909890201981188,
+    "humidity": 54.85365057711366,
+    "pressure": 978.9238082276954
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T17:00:00",
+    "temperature": 14.559995125888387,
+    "humidity": 56.32703892637858,
+    "pressure": 979.8349399530168
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T17:00:00",
+    "temperature": 15.026874784067065,
+    "humidity": 54.535580224027505,
+    "pressure": 980.709265672574
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T17:00:00",
+    "temperature": 15.979224430153412,
+    "humidity": 55.16164257905129,
+    "pressure": 979.3964891760714
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T17:00:00",
+    "temperature": 16.17893825071342,
+    "humidity": 53.87811221800685,
+    "pressure": 979.423324744702
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T17:15:00",
+    "temperature": 15.36142363411065,
+    "humidity": 55.16026798314104,
+    "pressure": 980.1083124877023
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T17:15:00",
+    "temperature": 15.742557895178997,
+    "humidity": 57.159564524550575,
+    "pressure": 980.266003099411
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T17:15:00",
+    "temperature": 16.07274125840138,
+    "humidity": 56.097879887065666,
+    "pressure": 979.4090629372896
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T17:15:00",
+    "temperature": 16.23517072073625,
+    "humidity": 55.08343406649159,
+    "pressure": 979.8192686166531
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T17:15:00",
+    "temperature": 15.165194771464824,
+    "humidity": 55.11588997930013,
+    "pressure": 980.5609289281152
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T17:30:00",
+    "temperature": 15.183617115773847,
+    "humidity": 56.485407865862975,
+    "pressure": 979.2255197374733
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T17:30:00",
+    "temperature": 15.637490057920022,
+    "humidity": 57.86464390209436,
+    "pressure": 979.9987980795406
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T17:30:00",
+    "temperature": 14.539469569902849,
+    "humidity": 58.22422748192386,
+    "pressure": 980.4568858106928
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T17:30:00",
+    "temperature": 15.880470875352236,
+    "humidity": 57.963547376492976,
+    "pressure": 980.6997973225729
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T17:30:00",
+    "temperature": 14.402639308554175,
+    "humidity": 57.24050684583168,
+    "pressure": 980.2513922134476
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T17:45:00",
+    "temperature": 15.37445022452153,
+    "humidity": 58.449256138585085,
+    "pressure": 979.486815396167
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T17:45:00",
+    "temperature": 14.539058054738607,
+    "humidity": 60.32040597016944,
+    "pressure": 979.8578076751968
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T17:45:00",
+    "temperature": 15.360876412643604,
+    "humidity": 58.554941925954665,
+    "pressure": 979.7403018140869
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T17:45:00",
+    "temperature": 15.235569113801583,
+    "humidity": 58.76909391161484,
+    "pressure": 979.7030942959657
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T17:45:00",
+    "temperature": 15.06069928247354,
+    "humidity": 56.56320332098231,
+    "pressure": 980.2290840573944
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T18:00:00",
+    "temperature": 14.423333798397127,
+    "humidity": 58.31265565288928,
+    "pressure": 979.103053751066
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T18:00:00",
+    "temperature": 14.645489521184755,
+    "humidity": 61.95325913752656,
+    "pressure": 979.7370601620524
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T18:00:00",
+    "temperature": 15.200240693253164,
+    "humidity": 60.13106518621584,
+    "pressure": 979.961278269637
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T18:00:00",
+    "temperature": 15.725463774139605,
+    "humidity": 61.80719664363788,
+    "pressure": 979.1586706529387
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T18:00:00",
+    "temperature": 14.860094828811498,
+    "humidity": 59.0354622050898,
+    "pressure": 980.2529827767279
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T18:15:00",
+    "temperature": 16.103938801517266,
+    "humidity": 62.498611178946454,
+    "pressure": 980.1062870153161
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T18:15:00",
+    "temperature": 15.574360979792619,
+    "humidity": 60.74411509654462,
+    "pressure": 979.591891377729
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T18:15:00",
+    "temperature": 15.452228829862937,
+    "humidity": 61.44712298325628,
+    "pressure": 979.2115017589045
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T18:15:00",
+    "temperature": 14.984424335816776,
+    "humidity": 61.23239698027703,
+    "pressure": 980.9862710883949
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T18:15:00",
+    "temperature": 15.274205388531902,
+    "humidity": 62.79717569293115,
+    "pressure": 981.1357248727114
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T18:30:00",
+    "temperature": 15.331266112621995,
+    "humidity": 63.18028420159965,
+    "pressure": 980.0977408657767
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T18:30:00",
+    "temperature": 15.303539081011918,
+    "humidity": 60.07827775918132,
+    "pressure": 980.3410347450313
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T18:30:00",
+    "temperature": 14.974313937872761,
+    "humidity": 64.65738604012056,
+    "pressure": 979.6625329906047
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T18:30:00",
+    "temperature": 16.081328037364262,
+    "humidity": 61.77846253955114,
+    "pressure": 979.7249423585317
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T18:30:00",
+    "temperature": 15.505918627326668,
+    "humidity": 62.818326351754315,
+    "pressure": 979.3536873264238
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T18:45:00",
+    "temperature": 14.888469979361588,
+    "humidity": 63.8245853950995,
+    "pressure": 980.212921829315
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T18:45:00",
+    "temperature": 14.304141318943493,
+    "humidity": 64.9657474278834,
+    "pressure": 980.1262844229983
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T18:45:00",
+    "temperature": 15.41424635961303,
+    "humidity": 65.0031293980583,
+    "pressure": 980.233272655725
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T18:45:00",
+    "temperature": 15.453272513976582,
+    "humidity": 63.80389119387964,
+    "pressure": 981.1362173602234
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T18:45:00",
+    "temperature": 15.4790194064699,
+    "humidity": 62.62550202378421,
+    "pressure": 979.3558461912683
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T19:00:00",
+    "temperature": 15.413502335993435,
+    "humidity": 64.56225833704208,
+    "pressure": 980.070491349806
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T19:00:00",
+    "temperature": 15.688442974384465,
+    "humidity": 64.03537239229766,
+    "pressure": 979.9442455864286
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T19:00:00",
+    "temperature": 15.146891778905035,
+    "humidity": 64.76276523642075,
+    "pressure": 979.761177208698
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T19:00:00",
+    "temperature": 15.27691439635022,
+    "humidity": 64.61577326520309,
+    "pressure": 978.5352756549988
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T19:00:00",
+    "temperature": 15.885126564217652,
+    "humidity": 64.8000801771254,
+    "pressure": 980.0094095248703
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T19:15:00",
+    "temperature": 16.378560143954374,
+    "humidity": 68.32607800083633,
+    "pressure": 980.0783468641233
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T19:15:00",
+    "temperature": 15.618342094515903,
+    "humidity": 65.09206386718729,
+    "pressure": 979.7940883155181
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T19:15:00",
+    "temperature": 15.303424845677219,
+    "humidity": 66.21013602862818,
+    "pressure": 979.9543002212455
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T19:15:00",
+    "temperature": 15.556827950297683,
+    "humidity": 65.36818423966662,
+    "pressure": 979.6414919254361
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T19:15:00",
+    "temperature": 16.01960647989204,
+    "humidity": 64.3231423642229,
+    "pressure": 980.5767951716584
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T19:30:00",
+    "temperature": 15.610114381395821,
+    "humidity": 65.0505315594745,
+    "pressure": 979.8193447190164
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T19:30:00",
+    "temperature": 15.255905564922676,
+    "humidity": 67.13845025349356,
+    "pressure": 980.7650975994317
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T19:30:00",
+    "temperature": 15.298922617698082,
+    "humidity": 66.05606947770637,
+    "pressure": 979.8364913411951
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T19:30:00",
+    "temperature": 16.00930426856879,
+    "humidity": 67.11835193473414,
+    "pressure": 980.2557497876809
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T19:30:00",
+    "temperature": 16.16895518610926,
+    "humidity": 67.60558013997102,
+    "pressure": 979.9084247644734
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T19:45:00",
+    "temperature": 16.621593040899192,
+    "humidity": 68.21846035842873,
+    "pressure": 980.0226113545
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T19:45:00",
+    "temperature": 15.780380488267353,
+    "humidity": 67.47330825649593,
+    "pressure": 980.1614872518088
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T19:45:00",
+    "temperature": 16.281392819391403,
+    "humidity": 68.31217349794086,
+    "pressure": 980.6104106494065
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T19:45:00",
+    "temperature": 16.887292726682066,
+    "humidity": 67.09813729455176,
+    "pressure": 980.2173850322785
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T19:45:00",
+    "temperature": 15.633494050702677,
+    "humidity": 69.27016774224104,
+    "pressure": 980.6397593348801
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T20:00:00",
+    "temperature": 16.591118365901018,
+    "humidity": 67.5067291796699,
+    "pressure": 979.5171675982384
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T20:00:00",
+    "temperature": 16.048854945459585,
+    "humidity": 68.82612003559102,
+    "pressure": 979.9010311355077
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T20:00:00",
+    "temperature": 15.423904838552598,
+    "humidity": 68.94869008836064,
+    "pressure": 980.7487158415898
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T20:00:00",
+    "temperature": 16.28803035001047,
+    "humidity": 68.76094729747334,
+    "pressure": 981.0479217509046
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T20:00:00",
+    "temperature": 16.679219456036726,
+    "humidity": 69.18759765106256,
+    "pressure": 979.975485329581
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T20:15:00",
+    "temperature": 16.850729529282333,
+    "humidity": 72.56240609852337,
+    "pressure": 980.4397085205687
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T20:15:00",
+    "temperature": 17.373552101984313,
+    "humidity": 71.42453680040518,
+    "pressure": 980.3435328979294
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T20:15:00",
+    "temperature": 16.12951375221777,
+    "humidity": 71.07557908168556,
+    "pressure": 979.7342727243204
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T20:15:00",
+    "temperature": 16.858658865777002,
+    "humidity": 73.62296121197645,
+    "pressure": 979.0799611277471
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T20:15:00",
+    "temperature": 17.005575344511932,
+    "humidity": 71.23448286204821,
+    "pressure": 979.9434359737421
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T20:30:00",
+    "temperature": 17.18285996855773,
+    "humidity": 71.41846460315848,
+    "pressure": 978.9050391475107
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T20:30:00",
+    "temperature": 17.54565950700867,
+    "humidity": 72.22688955702549,
+    "pressure": 980.1145373441028
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T20:30:00",
+    "temperature": 17.17863642547669,
+    "humidity": 73.07924613493572,
+    "pressure": 979.851258899563
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T20:30:00",
+    "temperature": 17.22685946005399,
+    "humidity": 72.36928052378028,
+    "pressure": 979.364969455644
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T20:30:00",
+    "temperature": 16.650489138340422,
+    "humidity": 71.53694585364592,
+    "pressure": 979.5923121858419
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T20:45:00",
+    "temperature": 18.543987626718696,
+    "humidity": 74.51825536398975,
+    "pressure": 980.9601837510721
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T20:45:00",
+    "temperature": 17.51722880016566,
+    "humidity": 71.89340867679725,
+    "pressure": 979.6521525614015
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T20:45:00",
+    "temperature": 18.101393928430994,
+    "humidity": 72.79068662389959,
+    "pressure": 980.534189666847
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T20:45:00",
+    "temperature": 18.633421301262608,
+    "humidity": 71.70747207886163,
+    "pressure": 980.6296166198935
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T20:45:00",
+    "temperature": 16.994912506196698,
+    "humidity": 74.19404963847451,
+    "pressure": 980.1680724815131
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T21:00:00",
+    "temperature": 17.51696444464852,
+    "humidity": 73.42302617228175,
+    "pressure": 981.024906047893
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T21:00:00",
+    "temperature": 18.319997188900246,
+    "humidity": 73.35123624206338,
+    "pressure": 979.6100735268892
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T21:00:00",
+    "temperature": 17.254144082358753,
+    "humidity": 73.72692185582567,
+    "pressure": 980.0170137055361
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T21:00:00",
+    "temperature": 17.83938554562644,
+    "humidity": 74.53795540482686,
+    "pressure": 980.3464278779089
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T21:00:00",
+    "temperature": 17.436030283800605,
+    "humidity": 73.85798052580213,
+    "pressure": 980.5973814309384
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T21:15:00",
+    "temperature": 17.720112123258787,
+    "humidity": 75.38827604993176,
+    "pressure": 979.0108873753126
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T21:15:00",
+    "temperature": 19.355425357372305,
+    "humidity": 74.08890343231057,
+    "pressure": 979.5828384772542
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T21:15:00",
+    "temperature": 17.635141091394495,
+    "humidity": 74.40404111969453,
+    "pressure": 980.2982205687908
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T21:15:00",
+    "temperature": 18.288556855393832,
+    "humidity": 75.7809818598946,
+    "pressure": 980.2107730417683
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T21:15:00",
+    "temperature": 18.2369807093643,
+    "humidity": 75.40685726484851,
+    "pressure": 979.9381336599502
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T21:30:00",
+    "temperature": 18.6639196973538,
+    "humidity": 75.68449783144516,
+    "pressure": 979.505021103724
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T21:30:00",
+    "temperature": 18.506885278098366,
+    "humidity": 74.7530203556627,
+    "pressure": 980.1293305739277
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T21:30:00",
+    "temperature": 19.303822577387077,
+    "humidity": 75.43594123624959,
+    "pressure": 980.2040264234183
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T21:30:00",
+    "temperature": 19.134772613828588,
+    "humidity": 75.04141312302255,
+    "pressure": 980.0746817411356
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T21:30:00",
+    "temperature": 18.915974943366763,
+    "humidity": 73.78058914745361,
+    "pressure": 980.0802448119867
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T21:45:00",
+    "temperature": 19.264278035425484,
+    "humidity": 75.90131514819558,
+    "pressure": 980.1866742798557
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T21:45:00",
+    "temperature": 20.040665252512184,
+    "humidity": 75.371524090142,
+    "pressure": 980.3656901262875
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T21:45:00",
+    "temperature": 19.373224401333704,
+    "humidity": 76.9680795639726,
+    "pressure": 980.5147287407992
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T21:45:00",
+    "temperature": 18.872788013767114,
+    "humidity": 77.44955043280638,
+    "pressure": 979.9676556974838
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T21:45:00",
+    "temperature": 19.480896165304824,
+    "humidity": 76.47914925725264,
+    "pressure": 980.5958537485535
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T22:00:00",
+    "temperature": 19.440226935808415,
+    "humidity": 76.92697821971905,
+    "pressure": 980.0893473584052
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T22:00:00",
+    "temperature": 20.301547342474418,
+    "humidity": 76.46997279694173,
+    "pressure": 981.2425949583394
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T22:00:00",
+    "temperature": 20.63769536899951,
+    "humidity": 77.16879364211155,
+    "pressure": 980.2666796223527
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T22:00:00",
+    "temperature": 20.60909735587713,
+    "humidity": 78.377876381067,
+    "pressure": 980.4360985000365
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T22:00:00",
+    "temperature": 19.71412697902197,
+    "humidity": 77.65311558601297,
+    "pressure": 980.4665640361706
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T22:15:00",
+    "temperature": 21.10969908066717,
+    "humidity": 79.39007157613993,
+    "pressure": 979.5418395404633
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T22:15:00",
+    "temperature": 20.50692556835731,
+    "humidity": 78.24506749884294,
+    "pressure": 979.7377164931165
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T22:15:00",
+    "temperature": 20.789146528569205,
+    "humidity": 77.9769018788945,
+    "pressure": 979.2820452380657
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T22:15:00",
+    "temperature": 20.71761772295088,
+    "humidity": 75.80485920449891,
+    "pressure": 980.5063187048221
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T22:15:00",
+    "temperature": 22.198659582607345,
+    "humidity": 80.24537108126987,
+    "pressure": 979.9092754653763
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T22:30:00",
+    "temperature": 21.670956433350106,
+    "humidity": 80.18076326014376,
+    "pressure": 979.180985471282
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T22:30:00",
+    "temperature": 20.862148273571904,
+    "humidity": 79.06032823339959,
+    "pressure": 980.2484367952538
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T22:30:00",
+    "temperature": 20.57331691216644,
+    "humidity": 76.16144678725685,
+    "pressure": 980.429007097651
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T22:30:00",
+    "temperature": 20.163921744154774,
+    "humidity": 78.6226543961851,
+    "pressure": 980.3965878441094
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T22:30:00",
+    "temperature": 20.944241483257848,
+    "humidity": 78.31822841807981,
+    "pressure": 979.8147086187996
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T22:45:00",
+    "temperature": 21.42826500847316,
+    "humidity": 79.45988249491592,
+    "pressure": 980.1608392706883
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T22:45:00",
+    "temperature": 21.28803110604169,
+    "humidity": 78.75709942776643,
+    "pressure": 978.9114674767786
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T22:45:00",
+    "temperature": 22.500034200875163,
+    "humidity": 77.46447045786,
+    "pressure": 979.7070361633412
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T22:45:00",
+    "temperature": 22.412026664182118,
+    "humidity": 78.49037797360195,
+    "pressure": 979.6538748353671
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T22:45:00",
+    "temperature": 21.837324411622433,
+    "humidity": 80.98067863004584,
+    "pressure": 980.1386792309823
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T23:00:00",
+    "temperature": 22.572850704358284,
+    "humidity": 79.30742452183276,
+    "pressure": 979.59349281387
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T23:00:00",
+    "temperature": 22.52469031053067,
+    "humidity": 79.33612977771502,
+    "pressure": 979.5123169863609
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T23:00:00",
+    "temperature": 22.744160921641345,
+    "humidity": 78.76559568841407,
+    "pressure": 980.500912426841
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T23:00:00",
+    "temperature": 22.020807802719272,
+    "humidity": 78.55881340830108,
+    "pressure": 979.114465723456
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T23:00:00",
+    "temperature": 21.496237109805616,
+    "humidity": 78.0900726945156,
+    "pressure": 978.9622059954607
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T23:15:00",
+    "temperature": 22.973936549702785,
+    "humidity": 79.28900939487825,
+    "pressure": 979.4787111526647
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T23:15:00",
+    "temperature": 23.281281711612007,
+    "humidity": 79.06515367635613,
+    "pressure": 980.1581791607681
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T23:15:00",
+    "temperature": 23.13962815122426,
+    "humidity": 80.91898364538068,
+    "pressure": 980.2930829001964
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T23:15:00",
+    "temperature": 23.177696265016685,
+    "humidity": 79.37504043353441,
+    "pressure": 980.0039400923474
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T23:15:00",
+    "temperature": 22.966929176896024,
+    "humidity": 79.8277989611388,
+    "pressure": 979.503320650209
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T23:30:00",
+    "temperature": 23.000466800883885,
+    "humidity": 78.2286261229725,
+    "pressure": 979.3913586538897
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T23:30:00",
+    "temperature": 23.248344320053548,
+    "humidity": 80.3425116917073,
+    "pressure": 980.0173568743763
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T23:30:00",
+    "temperature": 24.022225869910333,
+    "humidity": 80.63969587306791,
+    "pressure": 979.5030686625826
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T23:30:00",
+    "temperature": 23.26648895909489,
+    "humidity": 79.92656760422454,
+    "pressure": 979.3677507965225
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T23:30:00",
+    "temperature": 23.503329482993003,
+    "humidity": 79.70516828120137,
+    "pressure": 979.8011601531927
+  },
+  {
+    "station_id": "AWS-001",
+    "timestamp": "2026-09-29T23:45:00",
+    "temperature": 24.146019176632993,
+    "humidity": 80.2264732173528,
+    "pressure": 979.9775534849388
+  },
+  {
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T23:45:00",
+    "temperature": 24.010911107471443,
+    "humidity": 81.12889637948822,
+    "pressure": 979.4119133317226
+  },
+  {
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T23:45:00",
+    "temperature": 24.93691425417854,
+    "humidity": 80.43808655752096,
+    "pressure": 979.8987378864675
+  },
+  {
+    "station_id": "AWS-004",
+    "timestamp": "2026-09-29T23:45:00",
+    "temperature": 24.86401253322169,
+    "humidity": 78.5342035395104,
+    "pressure": 979.5149378698102
+  },
+  {
+    "station_id": "AWS-005",
+    "timestamp": "2026-09-29T23:45:00",
+    "temperature": 24.96479558645456,
+    "humidity": 80.33694610081297,
+    "pressure": 979.5159771207449
+  }
+]

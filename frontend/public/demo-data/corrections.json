@@ -1,0 +1,182 @@
+[
+  {
+    "id": "corr_AWS-003_103",
+    "anomaly_id": "anom_AWS-003_103",
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T01:45:00",
+    "original_temp": 27.917813285241415,
+    "corrected_temp": 27.75,
+    "method": "DUAL_SPATIAL_TEMPORAL_IDW",
+    "status": "pending"
+  },
+  {
+    "id": "corr_AWS-003_104",
+    "anomaly_id": "anom_AWS-003_104",
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T02:00:00",
+    "original_temp": 27.917813285241415,
+    "corrected_temp": 28.31,
+    "method": "DUAL_SPATIAL_TEMPORAL_IDW",
+    "status": "pending"
+  },
+  {
+    "id": "corr_AWS-003_105",
+    "anomaly_id": "anom_AWS-003_105",
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T02:15:00",
+    "original_temp": 27.917813285241415,
+    "corrected_temp": 28.79,
+    "method": "DUAL_SPATIAL_TEMPORAL_IDW",
+    "status": "pending"
+  },
+  {
+    "id": "corr_AWS-003_106",
+    "anomaly_id": "anom_AWS-003_106",
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T02:30:00",
+    "original_temp": 27.917813285241415,
+    "corrected_temp": 29.74,
+    "method": "DUAL_SPATIAL_TEMPORAL_IDW",
+    "status": "pending"
+  },
+  {
+    "id": "corr_AWS-003_107",
+    "anomaly_id": "anom_AWS-003_107",
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T02:45:00",
+    "original_temp": 27.917813285241415,
+    "corrected_temp": 30.01,
+    "method": "DUAL_SPATIAL_TEMPORAL_IDW",
+    "status": "pending"
+  },
+  {
+    "id": "corr_AWS-003_108",
+    "anomaly_id": "anom_AWS-003_108",
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T03:00:00",
+    "original_temp": 27.917813285241415,
+    "corrected_temp": 30.45,
+    "method": "DUAL_SPATIAL_TEMPORAL_IDW",
+    "status": "pending"
+  },
+  {
+    "id": "corr_AWS-003_109",
+    "anomaly_id": "anom_AWS-003_109",
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T03:15:00",
+    "original_temp": 27.917813285241415,
+    "corrected_temp": 31.06,
+    "method": "DUAL_SPATIAL_TEMPORAL_IDW",
+    "status": "pending"
+  },
+  {
+    "id": "corr_AWS-003_110",
+    "anomaly_id": "anom_AWS-003_110",
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T03:30:00",
+    "original_temp": 27.917813285241415,
+    "corrected_temp": 31.62,
+    "method": "DUAL_SPATIAL_TEMPORAL_IDW",
+    "status": "pending"
+  },
+  {
+    "id": "corr_AWS-003_111",
+    "anomaly_id": "anom_AWS-003_111",
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T03:45:00",
+    "original_temp": 27.917813285241415,
+    "corrected_temp": 31.69,
+    "method": "DUAL_SPATIAL_TEMPORAL_IDW",
+    "status": "pending"
+  },
+  {
+    "id": "corr_AWS-003_112",
+    "anomaly_id": "anom_AWS-003_112",
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T04:00:00",
+    "original_temp": 27.917813285241415,
+    "corrected_temp": 32.39,
+    "method": "DUAL_SPATIAL_TEMPORAL_IDW",
+    "status": "pending"
+  },
+  {
+    "id": "corr_AWS-003_113",
+    "anomaly_id": "anom_AWS-003_113",
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T04:15:00",
+    "original_temp": 27.917813285241415,
+    "corrected_temp": 32.71,
+    "method": "DUAL_SPATIAL_TEMPORAL_IDW",
+    "status": "pending"
+  },
+  {
+    "id": "corr_AWS-003_114",
+    "anomaly_id": "anom_AWS-003_114",
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T04:30:00",
+    "original_temp": 27.917813285241415,
+    "corrected_temp": 32.79,
+    "method": "DUAL_SPATIAL_TEMPORAL_IDW",
+    "status": "pending"
+  },
+  {
+    "id": "corr_AWS-003_115",
+    "anomaly_id": "anom_AWS-003_115",
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T04:45:00",
+    "original_temp": 27.917813285241415,
+    "corrected_temp": 33.5,
+    "method": "DUAL_SPATIAL_TEMPORAL_IDW",
+    "status": "pending"
+  },
+  {
+    "id": "corr_AWS-003_116",
+    "anomaly_id": "anom_AWS-003_116",
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T05:00:00",
+    "original_temp": 27.917813285241415,
+    "corrected_temp": 33.32,
+    "method": "DUAL_SPATIAL_TEMPORAL_IDW",
+    "status": "pending"
+  },
+  {
+    "id": "corr_AWS-003_117",
+    "anomaly_id": "anom_AWS-003_117",
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T05:15:00",
+    "original_temp": 27.917813285241415,
+    "corrected_temp": 33.44,
+    "method": "DUAL_SPATIAL_TEMPORAL_IDW",
+    "status": "pending"
+  },
+  {
+    "id": "corr_AWS-003_118",
+    "anomaly_id": "anom_AWS-003_118",
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T05:30:00",
+    "original_temp": 27.917813285241415,
+    "corrected_temp": 33.51,
+    "method": "DUAL_SPATIAL_TEMPORAL_IDW",
+    "status": "pending"
+  },
+  {
+    "id": "corr_AWS-003_119",
+    "anomaly_id": "anom_AWS-003_119",
+    "station_id": "AWS-003",
+    "timestamp": "2026-09-29T05:45:00",
+    "original_temp": 27.917813285241415,
+    "corrected_temp": 33.48,
+    "method": "DUAL_SPATIAL_TEMPORAL_IDW",
+    "status": "pending"
+  },
+  {
+    "id": "corr_AWS-002_160",
+    "anomaly_id": "anom_AWS-002_160",
+    "station_id": "AWS-002",
+    "timestamp": "2026-09-29T16:00:00",
+    "original_temp": 50.863587771786214,
+    "corrected_temp": 16.84,
+    "method": "DUAL_SPATIAL_TEMPORAL_IDW",
+    "status": "pending"
+  }
+]
