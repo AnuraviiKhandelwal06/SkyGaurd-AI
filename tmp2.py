@@ -1,5 +1,7 @@
 import urllib.request
 import json
+import time
+time.sleep(2)
 req = urllib.request.urlopen("http://localhost:8080/predict/all")
 data = json.loads(req.read())
 for d in data:
