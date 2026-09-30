@@ -1,0 +1,7 @@
+id,anomaly_id,original_value,corrected_value,confidence,methodology,operator_decision
+38,107,26.6,33.24,0.945,"{""method"": ""DUAL_SPATIAL_TEMPORAL_IDW""}",pending
+39,108,28.5,32.62,0.945,"{""method"": ""DUAL_SPATIAL_TEMPORAL_IDW""}",pending
+40,109,22.0,32.2,0.945,"{""method"": ""DUAL_SPATIAL_TEMPORAL_IDW""}",pending
+41,111,26.6,26.56,0.945,"{""method"": ""DUAL_SPATIAL_TEMPORAL_IDW""}",pending
+42,112,28.5,28.43,0.945,"{""method"": ""DUAL_SPATIAL_TEMPORAL_IDW""}",pending
+43,113,22.0,21.82,0.945,"{""method"": ""DUAL_SPATIAL_TEMPORAL_IDW""}",pending
