@@ -44,11 +44,13 @@ app = FastAPI(
     lifespan=lifespan
 )
 
+# Support comma-separated origins for multi-environment CORS
 frontend_url = os.getenv("FRONTEND_URL", "http://localhost:5173")
+allowed_origins = [origin.strip() for origin in frontend_url.split(",")]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[frontend_url],
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

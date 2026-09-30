@@ -1,10 +1,11 @@
 services:
   - type: web
     name: skyguard-api
-    runtime: docker
+    runtime: python
     region: oregon
     plan: free
-    dockerfilePath: ./Dockerfile
+    buildCommand: pip install -r requirements.txt && pip install -r ../ml-development/requirements.txt && alembic upgrade head
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: DATABASE_URL
         fromDatabase:
@@ -13,7 +14,7 @@ services:
       - key: FRONTEND_URL
         value: https://sky-gaurd-ai.vercel.app
       - key: PYTHONPATH
-        value: /app
+        value: /opt/render/project/src/backend:/opt/render/project/src
       - key: POLL_INTERVAL_MINUTES
         value: "5"
 

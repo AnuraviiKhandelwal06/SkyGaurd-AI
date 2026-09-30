@@ -28,18 +28,15 @@ wheels/
 venv/
 .venv/
 env/
-.env/
 ENV/
 env.bak/
 venv.bak/
+ml_venv/
 
-# Machine Learning Checkpoints / Trained Model Weights
+# Machine Learning Checkpoints / Trained Model Weights (keep .pkl in skyguard/models/)
 *.pt
 *.pth
-*.bin
 *.onnx
-*.pkl
-*.joblib
 *.h5
 
 # Local / Scratch / Debug Directories
@@ -50,6 +47,8 @@ tmp/
 # Environment variables
 .env
 .env.local
+!.env.example
+!.env.production
 
 # IDEs & Editors
 .vscode/
@@ -60,3 +59,25 @@ tmp/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Node
+node_modules/
+
+# Database files (local dev only)
+*.db
+!skyguard.db
+
+# Backup databases
+*_backup_*.db
+*_backup*.db
+backup_export/
+cleanup_exports_*/
+
+# CSV data files (development only)
+*.csv
+
+# Frontend build output
+frontend/dist/
+
+# ML model backups (not needed in production)
+skyguard/models_backup_v1/

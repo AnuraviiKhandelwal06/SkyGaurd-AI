@@ -1,6 +1,13 @@
 .env
 .venv/
+venv/
 __pycache__/
 *.py[cod]
 .vscode/
 .idea/
+*.db
+!skyguard.db
+*_backup_*.db
+*_backup*.db
+cleanup_exports_*/
+data/
